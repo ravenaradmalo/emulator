@@ -1,0 +1,4632 @@
+{
+	"packageUrl" : "https://raw.githubusercontent.com/ravenaradmalo/emulator/main/v1",
+	"remoteManifestUrl" : "https://raw.githubusercontent.com/ravenaradmalo/emulator/main/v1/project.manifest",
+	"remoteVersionUrl" : "https://raw.githubusercontent.com/ravenaradmalo/emulator/main/v1/version.manifest",
+	"remoteDownloadUrl" : "https://raw.githubusercontent.com/ravenaradmalo/emulator/main/v1/download.manifest",
+	"remoteDownloadPrefix" : "https://raw.githubusercontent.com/ravenaradmalo/emulator/main/v1/",
+	"version" : "1",
+	"engineVersion" : "1.0.0",
+	"assets" : {
+		"config.json": {
+			"md5": "4b7ca4d1dff386d57886ba12fd106ed2"
+		},
+		"main.js": {
+			"md5": "70fc15d9c425535f3500f920a57329ae"
+		},
+		"project.json": {
+			"md5": "1721ff25cfdd8db3910157fe0b7d9495"
+		},
+		"res/CoreData/Materials/DefaultNoTex.mat": {
+			"md5": "22cc45656b7e5bb9089ef55ff91b6024"
+		},
+		"res/CoreData/Materials/DefaultSkinnedTex.mat": {
+			"md5": "261f73d51427c963ca0028610f384170"
+		},
+		"res/CoreData/Materials/DefaultTex.mat": {
+			"md5": "7d7a6bd1834aec0603b3a5e7c54bd046"
+		},
+		"res/CoreData/Materials/Quad/QuadBasic.mat": {
+			"md5": "e07402cb7f98bcef9b601d64b10a0abe"
+		},
+		"res/CoreData/Materials/Quad/QuadBlur.mat": {
+			"md5": "b4e0df6e14373362911673804edbc996"
+		},
+		"res/CoreData/RenderPaths/Deferred.xml": {
+			"md5": "52e92c93760ed40f7060915218b1e6bb"
+		},
+		"res/CoreData/RenderPaths/DeferredHWDepth.xml": {
+			"md5": "d6a0582c314dc6ec9cd0c8e58b6de7f7"
+		},
+		"res/CoreData/RenderPaths/Forward.xml": {
+			"md5": "72cf16e15d25af738e4e9b1838292c08"
+		},
+		"res/CoreData/RenderPaths/ForwardDepth.xml": {
+			"md5": "cfdc1efe20b07ab758672d6feb57f182"
+		},
+		"res/CoreData/RenderPaths/ForwardHWDepth.xml": {
+			"md5": "537273416f55307be948a4cc20939012"
+		},
+		"res/CoreData/RenderPaths/PBRDeferred.xml": {
+			"md5": "a7c44306be3ea24df40e021621da0fad"
+		},
+		"res/CoreData/RenderPaths/PBRDeferredHWDepth.xml": {
+			"md5": "5e67b57130abe4fb7ecf4e3e820d0f6a"
+		},
+		"res/CoreData/RenderPaths/Prepass.xml": {
+			"md5": "2af68fa3e2438e17b64c3172adde7495"
+		},
+		"res/CoreData/RenderPaths/PrepassHDR.xml": {
+			"md5": "42ad55aea338ce2f72bf56e01117f028"
+		},
+		"res/CoreData/RenderPaths/PrepassHWDepth.xml": {
+			"md5": "4fae54a187b0faf8b25de754652d0037"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_3DPosition.fs.bin": {
+			"md5": "9cdfd0ca3787416fe56710a35b08dd96"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_3DPosition.vs.bin": {
+			"md5": "04bc2b5a879f45de63e674ed488f4f5a"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_3DPositionTex.fs.bin": {
+			"md5": "77efe643d88c7ba0091030ea422ffe3e"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_3DPositionTex.vs.bin": {
+			"md5": "7e0181ef7d857d692fdebf82357540f0"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_3DSkinPositionTex.fs.bin": {
+			"md5": "bc920e7a4b55931cd173bf9a510e1dd0"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_3DSkinPositionTex.vs.bin": {
+			"md5": "77cb41d3526becd1d6773bd9be1b5653"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_LabelDistanceFieldGlow.fs.bin": {
+			"md5": "b5203e7adde2e5e414e980be3fe29b72"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_LabelDistanceFieldGlow.vs.bin": {
+			"md5": "41c5539135237be00681b732192e7298"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_LabelDistanceFieldNormal.fs.bin": {
+			"md5": "92e6312be77d3c602158dc0300d7bce0"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_LabelDistanceFieldNormal.vs.bin": {
+			"md5": "41c5539135237be00681b732192e7298"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_LabelNormal.fs.bin": {
+			"md5": "ad1198fc43614167718fce91b8132177"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_LabelNormal.vs.bin": {
+			"md5": "41c5539135237be00681b732192e7298"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_LabelOutline.fs.bin": {
+			"md5": "d09c729410ca77aa2eeb60f133f66982"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_LabelOutline.vs.bin": {
+			"md5": "41c5539135237be00681b732192e7298"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_PositionColor.fs.bin": {
+			"md5": "432fa648355675d879e41d3f34edea06"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_PositionColor.vs.bin": {
+			"md5": "46fe810bc0105cfee1dc8e46f1b2c455"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_PositionColorTextureAsPointsize.fs.bin": {
+			"md5": "432fa648355675d879e41d3f34edea06"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_PositionColorTextureAsPointsize.vs.bin": {
+			"md5": "2b1710e556b0c2599aeaaa3e6aa34f2e"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_PositionColor_noMVP.fs.bin": {
+			"md5": "432fa648355675d879e41d3f34edea06"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_PositionColor_noMVP.vs.bin": {
+			"md5": "1c8b35d0a3da8684661776f9c4d2be4f"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_PositionLengthTextureColor.fs.bin": {
+			"md5": "39cb9d16b9160ffa7fa3bb159195fb4d"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_PositionLengthTextureColor.vs.bin": {
+			"md5": "afc59ec1b56a493e04e232ba9a69f924"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_PositionTexture.fs.bin": {
+			"md5": "a6d0005ff36c69f75439ca9e9457a781"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_PositionTexture.vs.bin": {
+			"md5": "a6bbf574d613f2a557b80775c08b729e"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_PositionTextureA8Color.fs.bin": {
+			"md5": "ada32d332b0d461e654c62f4eb42b4bf"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_PositionTextureA8Color.vs.bin": {
+			"md5": "fc69f880bb112f8aa9b7c0d1f7d71917"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_PositionTextureColor.fs.bin": {
+			"md5": "6243a25aaa05a5004700aba2ca6d5340"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_PositionTextureColor.vs.bin": {
+			"md5": "41c5539135237be00681b732192e7298"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_PositionTextureColor_noMVP.fs.bin": {
+			"md5": "2a63b47d4693147109c7431912d0e51a"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_PositionTextureColor_noMVP.vs.bin": {
+			"md5": "85af9e44e020d7535e8df6873613aecb"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_PositionTexture_uColor.fs.bin": {
+			"md5": "c026b416ae845da2d04ab0dbc1e3ae47"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_PositionTexture_uColor.vs.bin": {
+			"md5": "a6bbf574d613f2a557b80775c08b729e"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_Position_uColor.fs.bin": {
+			"md5": "1a7531bf6ec113d749e7db02cb167b25"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_Position_uColor.vs.bin": {
+			"md5": "95c7e10724bbe859f586fe9151dfc300"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_UIGrayScale.fs.bin": {
+			"md5": "3452f44c21c73f3b4522163642c84cdf"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kShaderType_UIGrayScale.vs.bin": {
+			"md5": "85af9e44e020d7535e8df6873613aecb"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kSpine_TwoColor.fs.bin": {
+			"md5": "5a0feb0b59d6edd2614f1a332a56b342"
+		},
+		"res/CoreData/Shaders/Bin/shaders/essl/vfs_kSpine_TwoColor.vs.bin": {
+			"md5": "c3c89b0c65b22beb45464c351dfc72a2"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_3DPosition.fs.bin": {
+			"md5": "927d2500f82fa67ad2709cf4882ed9a6"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_3DPosition.vs.bin": {
+			"md5": "4eefabb228b64d4a570a672b24d40357"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_3DPositionTex.fs.bin": {
+			"md5": "0b7cbe07f90581cb8d390bee3ba5b3e2"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_3DPositionTex.vs.bin": {
+			"md5": "f56a2589287fadcb426d2b031aebc788"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_3DSkinPositionTex.fs.bin": {
+			"md5": "b7fde968dc6fdaf9cc9a3f443854d322"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_3DSkinPositionTex.vs.bin": {
+			"md5": "b0f83c00ea1c0b759f233520b877c93e"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_LabelDistanceFieldGlow.fs.bin": {
+			"md5": "6b38e444bdf11fdbbd13cb5b2111003f"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_LabelDistanceFieldGlow.vs.bin": {
+			"md5": "9127419f0129db842a391911a54e70bb"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_LabelDistanceFieldNormal.fs.bin": {
+			"md5": "c467bbe9ce7ca009db2e5e88f4be52a8"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_LabelDistanceFieldNormal.vs.bin": {
+			"md5": "9127419f0129db842a391911a54e70bb"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_LabelNormal.fs.bin": {
+			"md5": "ab45a0c5b9bc7e062614278ad722fa6c"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_LabelNormal.vs.bin": {
+			"md5": "9127419f0129db842a391911a54e70bb"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_LabelOutline.fs.bin": {
+			"md5": "05d13577c347e9c629cf8c1c1bf30934"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_LabelOutline.vs.bin": {
+			"md5": "9127419f0129db842a391911a54e70bb"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_PositionColor.fs.bin": {
+			"md5": "647ffc93763b9dc85b81175a99b097bd"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_PositionColor.vs.bin": {
+			"md5": "bae0813e49321cfe242adc69696aa69b"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_PositionColorTextureAsPointsize.fs.bin": {
+			"md5": "647ffc93763b9dc85b81175a99b097bd"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_PositionColorTextureAsPointsize.vs.bin": {
+			"md5": "9adcb9739ee3206423af544154a15bcf"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_PositionColor_noMVP.fs.bin": {
+			"md5": "647ffc93763b9dc85b81175a99b097bd"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_PositionColor_noMVP.vs.bin": {
+			"md5": "9cd5c7c92bd362727931272d7d1361c3"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_PositionLengthTextureColor.fs.bin": {
+			"md5": "39efb07fea4d4f5ebd31ef3e2b960252"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_PositionLengthTextureColor.vs.bin": {
+			"md5": "219df954ac5ee27f0388d0fba63d9791"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_PositionTexture.fs.bin": {
+			"md5": "078e4577780f837d5cb528f440d96ebe"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_PositionTexture.vs.bin": {
+			"md5": "2edc071b10b541306d0e82d647be3c6b"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_PositionTextureA8Color.fs.bin": {
+			"md5": "7bf90317bade5bfa4e4b8c8a5c9ea702"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_PositionTextureA8Color.vs.bin": {
+			"md5": "5932eed52d62b1c1465777c304a47770"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_PositionTextureColor.fs.bin": {
+			"md5": "b8910d4e74d4475eb700562bb471f1a3"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_PositionTextureColor.vs.bin": {
+			"md5": "9127419f0129db842a391911a54e70bb"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_PositionTextureColor_noMVP.fs.bin": {
+			"md5": "b8910d4e74d4475eb700562bb471f1a3"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_PositionTextureColor_noMVP.vs.bin": {
+			"md5": "64319469d4210e243dcd7fb9899b61ca"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_PositionTexture_uColor.fs.bin": {
+			"md5": "be048e8dc59aeb8980244b0492dc0c44"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_PositionTexture_uColor.vs.bin": {
+			"md5": "2edc071b10b541306d0e82d647be3c6b"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_Position_uColor.fs.bin": {
+			"md5": "c15efd223723976dac4947cf4f6db4ea"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_Position_uColor.vs.bin": {
+			"md5": "5455c3106db4c257d9dd38cd7677e563"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_UIGrayScale.fs.bin": {
+			"md5": "b737f7245eaa76c6925d86ee954f9102"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kShaderType_UIGrayScale.vs.bin": {
+			"md5": "64319469d4210e243dcd7fb9899b61ca"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kSpine_TwoColor.fs.bin": {
+			"md5": "901f1dc0f6c2f9d55c0d7799214adf00"
+		},
+		"res/CoreData/Shaders/Bin/shaders/glsl/vfs_kSpine_TwoColor.vs.bin": {
+			"md5": "f9e5ab749434051d6ce54042839be98b"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_3DPosition.fs.bin": {
+			"md5": "a83a7d40514c4bfc2746d59113a859ed"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_3DPosition.vs.bin": {
+			"md5": "896499ed94f08f5fa13d11913c6dbc3d"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_3DPositionTex.fs.bin": {
+			"md5": "8a60d0800c716ffb729d3932aec88a25"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_3DPositionTex.vs.bin": {
+			"md5": "69c8425845939de87026f0b4ccc4ae29"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_3DSkinPositionTex.fs.bin": {
+			"md5": "32f4dab3d83c788465e539db18657604"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_3DSkinPositionTex.vs.bin": {
+			"md5": "f923097d987a825230da6a1df4b6eb1b"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_LabelDistanceFieldGlow.fs.bin": {
+			"md5": "0d3edba37d8253fd6af389995c3845ac"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_LabelDistanceFieldGlow.vs.bin": {
+			"md5": "12f9add39eb8b0949db144728018b3e2"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_LabelDistanceFieldNormal.fs.bin": {
+			"md5": "e677075d2b24453a94c49c277333d3ee"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_LabelDistanceFieldNormal.vs.bin": {
+			"md5": "12f9add39eb8b0949db144728018b3e2"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_LabelNormal.fs.bin": {
+			"md5": "e8e514491276f18d0c61222bc416fc7b"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_LabelNormal.vs.bin": {
+			"md5": "12f9add39eb8b0949db144728018b3e2"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_LabelOutline.fs.bin": {
+			"md5": "9cce696a36578b473f242008fa493ddc"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_LabelOutline.vs.bin": {
+			"md5": "12f9add39eb8b0949db144728018b3e2"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_PositionColor.fs.bin": {
+			"md5": "0121f95d67ea2923ef3c46f0cfdbcd91"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_PositionColor.vs.bin": {
+			"md5": "73642c167e318aea59b059cfc47d5b31"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_PositionColorTextureAsPointsize.fs.bin": {
+			"md5": "0121f95d67ea2923ef3c46f0cfdbcd91"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_PositionColorTextureAsPointsize.vs.bin": {
+			"md5": "c7ba3d735528aff701cee4b843544d41"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_PositionColor_noMVP.fs.bin": {
+			"md5": "0121f95d67ea2923ef3c46f0cfdbcd91"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_PositionColor_noMVP.vs.bin": {
+			"md5": "0c4496647bb5fd8eddb0c5e61c1210cd"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_PositionLengthTextureColor.fs.bin": {
+			"md5": "cf4c042f674911e740b2159090135002"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_PositionLengthTextureColor.vs.bin": {
+			"md5": "9929caf79c1f00552ec94db9e27c4b5f"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_PositionTexture.fs.bin": {
+			"md5": "64acf2b1f869aa9a79d4d39f0b3894ed"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_PositionTexture.vs.bin": {
+			"md5": "b86676a4ea114e7cee665729ebd7f593"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_PositionTextureA8Color.fs.bin": {
+			"md5": "a4939739b2b80c4b8f1918d9b6983180"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_PositionTextureA8Color.vs.bin": {
+			"md5": "12f9add39eb8b0949db144728018b3e2"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_PositionTextureColor.fs.bin": {
+			"md5": "23156adf72d124ad05044751d7350213"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_PositionTextureColor.vs.bin": {
+			"md5": "12f9add39eb8b0949db144728018b3e2"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_PositionTextureColor_noMVP.fs.bin": {
+			"md5": "23156adf72d124ad05044751d7350213"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_PositionTextureColor_noMVP.vs.bin": {
+			"md5": "d8ecc26a9869ac35a06ab13cf75810aa"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_PositionTexture_uColor.fs.bin": {
+			"md5": "3da6ccb6be6482399235d9cd75e30c99"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_PositionTexture_uColor.vs.bin": {
+			"md5": "b86676a4ea114e7cee665729ebd7f593"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_Position_uColor.fs.bin": {
+			"md5": "cecf557f0201b1c0e62f516347202d59"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_Position_uColor.vs.bin": {
+			"md5": "1c0d3ac10724743d033e7da133ccff30"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_UIGrayScale.fs.bin": {
+			"md5": "d07a95f3ce9d3b0ef3a72f54d3246c22"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kShaderType_UIGrayScale.vs.bin": {
+			"md5": "d8ecc26a9869ac35a06ab13cf75810aa"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kSpine_TwoColor.fs.bin": {
+			"md5": "ae1854e2e150ad3bda3bb47183867835"
+		},
+		"res/CoreData/Shaders/Bin/shaders/metal/vfs_kSpine_TwoColor.vs.bin": {
+			"md5": "7d9656f0355b6a031fcb0577eeb5e73d"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_3DPosition.fs.bin": {
+			"md5": "7aa4142fd52697f651ca7dc26efceda1"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_3DPosition.vs.bin": {
+			"md5": "29db6d8da491a592fab7ea0e0d4955c3"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_3DPositionTex.fs.bin": {
+			"md5": "8e0b0004d97202b449ea6908033a9708"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_3DPositionTex.vs.bin": {
+			"md5": "b1f34c03e077532abd15f4317aeddba1"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_3DSkinPositionTex.fs.bin": {
+			"md5": "d1584c24fd1607383f4db9cd3a11aa98"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_3DSkinPositionTex.vs.bin": {
+			"md5": "5304957762d68e0946ec73f4b6e6689e"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_LabelDistanceFieldGlow.fs.bin": {
+			"md5": "b06e86cdc134c286617d0ee7b94457ff"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_LabelDistanceFieldGlow.vs.bin": {
+			"md5": "c5ac4ba28c3123c1eb7d0412237262c9"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_LabelDistanceFieldNormal.fs.bin": {
+			"md5": "5e876acd46e099c1c95a968218ff127f"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_LabelDistanceFieldNormal.vs.bin": {
+			"md5": "c5ac4ba28c3123c1eb7d0412237262c9"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_LabelNormal.fs.bin": {
+			"md5": "42556e2d5a71f0f93dbbbeb98001dc48"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_LabelNormal.vs.bin": {
+			"md5": "c5ac4ba28c3123c1eb7d0412237262c9"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_LabelOutline.fs.bin": {
+			"md5": "3874b40b958cb699ee4bc4c7628a9e92"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_LabelOutline.vs.bin": {
+			"md5": "c5ac4ba28c3123c1eb7d0412237262c9"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_PositionColor.fs.bin": {
+			"md5": "19a10a5ad93d669b3e40e7a2166e5b0f"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_PositionColor.vs.bin": {
+			"md5": "145b457e502d608ab2fe06489cf3e8d9"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_PositionColorTextureAsPointsize.fs.bin": {
+			"md5": "19a10a5ad93d669b3e40e7a2166e5b0f"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_PositionColorTextureAsPointsize.vs.bin": {
+			"md5": "1fe6bbbcafae9785926f47f72e614b14"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_PositionColor_noMVP.fs.bin": {
+			"md5": "19a10a5ad93d669b3e40e7a2166e5b0f"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_PositionColor_noMVP.vs.bin": {
+			"md5": "54be7bab7fadb66d6582f4234b93fd62"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_PositionLengthTextureColor.fs.bin": {
+			"md5": "5244378b95f7f228fd35f8de7247f306"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_PositionLengthTextureColor.vs.bin": {
+			"md5": "dbc4f890dc13b176aabc81ae5d3c905e"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_PositionTexture.fs.bin": {
+			"md5": "7ac79663bde91a90b1b2a5812f06db1f"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_PositionTexture.vs.bin": {
+			"md5": "67e6f56bceca4595ade4f10ca71ddd7b"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_PositionTextureA8Color.fs.bin": {
+			"md5": "94fc23c7aa0185b69716c02eb88c9536"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_PositionTextureA8Color.vs.bin": {
+			"md5": "c5ac4ba28c3123c1eb7d0412237262c9"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_PositionTextureColor.fs.bin": {
+			"md5": "e51c389b97f56b5c7c705bed4d437fa3"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_PositionTextureColor.vs.bin": {
+			"md5": "c5ac4ba28c3123c1eb7d0412237262c9"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_PositionTextureColor_noMVP.fs.bin": {
+			"md5": "1f5623e18ebac0985c3a5d24f8cc7696"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_PositionTextureColor_noMVP.vs.bin": {
+			"md5": "225df6726990fdade3de9356d7f66ab5"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_PositionTexture_uColor.fs.bin": {
+			"md5": "2a30dfbdc671396947a0824a06a10d3b"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_PositionTexture_uColor.vs.bin": {
+			"md5": "67e6f56bceca4595ade4f10ca71ddd7b"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_Position_uColor.fs.bin": {
+			"md5": "598eda93c8180a852787edcf6608be5a"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_Position_uColor.vs.bin": {
+			"md5": "f9ed120798fbda35c940076e2f3e221d"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_UIGrayScale.fs.bin": {
+			"md5": "ca335ce8b2369b0f259b2ef9054ed73e"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kShaderType_UIGrayScale.vs.bin": {
+			"md5": "225df6726990fdade3de9356d7f66ab5"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kSpine_TwoColor.fs.bin": {
+			"md5": "e077ba46836bd4f6a023d9eabd627cbc"
+		},
+		"res/CoreData/Shaders/Bin/shaders/spirv/vfs_kSpine_TwoColor.vs.bin": {
+			"md5": "6aef4b51c7f8facb41ee8d468d2c64ed"
+		},
+		"res/CoreData/Shaders/Cocos2D/varying.def.sc": {
+			"md5": "e856fe25e90f66c3aa3f4c94420f3aa8"
+		},
+		"res/CoreData/Shaders/Cocos2D/vfs_kShaderType_3DPosition.sc": {
+			"md5": "2b626b982898893ee4b120675290db9f"
+		},
+		"res/CoreData/Shaders/Cocos2D/vfs_kShaderType_3DPositionTex.sc": {
+			"md5": "a01a7ff65d998c6d71913af2477094e3"
+		},
+		"res/CoreData/Shaders/Cocos2D/vfs_kShaderType_3DSkinPositionTex.sc": {
+			"md5": "0755f4c9b6f16240c7b201d04e15568e"
+		},
+		"res/CoreData/Shaders/Cocos2D/vfs_kShaderType_LabelDistanceFieldGlow.sc": {
+			"md5": "864d5a0ba5814ca02771164cbe5ea3b9"
+		},
+		"res/CoreData/Shaders/Cocos2D/vfs_kShaderType_LabelDistanceFieldNormal.sc": {
+			"md5": "fce7fc41801aa68f6cfa976a0fefcb59"
+		},
+		"res/CoreData/Shaders/Cocos2D/vfs_kShaderType_LabelNormal.sc": {
+			"md5": "2f60977537aacb31884ddd9663f23656"
+		},
+		"res/CoreData/Shaders/Cocos2D/vfs_kShaderType_LabelOutline.sc": {
+			"md5": "2f719d5526d09806995b171c6c2d5e1e"
+		},
+		"res/CoreData/Shaders/Cocos2D/vfs_kShaderType_PositionColor.sc": {
+			"md5": "8d2ad9caa613bd4b2e033749e318e1c1"
+		},
+		"res/CoreData/Shaders/Cocos2D/vfs_kShaderType_PositionColorTextureAsPointsize.sc": {
+			"md5": "f7e5dfb7363bd8e599b353a018f2e023"
+		},
+		"res/CoreData/Shaders/Cocos2D/vfs_kShaderType_PositionColor_noMVP.sc": {
+			"md5": "0e13c545f3e02a6eadca4a848482b668"
+		},
+		"res/CoreData/Shaders/Cocos2D/vfs_kShaderType_PositionLengthTextureColor.sc": {
+			"md5": "6e9887dd76a577ff4707f4129f680e78"
+		},
+		"res/CoreData/Shaders/Cocos2D/vfs_kShaderType_PositionTexture.sc": {
+			"md5": "34229d0f39b6836efc185d7f7027fe7c"
+		},
+		"res/CoreData/Shaders/Cocos2D/vfs_kShaderType_PositionTextureA8Color.sc": {
+			"md5": "a9d4078910b3fd37e9c88b916616f5e4"
+		},
+		"res/CoreData/Shaders/Cocos2D/vfs_kShaderType_PositionTextureColor.sc": {
+			"md5": "db1f47d5df5d82c02621c043a28d4426"
+		},
+		"res/CoreData/Shaders/Cocos2D/vfs_kShaderType_PositionTextureColor_noMVP.sc": {
+			"md5": "1d9c368167310fbc68be3a9186763d86"
+		},
+		"res/CoreData/Shaders/Cocos2D/vfs_kShaderType_PositionTexture_uColor.sc": {
+			"md5": "81f5323dc9e668e793d95382036be2e9"
+		},
+		"res/CoreData/Shaders/Cocos2D/vfs_kShaderType_Position_uColor.sc": {
+			"md5": "3a05b9542ed492eb15b8e9ed49dc0250"
+		},
+		"res/CoreData/Shaders/Cocos2D/vfs_kShaderType_UIGrayScale.sc": {
+			"md5": "416e184c7baaff72d270295c06229346"
+		},
+		"res/CoreData/Shaders/Cocos2D/vfs_kSpine_TwoColor.sc": {
+			"md5": "029ce21c7b0fde89b924197434e3ba06"
+		},
+		"res/CoreData/Shaders/Effekseer/varying.def.sc": {
+			"md5": "b36795f22871802a176d09c7c8539a78"
+		},
+		"res/CoreData/Shaders/Effekseer/vfs_EFKSprite.sc": {
+			"md5": "5e1fac488265b87ad67d893b86f9068c"
+		},
+		"res/CoreData/Shaders/Effekseer/vfs_EFKSpriteDistortion.sc": {
+			"md5": "ea40b47df6cc7a20c65896ee0c60d50f"
+		},
+		"res/CoreData/Shaders/Effekseer/vfs_EFKSpriteDistortionNoTex.sc": {
+			"md5": "53e6d9f5764488d336e55c6a9e1f44d6"
+		},
+		"res/CoreData/Shaders/Effekseer/vfs_EFKSpriteLighting.sc": {
+			"md5": "ea0c1888d0d7d35d72c60e8049a5f24c"
+		},
+		"res/CoreData/Shaders/Effekseer/vfs_EFKSpriteNoTex.sc": {
+			"md5": "466b8daae2d5769a4a5c74c6f92f31d6"
+		},
+		"res/CoreData/Shaders/ImGui/imgui_image/fs_image_imgui.sc": {
+			"md5": "cc335f0f82abcf903249eeae125c597f"
+		},
+		"res/CoreData/Shaders/ImGui/imgui_image/shader.mk": {
+			"md5": "126d673c0ed2b7491f0a5bb995d82bb5"
+		},
+		"res/CoreData/Shaders/ImGui/imgui_image/tools.mk": {
+			"md5": "2ed0d7908881fd2cd8107f38107c9778"
+		},
+		"res/CoreData/Shaders/ImGui/imgui_image/varying.def.sc": {
+			"md5": "204e2175eb04d67ec7db96bf340fbe2e"
+		},
+		"res/CoreData/Shaders/ImGui/imgui_image/vs_image_imgui.sc": {
+			"md5": "d17570ecb61920cdd6b8515832f4df95"
+		},
+		"res/CoreData/Shaders/ImGui/imgui_ocornut/fs_ocornut_imgui.sc": {
+			"md5": "def82aa29f6bd8a73a443d75bd7fa207"
+		},
+		"res/CoreData/Shaders/ImGui/imgui_ocornut/shader.mk": {
+			"md5": "126d673c0ed2b7491f0a5bb995d82bb5"
+		},
+		"res/CoreData/Shaders/ImGui/imgui_ocornut/tools.mk": {
+			"md5": "2ed0d7908881fd2cd8107f38107c9778"
+		},
+		"res/CoreData/Shaders/ImGui/imgui_ocornut/varying.def.sc": {
+			"md5": "204e2175eb04d67ec7db96bf340fbe2e"
+		},
+		"res/CoreData/Shaders/ImGui/imgui_ocornut/vs_ocornut_imgui.sc": {
+			"md5": "04b9848ed63bb99c0043f543eb1c5375"
+		},
+		"res/CoreData/Shaders/Library/Base/bgfx_compute.sh": {
+			"md5": "865eb018dc3c2c6eaf3c4fddb280e5b4"
+		},
+		"res/CoreData/Shaders/Library/Base/bgfx_shader.sh": {
+			"md5": "7248aa9096d80838a4b4ec066119ccb0"
+		},
+		"res/CoreData/Shaders/Library/Base/common.sh": {
+			"md5": "c8482711125edfa74d278a4a40381080"
+		},
+		"res/CoreData/Shaders/Library/Base/shader.mk": {
+			"md5": "a7de88ddbe53b74a105ea88d58c27304"
+		},
+		"res/CoreData/Shaders/Library/Base/shaderlib.sh": {
+			"md5": "5ba771a546f4028809cfbbc3c0c8fc16"
+		},
+		"res/CoreData/Shaders/Library/Base/tools.mk": {
+			"md5": "13b19e9a7d865b011506e1f5775a3c5a"
+		},
+		"res/CoreData/Shaders/Library/Common.glsl": {
+			"md5": "f4dc3c7f65c51f7e9b74908f2fc04c8e"
+		},
+		"res/CoreData/Shaders/Library/Core/Constants.glsl": {
+			"md5": "1ecdafe96170aad97eeace62bfec1583"
+		},
+		"res/CoreData/Shaders/Library/Core/Samplers.glsl": {
+			"md5": "fc62db5c9cb63bdeccd064575e9b847f"
+		},
+		"res/CoreData/Shaders/Library/Core/Transforms.glsl": {
+			"md5": "7c588b2cae71431d6da7a9de34bd54b5"
+		},
+		"res/CoreData/Shaders/Library/Core/Uniforms.glsl": {
+			"md5": "f80fad8a29122da7e90cd48fd9c2a481"
+		},
+		"res/CoreData/Shaders/Library/Lighting.glsl": {
+			"md5": "fd8c75739cd0452065395d62035e094b"
+		},
+		"res/CoreData/Shaders/Library/Macro/FragPosFinal.glsl": {
+			"md5": "2a091d8de03a56791f2efa69460f8ac8"
+		},
+		"res/CoreData/Shaders/Library/Macro/NormalFinal.glsl": {
+			"md5": "9751593b7e5119ec61674f3374981641"
+		},
+		"res/CoreData/Shaders/Library/Macro/PositionFinal.glsl": {
+			"md5": "9d1ba2164ec9a8ec3af7ac072050e289"
+		},
+		"res/CoreData/Shaders/Library/Macro/ShadowCoordFinal.glsl": {
+			"md5": "b972f39c5d57b76d662f5954f17949be"
+		},
+		"res/CoreData/Shaders/Library/Macro/Texcoord0Final.glsl": {
+			"md5": "7ec5effaa8263babb927d7f41ebd2346"
+		},
+		"res/CoreData/Shaders/Library/Shadow.glsl": {
+			"md5": "b220627df1ce566618483cfa29082c51"
+		},
+		"res/CoreData/Shaders/Library/Skinning.glsl": {
+			"md5": "d5ed0bea46d568cb50bd009e1ab6e30b"
+		},
+		"res/CoreData/Shaders/Library/Varying.glsl": {
+			"md5": "74bb9d0ab6a556ee589a0e363542cec1"
+		},
+		"res/CoreData/Shaders/Library/VertexInput.glsl": {
+			"md5": "57fe2b149a9d277a2c8bcac6e0dc38c7"
+		},
+		"res/CoreData/Shaders/Postprocessing/varying.def.sc": {
+			"md5": "90a1cce533bbc41c86c8965569e693dd"
+		},
+		"res/CoreData/Shaders/Postprocessing/vfs_Basic.sc": {
+			"md5": "0fd09ab978ae7e8e355da92b13f7b7f7"
+		},
+		"res/CoreData/Shaders/Postprocessing/vfs_Blur.sc": {
+			"md5": "ed099202cb6d381577894c8892aa5b68"
+		},
+		"res/CoreData/Shaders/varying.def.sc": {
+			"md5": "8703a84aa6516f561e5ca0a2342ad333"
+		},
+		"res/CoreData/Shaders/vfs_Billboard.sc": {
+			"md5": "ef93f067673a441b5ae5d768391bb791"
+		},
+		"res/CoreData/Shaders/vfs_GPUSkinnedLitSolidTex.sc": {
+			"md5": "63735aa5c62e133f1b38a0bde1b72a3f"
+		},
+		"res/CoreData/Shaders/vfs_GPUSkinnedLitSolidTexInstancing.sc": {
+			"md5": "bbbb814d4284007ba4c63df68069591c"
+		},
+		"res/CoreData/Shaders/vfs_GPUSkinnedShadow.sc": {
+			"md5": "ddff1efd1a45c6f1354cfb9e40476843"
+		},
+		"res/CoreData/Shaders/vfs_GPUSkinnedShadowInstancing.sc": {
+			"md5": "b5d0b7bdc1543ebeea9c452729e1f7c7"
+		},
+		"res/CoreData/Shaders/vfs_GPUSkinnedUnLitSolidTex.sc": {
+			"md5": "2e90c11c5d5600fd98b55572c01e8765"
+		},
+		"res/CoreData/Shaders/vfs_GPUSkinnedUnLitSolidTexInstancing.sc": {
+			"md5": "dda9fb3d3f0304488082dec724fb0615"
+		},
+		"res/CoreData/Shaders/vfs_Invalid.sc": {
+			"md5": "c6641034671e57d64039a91bedf85e72"
+		},
+		"res/CoreData/Shaders/vfs_LitSolidNoTex.sc": {
+			"md5": "6bc839ef8ee7de782f3a1d5f2339ce2a"
+		},
+		"res/CoreData/Shaders/vfs_LitSolidNoTexNoShadow.sc": {
+			"md5": "1d7854ac09c5438fae1d9cba33a50702"
+		},
+		"res/CoreData/Shaders/vfs_LitSolidTex.sc": {
+			"md5": "b880d29ef85776f63fd5216032610ca5"
+		},
+		"res/CoreData/Shaders/vfs_LitSolidTexInstancing.sc": {
+			"md5": "74f357114f1f449beae12a7072dd54a0"
+		},
+		"res/CoreData/Shaders/vfs_LitSolidTexNoShadow.sc": {
+			"md5": "ba3012a12354d57689a8325c31813c26"
+		},
+		"res/CoreData/Shaders/vfs_LitSolidTexNoShadowInstancing.sc": {
+			"md5": "1f58c69ea83877628cfa6910cabe2088"
+		},
+		"res/CoreData/Shaders/vfs_Shadow.sc": {
+			"md5": "37711d248b74aab1e3c755fa35abd226"
+		},
+		"res/CoreData/Shaders/vfs_ShadowInstancing.sc": {
+			"md5": "8c2ef5633f224b1f809373412a9fe2da"
+		},
+		"res/CoreData/Shaders/vfs_SkinnedLitSolidTex.sc": {
+			"md5": "885ff7d881af12c742bbe163add7e3cf"
+		},
+		"res/CoreData/Shaders/vfs_SkinnedShadow.sc": {
+			"md5": "372508fc394b11122b18a40549875d92"
+		},
+		"res/CoreData/Shaders/vfs_SkinnedUnLitSolidTex.sc": {
+			"md5": "d3e619c555e294474679217038c236c6"
+		},
+		"res/CoreData/Shaders/vfs_UnlitSolid.sc": {
+			"md5": "a759e20d1d1bbb8da82b1b4db7ee7d43"
+		},
+		"res/CoreData/Shaders/vfs_UnlitSolidTex.sc": {
+			"md5": "bb2e9194136374009ee6e5f8361b0a04"
+		},
+		"res/CoreData/Shaders/vfs_UnlitSolidTexInstancing.sc": {
+			"md5": "02300facb94142a233e146272b95326f"
+		},
+		"res/CoreData/Techniques/BillboardTech.tnq": {
+			"md5": "54fd5b0908c921170750f4294c33293f"
+		},
+		"res/CoreData/Techniques/Diff.tnq": {
+			"md5": "bb82907ee635c92bd32b172e21d1be10"
+		},
+		"res/CoreData/Techniques/DiffGPUSkinned.tnq": {
+			"md5": "75c5f0ef27e860a186e68ec03c7cf9b8"
+		},
+		"res/CoreData/Techniques/DiffNoTex.tnq": {
+			"md5": "4de3ca5e7ca38dc72b0e0f9d58ba0ad5"
+		},
+		"res/CoreData/Techniques/DiffSkinned.tnq": {
+			"md5": "1400bc22eed61a0c53cb6929dc34ba5d"
+		},
+		"res/launcher.png": {
+			"md5": "90c45bab4d1b2cd6c0c78c192fe90e92"
+		},
+		"res/loading.js": {
+			"md5": "e1b3fa5d82fb5e69342becebffdd3838"
+		},
+		"res/roms/data/gba.txt": {
+			"md5": "52bb9e5136cf775942fa5a5c07607a3d"
+		},
+		"res/roms/data/mame.txt": {
+			"md5": "0fd1cd8246c8595d92724478f34166ce"
+		},
+		"res/roms/data/n64.txt": {
+			"md5": "887ee50667bd64a9f1ef2eb19c3a1d3a"
+		},
+		"res/roms/data/nes.txt": {
+			"md5": "36a6192448d2b267ea6ca8883ebfc06b"
+		},
+		"res/roms/data/snes.txt": {
+			"md5": "786f22d2943bfeb717c2730d2939f806"
+		},
+		"res/roms/thumbs/gba/0025 - Super Mario Advance (U)(Eurasia).jpg": {
+			"md5": "55199b48b9239f673edbb91772e89597"
+		},
+		"res/roms/thumbs/gba/0033 - Tony Hawk's Pro Skater 2 (U)(Total Crap).jpg": {
+			"md5": "3745b0ff0d1813c4f162367be87f0a01"
+		},
+		"res/roms/thumbs/gba/0034 - GT Advance - Championship Racing (U)(The Corporation).jpg": {
+			"md5": "e5588b5cee2734383e1429c6c88f309f"
+		},
+		"res/roms/thumbs/gba/0037 - Earthworm Jim (U)(Mode7).jpg": {
+			"md5": "d9b2d6cee2454ea7b2591ffdc748af41"
+		},
+		"res/roms/thumbs/gba/0043 - Konami Krazy Racers (E)(Cezar).jpg": {
+			"md5": "d41c8d82c356c09009ea03f7d7a4c9f5"
+		},
+		"res/roms/thumbs/gba/0046 - Rayman Advance (U)(Cezar).jpg": {
+			"md5": "f3f38c5b44cc1b91849c754ded884bd6"
+		},
+		"res/roms/thumbs/gba/0058 - Bomberman Tournament (U)(Mode7).jpg": {
+			"md5": "8b686aae6cf162755d5dceeb5e03ea51"
+		},
+		"res/roms/thumbs/gba/0064 - Pac-Man Collection (U)(Mode7).jpg": {
+			"md5": "b9d8bc450c99e7a59f5d661b3122f3a1"
+		},
+		"res/roms/thumbs/gba/0086 - Mario Kart - Super Circuit (U)(Inferno).jpg": {
+			"md5": "fee80fd9ad0a02e92e975851cb3369f9"
+		},
+		"res/roms/thumbs/gba/0104 - Tetris Worlds (U)(Menace).jpg": {
+			"md5": "330392ca30de3b2ceeef144488530918"
+		},
+		"res/roms/thumbs/gba/0115 - Spider-Man - Mysterio's Menace (U)(Mode7).jpg": {
+			"md5": "a480aa1d021249c274d261dcebad4581"
+		},
+		"res/roms/thumbs/gba/0128 - Final Fight One (U)(Mode7).jpg": {
+			"md5": "09190f2367d995eddc364eeebc839e20"
+		},
+		"res/roms/thumbs/gba/0131 - Lego Island 2 - The Brickster's Revenge (U)(Mode7).jpg": {
+			"md5": "3713a1793ee1957bf45f8d8ac3e5a83d"
+		},
+		"res/roms/thumbs/gba/0155 - Doom (U)(Mode7).jpg": {
+			"md5": "23bc783c7203cc33ddedbca4a511aae0"
+		},
+		"res/roms/thumbs/gba/0165 - MegaMan Battle Network (U)(Venom).jpg": {
+			"md5": "41247fd954e8eee07885b0b569ed0fb6"
+		},
+		"res/roms/thumbs/gba/0171 - Golden Sun (U)(Mode7).jpg": {
+			"md5": "e0ba3ba406dcf270ab913d5b3d94e477"
+		},
+		"res/roms/thumbs/gba/0173 - Harry Potter and the Sorcerer's Stone (U)(Lightforce).jpg": {
+			"md5": "a74f5c6e15bee363dfcbae698b4805b0"
+		},
+		"res/roms/thumbs/gba/0175 - Jackie Chan Adventures - Legend of the Dark Hand (U)(Mode7).jpg": {
+			"md5": "30ea6127dcd650f7ac942c422d4a70bf"
+		},
+		"res/roms/thumbs/gba/0182 - Midnight Club - Street Racing (U)(Lightforce).jpg": {
+			"md5": "956cea9da7cd96408823c0227395db6f"
+		},
+		"res/roms/thumbs/gba/0187 - International Superstar Soccer (E)(Eurasia).jpg": {
+			"md5": "0103b5ab0bede010c713a05d10e1971e"
+		},
+		"res/roms/thumbs/gba/0202 - Lego Racers 2 (U)(Venom).jpg": {
+			"md5": "62801c89fef08d2ce17df61a7a74a7c1"
+		},
+		"res/roms/thumbs/gba/0224 - Driven (U)(Mode7).jpg": {
+			"md5": "03ca153a52a3594e617238ba79242dba"
+		},
+		"res/roms/thumbs/gba/0247 - Mortal Kombat Advance (U)(Venom).jpg": {
+			"md5": "2124ef5db29c26ce8b2d721f48085476"
+		},
+		"res/roms/thumbs/gba/0279 - ESPN Winter X-Games - Snowboarding 2002 (U)(Mode7).jpg": {
+			"md5": "a6a4aab65ed4e9e82cadf65b36a66ed1"
+		},
+		"res/roms/thumbs/gba/0284 - Tekken Advance (U)(Venom).jpg": {
+			"md5": "13171a257262b7ca6216830028961d06"
+		},
+		"res/roms/thumbs/gba/0285 - ESPN International - Winter Sports 2002 (U)(Mode7).jpg": {
+			"md5": "c7f25b2ceedf4e1fe7c10310d3d1699e"
+		},
+		"res/roms/thumbs/gba/0290 - Sonic Advance (U)(Lord Moyne).jpg": {
+			"md5": "ed4094cbd1b209aa3d529b1041c9d0f5"
+		},
+		"res/roms/thumbs/gba/0297 - Super Mario World - Super Mario Advance 2 (U)(Mode7).jpg": {
+			"md5": "61bd9ee8c8a64562058735d553cdde2a"
+		},
+		"res/roms/thumbs/gba/0308 - NBA Jam 2002 (U)(Mode7).jpg": {
+			"md5": "ac6820f3e0d07834054c8c43bbfcb8e7"
+		},
+		"res/roms/thumbs/gba/0329 - Super Street Fighter II Turbo Revival (U)(Nobody).jpg": {
+			"md5": "16c50dbeebf34a03404e8a85e8e1adfd"
+		},
+		"res/roms/thumbs/gba/0335 - Tony Hawk's Pro Skater 3 (U)(The Corporation).jpg": {
+			"md5": "13eb9d12b767f3b3617de6799acdb5fa"
+		},
+		"res/roms/thumbs/gba/0337 - NHL 2002 (U)(Venom).jpg": {
+			"md5": "113be1a782fd076df7881b4287187eaf"
+		},
+		"res/roms/thumbs/gba/0347 - Moto GP (U)(Independent).jpg": {
+			"md5": "b7a1084a4a383fbf144f7a00b04d92aa"
+		},
+		"res/roms/thumbs/gba/0348 - Tom Clancy's Rainbow Six - Rogue Spear (U)(97).jpg": {
+			"md5": "5a54a728eaa8ed1d558529921a84aa1e"
+		},
+		"res/roms/thumbs/gba/0364 - Ice Age (U)(Venom).jpg": {
+			"md5": "e5bc8ddfa0b8fca413a95530fe2fc033"
+		},
+		"res/roms/thumbs/gba/0404 - Spider-Man - The Movie (U)(Mode7).jpg": {
+			"md5": "b51d1ba8bb7f53382d5318b62c4cc03e"
+		},
+		"res/roms/thumbs/gba/0434 - Dragon Ball Z - The Legacy Of Goku (U)(Mode7).jpg": {
+			"md5": "e4758d7cb8717ad915bb0d7a5753d793"
+		},
+		"res/roms/thumbs/gba/0447 - Dragon Ball Z - Collectible Card Game (U)(Mode7).jpg": {
+			"md5": "81254c027b10c8cd238941f1cf84fe4b"
+		},
+		"res/roms/thumbs/gba/0452 - Bomberman Max 2 Blue Advance (U)(Mode7).jpg": {
+			"md5": "ba922d7f1d932c379810240b542bf190"
+		},
+		"res/roms/thumbs/gba/0481 - GT Advance 2 - Rally Racing (U)(Mode7).jpg": {
+			"md5": "9e8e1e7ed3047a4986ced7f725071e04"
+		},
+		"res/roms/thumbs/gba/0533 - The King Of Fighters EX - Neo Blood (U)(Eurasia).jpg": {
+			"md5": "90572f9a53cb37cfd1d7645ad8713bd0"
+		},
+		"res/roms/thumbs/gba/0588 - MegaMan Zero (U)(Venom).jpg": {
+			"md5": "1cd3525ff0309267dbb82089840ef42a"
+		},
+		"res/roms/thumbs/gba/0593 - Yoshi's Island - Super Mario Advance 3 (U)(Mode7).jpg": {
+			"md5": "52adc6b170e1c7ef40ccf0896abc496a"
+		},
+		"res/roms/thumbs/gba/0613 - The Lord of the Rings - The Fellowship of the Ring (U)(Venom).jpg": {
+			"md5": "3cd5f9ee78cfce68edd11e49d0825bda"
+		},
+		"res/roms/thumbs/gba/0653 - Defender of the Crown (U)(Venom).jpg": {
+			"md5": "4eba7b2756290a86d3d5abe3ede48d24"
+		},
+		"res/roms/thumbs/gba/0658 - Virtua Tennis (U)(Venom).jpg": {
+			"md5": "84bc347b8d4f0737aa7fd8f80ad8d0d0"
+		},
+		"res/roms/thumbs/gba/0670 - Yu-Gi-Oh! - The Eternal Duelist Soul (U)(Mode7).jpg": {
+			"md5": "cddec8916244425a73790fe6402dadc9"
+		},
+		"res/roms/thumbs/gba/0683 - Disney's Tarzan - Return to the Jungle (U)(Mode7).jpg": {
+			"md5": "0b8b743a6f726818f4d277b87561563a"
+		},
+		"res/roms/thumbs/gba/0686 - Doom II (U)(Mode7).jpg": {
+			"md5": "c0524defeb6d01a3a142c4b114515334"
+		},
+		"res/roms/thumbs/gba/0690 - Metroid - Fusion (U)(GBANow).jpg": {
+			"md5": "a9ccaf6cc5e6924a63fbede6b765ed4c"
+		},
+		"res/roms/thumbs/gba/0706 - Dungeons and Dragons - Eye of the Beholder (U)(Venom).jpg": {
+			"md5": "6ff55cdd445a7215b07befa7b2026b00"
+		},
+		"res/roms/thumbs/gba/0707 - Tony Hawk's Pro Skater 4 (U)(Rapid Fire).jpg": {
+			"md5": "7b90dc90d297f5caace0589e5b79b0dd"
+		},
+		"res/roms/thumbs/gba/0717 - The Lord of the Rings - The Two Towers (U)(Mode7).jpg": {
+			"md5": "721edcc4d33aedfccb9a97b7f265bb40"
+		},
+		"res/roms/thumbs/gba/0721 - Harry Potter and the Chamber of Secrets (U)(Mode7).jpg": {
+			"md5": "fd52cc72e41d1a86659fcb6f63994e9c"
+		},
+		"res/roms/thumbs/gba/0722 - Contra Advance - The Alien Wars EX (U)(Mode7).jpg": {
+			"md5": "317e97334edfed7abcb7810d4c604081"
+		},
+		"res/roms/thumbs/gba/0736 - FIFA 2003 (U)(Mode7).jpg": {
+			"md5": "2857e6552bb03f3ead032ed73ef43688"
+		},
+		"res/roms/thumbs/gba/0753 - Mortal Kombat - Deadly Alliance (U)(Mode7).jpg": {
+			"md5": "c7233cc565fc1bb3fdba472a8892c9f4"
+		},
+		"res/roms/thumbs/gba/0776 - The Legend Of Zelda - A Link To The Past (U)(Mode7).jpg": {
+			"md5": "0f5c6227aadc6b920a4fda2586835686"
+		},
+		"res/roms/thumbs/gba/0841 - Godzilla Domination (U)(Dumper).jpg": {
+			"md5": "24b362fe66f7c351936efab5c6e85505"
+		},
+		"res/roms/thumbs/gba/0844 - F1 2002 (U)(Eurasia).jpg": {
+			"md5": "ed1e5885482b7407ad2c5818ccc89a36"
+		},
+		"res/roms/thumbs/gba/0863 - GT Advance 3 - Pro Concept Racing (U)(Mode7).jpg": {
+			"md5": "882721c83d5dc3d419e49700c2643e80"
+		},
+		"res/roms/thumbs/gba/0867 - Yu-Gi-Oh! Dungeon Dice Monsters (U)(Venom).jpg": {
+			"md5": "164306eda9c7307bdb286f0a7872e74c"
+		},
+		"res/roms/thumbs/gba/0898 - Pokemon Sapphire (U)(Mugs).jpg": {
+			"md5": "a51a58528d926947527885d787d878da"
+		},
+		"res/roms/thumbs/gba/0899 - Street Fighter Alpha 3 (U)(Independent).jpg": {
+			"md5": "62ae8fca10a4e453089871b9301a5a6b"
+		},
+		"res/roms/thumbs/gba/0901 - Tom and Jerry - Infurnal Escape (U)(Venom).jpg": {
+			"md5": "4f7c0c6ab0f794ece769448db6a4ff9a"
+		},
+		"res/roms/thumbs/gba/0902 - MegaMan & Bass (U)(Venom).jpg": {
+			"md5": "421be01bd07b6a3dd5b250309fb7ae66"
+		},
+		"res/roms/thumbs/gba/0903 - Sega Rally Championship (U)(Venom).jpg": {
+			"md5": "bfc5f56741f05fbe5dfaa9ba72745d25"
+		},
+		"res/roms/thumbs/gba/0906 - Sonic Advance 2 (U)(Independent).jpg": {
+			"md5": "d375276c3988e63d22b5c75115d40139"
+		},
+		"res/roms/thumbs/gba/0926 - Superman - Countdown to Apokolips (U)(Eurasia).jpg": {
+			"md5": "9ee31d7dde2acabd04fa3332d31d6d74"
+		},
+		"res/roms/thumbs/gba/0948 - Crazy Taxi - Catch a Ride (U)(Venom).jpg": {
+			"md5": "4ac7d4dcbfa9b68a44c0be6973500e04"
+		},
+		"res/roms/thumbs/gba/0955 - X-Men 2 - Wolverines Revenge (U)(LightForce).jpg": {
+			"md5": "537cb5cf9e4355ae7505b146ef4fbf2d"
+		},
+		"res/roms/thumbs/gba/0984 - X-Men 2 - La vengeance de Wolverine (F)(Patience).jpg": {
+			"md5": "b1799d844da1ee46456f4604de54c587"
+		},
+		"res/roms/thumbs/gba/0985 - Rayman 3 - Hoodlum Havoc (U)(RDG).jpg": {
+			"md5": "10ceb1ad022a4cd3adfcc102d794df9e"
+		},
+		"res/roms/thumbs/gba/0987 - Disney Sports Motocross (U)(Venom).jpg": {
+			"md5": "abe8976ab69eabf3f31e7c620b45dc80"
+		},
+		"res/roms/thumbs/gba/0993 - Tom Clancy's Splinter Cell (U)(GBATemp).jpg": {
+			"md5": "ce657397c9d50040e352ca43e6f52671"
+		},
+		"res/roms/thumbs/gba/0999 - Castlevania - Aria of Sorrow (U)(GBATemp).jpg": {
+			"md5": "adc0a10cea1f419119c977cb77b46577"
+		},
+		"res/roms/thumbs/gba/1005 - Wario Ware Inc (U)(Precision).jpg": {
+			"md5": "f3f1aa0d77a9f0fd4050cf6cfb360182"
+		},
+		"res/roms/thumbs/gba/1019 - Yu-Gi-Oh! Worldwide Edition (U)(RDG).jpg": {
+			"md5": "0094b02a40219f331b33e5ea4b71492b"
+		},
+		"res/roms/thumbs/gba/1055 - Donkey Kong Country (U)(Evasion).jpg": {
+			"md5": "700c6acc41c97b3e354a57204b775a6f"
+		},
+		"res/roms/thumbs/gba/1076 - Rock n' Roll Racing (U)(Venom).jpg": {
+			"md5": "6e0f4eff168dea81b44586568f889d24"
+		},
+		"res/roms/thumbs/gba/1085 - Dragon Ball Z - The Legacy of Goku II (U)(TrashMan).jpg": {
+			"md5": "e4758d7cb8717ad915bb0d7a5753d793"
+		},
+		"res/roms/thumbs/gba/1138 - Mortal Kombat - Tournament Edition (U)(Mode7).jpg": {
+			"md5": "38e5043c81d35c885d7cf06e9c3f537a"
+		},
+		"res/roms/thumbs/gba/1141 - Final Fantasy Tactics Advance (U)(Eurasia).jpg": {
+			"md5": "3f93007c1f0053392cbdaa8c532c42c8"
+		},
+		"res/roms/thumbs/gba/1173 - Road Rash Jailbreak (U)(Venom).jpg": {
+			"md5": "fe9ef895b045dfa29cbf4308f316d606"
+		},
+		"res/roms/thumbs/gba/1207 - Megaman Zero 2 (U)(Eurasia).jpg": {
+			"md5": "4e5f821343a573ddb9f6f07a4490dc02"
+		},
+		"res/roms/thumbs/gba/1212 - Super Mario Advance 4 - Super Mario Bros 3 (U)(Independent).jpg": {
+			"md5": "ab73457c65847e462b79c0d236607e68"
+		},
+		"res/roms/thumbs/gba/1213 - Teenage Mutant Ninja Turtles (U)(Hyperion).jpg": {
+			"md5": "e57584ddd08bd1d174e5abb0ede3cfef"
+		},
+		"res/roms/thumbs/gba/1226 - Tony Hawk's Underground (U)(Eurasia).jpg": {
+			"md5": "a8582a11693bbcc1ed7bea80421080c3"
+		},
+		"res/roms/thumbs/gba/1230 - Top Gear Rally (U)(Rising Sun).jpg": {
+			"md5": "a67efcde5bbd535bf00b8acb3fe05179"
+		},
+		"res/roms/thumbs/gba/1231 - Harry Potter - Quidditch World Cup (U)(Rising Sun).jpg": {
+			"md5": "baee47fdfa8ec0be822b063369e8f2b3"
+		},
+		"res/roms/thumbs/gba/1232 - Prince of Persia - The Sands of Time (U)(Eurasia).jpg": {
+			"md5": "a141363df08c46cceb9555c5a92bd93a"
+		},
+		"res/roms/thumbs/gba/1238 - FIFA 2004 (U)(Rising Sun).jpg": {
+			"md5": "2d022dfe4b5c6de92dd636baf3393148"
+		},
+		"res/roms/thumbs/gba/1240 - Yu-Gi-Oh! - The Sacred Cards (U)(Venom).jpg": {
+			"md5": "9c50009d5f922bff2db47a9965ee57fb"
+		},
+		"res/roms/thumbs/gba/1263 - Ultimate Beach Soccer (U)(Evasion).jpg": {
+			"md5": "2bd1b8a0745e48df31c52e81f59023f0"
+		},
+		"res/roms/thumbs/gba/1266 - Double Dragon Advance (U)(Mode7).jpg": {
+			"md5": "ba2f30af1bc1e3710a58e116b4baf4d3"
+		},
+		"res/roms/thumbs/gba/1268 - Harvest Moon - Friends of Mineral Town (U)(Mode7).jpg": {
+			"md5": "f40bb1ba846ceeb1b073aad926f70381"
+		},
+		"res/roms/thumbs/gba/1297 - Dragon Ball Z - Taiketsu (U)(Rising Sun).jpg": {
+			"md5": "e533b00313a094f246402c5d4ec98ee4"
+		},
+		"res/roms/thumbs/gba/1312 - The Sims - Bustin Out (U)(Mode7).jpg": {
+			"md5": "1e0e6dc76034981f3f44fd3a0d19d034"
+		},
+		"res/roms/thumbs/gba/1314 - Ultimate Winter Games (U)(Eurasia).jpg": {
+			"md5": "88c388e47a65272fd474c5981dcb2322"
+		},
+		"res/roms/thumbs/gba/1328 - The King of Fighters EX2 - Howling Blood (U)(Mode7).jpg": {
+			"md5": "3e91e111e7ce1135221627eb03ddfb5e"
+		},
+		"res/roms/thumbs/gba/1338 - Need For Speed - Underground (U)(Mode7).jpg": {
+			"md5": "bfefe0607ba4f705721d973c45d8e0fb"
+		},
+		"res/roms/thumbs/gba/1343 - Sim City 2000 (U)(GBANow).jpg": {
+			"md5": "a660b577117855aebefeeb1c00bfea8a"
+		},
+		"res/roms/thumbs/gba/1370 - Metroid - Zero Mission (U)(TrashMan).jpg": {
+			"md5": "c3783e674e6d352fe98e46ada06178d7"
+		},
+		"res/roms/thumbs/gba/1378 - Yu-Gi-Oh! - World Championship Tournament 2004 (U)(Rising Sun).jpg": {
+			"md5": "daf7aa3aeffe72b95771184515e275e2"
+		},
+		"res/roms/thumbs/gba/1403 - Megaman Battle Chip Challenge (U)(Venom).jpg": {
+			"md5": "7544b0ecd94350d00bfc223c83e4da82"
+		},
+		"res/roms/thumbs/gba/1443 - David Beckham Soccer (U)(Independent).jpg": {
+			"md5": "e294c547a2d4f12132d07b3b2c9edd08"
+		},
+		"res/roms/thumbs/gba/1489 - Mario Vs. Donkey Kong (U)(Venom).jpg": {
+			"md5": "a54ba270509930499af1b5c1e9f76527"
+		},
+		"res/roms/thumbs/gba/1490 - Sonic Advance 3 (U)(Venom).jpg": {
+			"md5": "536a6c8ab592fa7c965c97c5aa8c873c"
+		},
+		"res/roms/thumbs/gba/1502 - River City - Ransom EX (U)(Venom).jpg": {
+			"md5": "f3ed10acbbce87351780902ac9043ed8"
+		},
+		"res/roms/thumbs/gba/1503 - Harry Potter and the Prisoner of Azkaban (U)(Venom).jpg": {
+			"md5": "c1d2c06589bf095e76a599dc38b2e91c"
+		},
+		"res/roms/thumbs/gba/1534 - XS Moto (U)(Rising Sun).jpg": {
+			"md5": "6cca6f1d338eda23227ede3eafc77f94"
+		},
+		"res/roms/thumbs/gba/1548 - DragonBall Z - Supersonic Warriors (U)(Rising Sun).jpg": {
+			"md5": "1e6b5c1045a7e7f950db0d77d52ee6ef"
+		},
+		"res/roms/thumbs/gba/1553 - Spider-Man 2 (U)(Hyperion).jpg": {
+			"md5": "a15d566a8263a78aa2fc134a7a65cffb"
+		},
+		"res/roms/thumbs/gba/1556 - Yu-Gi-Oh! Reshef of Destruction (U)(Venom).jpg": {
+			"md5": "0f54631b22b3dcd0a635be22a869e20d"
+		},
+		"res/roms/thumbs/gba/1582 - Yu-Gi-Oh! - Yugi Vs Joey Volume 1 - Gameboy Advance Video (U)(Independent).jpg": {
+			"md5": "1832eb109072fe895f28815ff6c96896"
+		},
+		"res/roms/thumbs/gba/1610 - Need For Speed - Porsche Unleashed (U)(Independent).jpg": {
+			"md5": "8e98b70c88890a628852d3155a33da5c"
+		},
+		"res/roms/thumbs/gba/1626 - Tom Clancy's Splinter Cell - Pandora Tommorow (U)(Chameleon).jpg": {
+			"md5": "8c2a77c7a2e591a69233ccd69a27ef9f"
+		},
+		"res/roms/thumbs/gba/1646 - Dragon Ball Z - Buu's Fury (U)(Psychosis).jpg": {
+			"md5": "4f019bb004a6d2d5763e878a07561cdb"
+		},
+		"res/roms/thumbs/gba/1651 - Dragon Ball GT Volume 1 - Gameboy Advance Video (U)(Rising Sun).jpg": {
+			"md5": "66c94b439356267a9c5c6be6905f0a8d"
+		},
+		"res/roms/thumbs/gba/1661 - F-Zero GP Legend (U)(Rising Sun).jpg": {
+			"md5": "886fdd71b669b64099f77737e1a1f6ae"
+		},
+		"res/roms/thumbs/gba/1691 - Pokemon Leaf Green (U)(Independent).jpg": {
+			"md5": "de83e24f1d468d7f8735a86fffe4cb4b"
+		},
+		"res/roms/thumbs/gba/1694 - Mario Pinball Land (U)(Venom).jpg": {
+			"md5": "c5110f97bede93104a2c1a8ec0f2ea71"
+		},
+		"res/roms/thumbs/gba/1695 - Pokemon Fire Red (U)(Independent).jpg": {
+			"md5": "190055d4400d2231a8ea325f17fbe5ed"
+		},
+		"res/roms/thumbs/gba/1700 - FIFA 2005 (U)(Venom).jpg": {
+			"md5": "f4bdb31459b17e212b6844291d648e5d"
+		},
+		"res/roms/thumbs/gba/1702 - MegaMan Zero 3 (U)(Rising Sun).jpg": {
+			"md5": "c3d320e26bdeea7cb22fab00ac576f62"
+		},
+		"res/roms/thumbs/gba/1728 - Grand Theft Auto Advance (U)(Mode7).jpg": {
+			"md5": "4949ce45100ab68ac9cb5e4cad2f710a"
+		},
+		"res/roms/thumbs/gba/1729 - Yu-Gi-Oh! Destiny Board Traveler (U)(Venom).jpg": {
+			"md5": "0094b02a40219f331b33e5ea4b71492b"
+		},
+		"res/roms/thumbs/gba/1751 - The Lord of the Rings - The Third Age (U)(Rising Sun).jpg": {
+			"md5": "ec40f4a555446e83855e7f8f50b39a62"
+		},
+		"res/roms/thumbs/gba/1753 - Duel Masters - Kaijudo Showdown (U)(Venom).jpg": {
+			"md5": "1d59f8c558143ae64b06fe2a5e94b0be"
+		},
+		"res/roms/thumbs/gba/1755 - Metal Slug Advance (U)(Independent).jpg": {
+			"md5": "26ec6e10121bd6db266cdad23bdda704"
+		},
+		"res/roms/thumbs/gba/1775 - Need for Speed Underground 2 (U)(Venom).jpg": {
+			"md5": "0e4196dc3123bacbd925d4c148928e9a"
+		},
+		"res/roms/thumbs/gba/1776 - Donkey Kong Country 2 (U)(Independent).jpg": {
+			"md5": "b136c908fd5fdd0f49a257ebd74d979f"
+		},
+		"res/roms/thumbs/gba/1789 - Pac-Man World (U)(Venom).jpg": {
+			"md5": "242c0b794931b759e75a3a7f83a6beec"
+		},
+		"res/roms/thumbs/gba/1792 - Tomb Raider - The Prophecy (U)(BatMan).jpg": {
+			"md5": "9ebbce48e030e9064f64b780730f59d9"
+		},
+		"res/roms/thumbs/gba/1805 - Final Fantasy I & II - Dawn of Souls (U)(Independent).jpg": {
+			"md5": "c9d58b97a23588ad65245235ef18080e"
+		},
+		"res/roms/thumbs/gba/1851 - V-Rally 3 (U)(Rising Sun).jpg": {
+			"md5": "051e6e10677c48142d62670e19f5fd3b"
+		},
+		"res/roms/thumbs/gba/1865 - The Legend of Zelda - The Minish Cap (U)(DCS).jpg": {
+			"md5": "7c61e0eb7f45a88568f28ee5c873e1ab"
+		},
+		"res/roms/thumbs/gba/1891 - World Tennis Stars (U)(TrashMan).jpg": {
+			"md5": "24bed322c64a45f962dd75ebe988c694"
+		},
+		"res/roms/thumbs/gba/1898 - Yu-Gi-Oh! 7 Trials to Glory - World Championship Tournament 2005 (U)(Venom).jpg": {
+			"md5": "10a4017a3a6e32e94ace87cd3878996a"
+		},
+		"res/roms/thumbs/gba/1952 - Mario Party Advance (U)(Endless Piracy).jpg": {
+			"md5": "bbd9264e4adf183894c803c99f053215"
+		},
+		"res/roms/thumbs/gba/1970 - Popeye - Rush for Spinach (U)(Endless Piracy).jpg": {
+			"md5": "571f1557bec582bf61be2ab3ab776ad5"
+		},
+		"res/roms/thumbs/gba/1986 - Pokemon Emerald (U)(TrashMan).jpg": {
+			"md5": "52a74d9d9f10aa3679d67f3db94a2c1f"
+		},
+		"res/roms/thumbs/gba/2079 - Dragon Ball GT - Transformation (U)(Trashman).jpg": {
+			"md5": "0b18d2e69ec3b56bc40e0d0534bb22ca"
+		},
+		"res/roms/thumbs/gba/2100 - Tony Hawk's Underground & Kelly Slater's Pro Surfer (U)(Rising Sun).jpg": {
+			"md5": "01c405e906b8c1ffb4bdeaabfa8f07d3"
+		},
+		"res/roms/thumbs/gba/2114 - Paperboy & Rampage (U)(Trashman).jpg": {
+			"md5": "1d88d96a68f3d868bc66eabb952dad12"
+		},
+		"res/roms/thumbs/gba/2156 - Ultimate Spider-Man (U)(Trashman).jpg": {
+			"md5": "9c68c1250f47413d705a391f2a827b0e"
+		},
+		"res/roms/thumbs/gba/2158 - Fifa 06 (U)(Supplex).jpg": {
+			"md5": "8bc8ca25461e06e939a63a9ae84b7c5f"
+		},
+		"res/roms/thumbs/gba/2166 - MegaMan Zero 4 (U)(Trashman).jpg": {
+			"md5": "dbf9ac321c063c1075f7e4bcdcc82e5f"
+		},
+		"res/roms/thumbs/gba/2169 - Backyard Skateboarding (U)(Trashman).jpg": {
+			"md5": "7e75ed553b99a783d0dd39ec70f18dc3"
+		},
+		"res/roms/thumbs/gba/2188 - Backyard Football 2006 (U)(Trashman).jpg": {
+			"md5": "53a1ec266543b1036bd55d14665a9588"
+		},
+		"res/roms/thumbs/gba/2194 - Tony Hawk's American Sk8land (U)(Trashman).jpg": {
+			"md5": "63cbb93eed90a662910f28aed9946f04"
+		},
+		"res/roms/thumbs/gba/2205 - The Sims 2 (U)(Trashman).jpg": {
+			"md5": "9883b3d2c9a01c987582467edc9bdff5"
+		},
+		"res/roms/thumbs/gba/2220 - Donkey Kong Country 3 (U)(Independent).jpg": {
+			"md5": "749f4264d27c4a0f3bf685a66c78d751"
+		},
+		"res/roms/thumbs/gba/2223 - Harry Potter and the Goblet of Fire (U)(Rising Sun).jpg": {
+			"md5": "684fa6a45ca7fcf988e2a0047b75cfdc"
+		},
+		"res/roms/thumbs/gba/2233 - King Kong (E)(Rising Sun).jpg": {
+			"md5": "674b92023bef60d981a2face8dc1e5b8"
+		},
+		"res/roms/thumbs/gba/2250 - Need for Speed Most Wanted (U)(Rising Sun).jpg": {
+			"md5": "44456686b334f108932909fcd5a6eb29"
+		},
+		"res/roms/thumbs/gba/2272 - Mario Tennis - Power Tour (U)(Independent).jpg": {
+			"md5": "577150a900744de7abcc0c1018b41764"
+		},
+		"res/roms/thumbs/gba/2275 - Final Fantasy IV Advance (U)(Independent).jpg": {
+			"md5": "5eda9246ab5fd7c1fe05ca2c1b4201db"
+		},
+		"res/roms/thumbs/gba/2302 - Yu-Gi-Oh! GX - Duel Academy (U)(Independent).jpg": {
+			"md5": "6589db32de0b9ee7e7f5d7111359e840"
+		},
+		"res/roms/thumbs/gba/2328 - Kong - King of Atlantis (E)(Independent).jpg": {
+			"md5": "520d27dcd5e95caf1149c983c3631320"
+		},
+		"res/roms/thumbs/gba/2334 - Naruto - Ninja Council (U)(Trashman).jpg": {
+			"md5": "e6822bea10f2904d95ae31fa8c69bf55"
+		},
+		"res/roms/thumbs/gba/2340 - Ice Age 2 - The Meltdown (U)(Rising Sun).jpg": {
+			"md5": "a58ec49397fd9f5aea74c371bb604fce"
+		},
+		"res/roms/thumbs/gba/2343 - Yu-Gi-Oh! Ultimate Masters 2006 (U)(Trashman).jpg": {
+			"md5": "79d96b5fc570713fc3a8b88041fc47aa"
+		},
+		"res/roms/thumbs/gba/2353 - Ice Age 2 - The Meltdown (E)(Rising Sun).jpg": {
+			"md5": "a58ec49397fd9f5aea74c371bb604fce"
+		},
+		"res/roms/thumbs/gba/2383 - FIFA World Cup 2006 (U)(Trashman).jpg": {
+			"md5": "67c72ecc24b4e46d78d1046d9d621f53"
+		},
+		"res/roms/thumbs/gba/2405 - X-Men - The Official Game (U)(Trashman).jpg": {
+			"md5": "08e9f8ee2420cfe86adb1220fce36619"
+		},
+		"res/roms/thumbs/gba/2426 - Dragon Ball - Advanced Adventure (U)(Ongaku).jpg": {
+			"md5": "e11b81770a29c53df338b021118790c4"
+		},
+		"res/roms/thumbs/gba/2436 - MegaMan Battle Network 6 - Cybeast Falzar (U)(Independent).jpg": {
+			"md5": "84fddfcdacdf28150450274dc134b202"
+		},
+		"res/roms/thumbs/gba/2479 - LEGO Star Wars II - The Original Trilogy (U)(Rising Sun).jpg": {
+			"md5": "8fb5e646ab3d106bf1fcfc3a18fa0a67"
+		},
+		"res/roms/thumbs/gba/2485 - Pokemon Mystery Dungeon - Red Rescue Team (U)(RDG).jpg": {
+			"md5": "882b5eed0ee24471f9d086d5f76696df"
+		},
+		"res/roms/thumbs/gba/2492 - FIFA Soccer 07 (U)(Rising Sun).jpg": {
+			"md5": "a8d20b5786f21b9f0a160ee2ce96bac4"
+		},
+		"res/roms/thumbs/gba/2554 - Marvel - Ultimate Alliance (U)(Rising Sun).jpg": {
+			"md5": "a85c47209b351d17bee800f2491c82b9"
+		},
+		"res/roms/thumbs/gba/2556 - Need for Speed Carbon - Own the City (U)(Rising Sun).jpg": {
+			"md5": "5e4c8c585209f23e3698e67f17ac9c08"
+		},
+		"res/roms/thumbs/gba/2564 - Final Fantasy V Advance (U)(Independent).jpg": {
+			"md5": "32f5d4073b0e8d298012300ad6591dad"
+		},
+		"res/roms/thumbs/gba/2585 - Spider-Man - Battle For New York (U)(Rising Sun).jpg": {
+			"md5": "d79cd310404d7dd6dc3a34d85e6c22c3"
+		},
+		"res/roms/thumbs/gba/2638 - The King Of Fighters EX - Neo Blood (U)(Sir VG).jpg": {
+			"md5": "2ec9f0c0092ffa1538f9475b8c1b16ca"
+		},
+		"res/roms/thumbs/gba/2689 - Final Fantasy VI Advance (U)(Xenophobia).jpg": {
+			"md5": "495fa699babae724879d01d719d9007a"
+		},
+		"res/roms/thumbs/gba/2732 - Spider-Man 3 (U)(OMGba).jpg": {
+			"md5": "49a6016a7be044e99bd36379b88555fe"
+		},
+		"res/roms/thumbs/gba/2762 - Harry Potter And The Order Of The Phoenix (U)(sUppLeX).jpg": {
+			"md5": "b0878a367025115e340d54501e158991"
+		},
+		"res/roms/thumbs/gba/2768 - Crash of the Titans (U)(OMGba).jpg": {
+			"md5": "56438a9902a67360226e13615c68794a"
+		},
+		"res/roms/thumbs/gba/2774 - Avatar - The Last Airbender - The Burning Earth (U)(Sir VG).jpg": {
+			"md5": "135673830e7f3be691b7088a9472409f"
+		},
+		"res/roms/thumbs/gba/Bomberman Tournament.jpg": {
+			"md5": "8b686aae6cf162755d5dceeb5e03ea51"
+		},
+		"res/roms/thumbs/gba/Earthworm Jim.jpg": {
+			"md5": "d9b2d6cee2454ea7b2591ffdc748af41"
+		},
+		"res/roms/thumbs/gba/Krazy Racers.jpg": {
+			"md5": "d41c8d82c356c09009ea03f7d7a4c9f5"
+		},
+		"res/roms/thumbs/gba/Pac-Man Collection.jpg": {
+			"md5": "b9d8bc450c99e7a59f5d661b3122f3a1"
+		},
+		"res/roms/thumbs/gba/Rayman Advance.jpg": {
+			"md5": "f3f38c5b44cc1b91849c754ded884bd6"
+		},
+		"res/roms/thumbs/gba/Super Mario Advance.jpg": {
+			"md5": "55199b48b9239f673edbb91772e89597"
+		},
+		"res/roms/thumbs/gba/Tony Hawk's Pro Skater 2.jpg": {
+			"md5": "3745b0ff0d1813c4f162367be87f0a01"
+		},
+		"res/roms/thumbs/mslug/mslug1.png": {
+			"md5": "cba5611458be49daed88dd21836c0cc4"
+		},
+		"res/roms/thumbs/mslug/mslug2.png": {
+			"md5": "92cfaf7a9ea02ae5fcba1382b1957ba8"
+		},
+		"res/roms/thumbs/mslug/mslug3.png": {
+			"md5": "0e86f7872107735f4853f792606ceb0b"
+		},
+		"res/roms/thumbs/mslug/mslug4.png": {
+			"md5": "81d4e7efde63307a4cf99865b06f15a8"
+		},
+		"res/roms/thumbs/mslug/mslug5.png": {
+			"md5": "c8b0f62e2e317c4b57a6f910a7935b9c"
+		},
+		"res/roms/thumbs/mslug/mslug6.png": {
+			"md5": "c818f109c5837919708232336aaca155"
+		},
+		"res/roms/thumbs/mslug/mslugx.png": {
+			"md5": "d60982c7ed3964f679462e62ead2f27d"
+		},
+		"res/roms/thumbs/n64/007_The_World_is_Not_Enough.jpg": {
+			"md5": "fb6645b21705f5a132f0e11ada959112"
+		},
+		"res/roms/thumbs/n64/1080_Snowboarding.jpg": {
+			"md5": "9bd1d854e1f9abee02efe4b8b92d2f40"
+		},
+		"res/roms/thumbs/n64/11.jpg": {
+			"md5": "6198ad60c732a0fbf0e104deb9677004"
+		},
+		"res/roms/thumbs/n64/12.jpg": {
+			"md5": "de3141ad4f6e09b28cd789bcc9dce6bf"
+		},
+		"res/roms/thumbs/n64/13.jpg": {
+			"md5": "de3141ad4f6e09b28cd789bcc9dce6bf"
+		},
+		"res/roms/thumbs/n64/14.jpg": {
+			"md5": "de3141ad4f6e09b28cd789bcc9dce6bf"
+		},
+		"res/roms/thumbs/n64/16.jpg": {
+			"md5": "ef1b1fc0062452ee8204614ffd187d8e"
+		},
+		"res/roms/thumbs/n64/17.jpg": {
+			"md5": "36476f36c4722f7a89ebcab7515c3328"
+		},
+		"res/roms/thumbs/n64/19.jpg": {
+			"md5": "c3dae2f4e682a7d017b90367569cbb61"
+		},
+		"res/roms/thumbs/n64/20.jpg": {
+			"md5": "3c7da344cf55b819ff553ab10fac9bc4"
+		},
+		"res/roms/thumbs/n64/21.jpg": {
+			"md5": "ebc84912adce411938e576c0425b7757"
+		},
+		"res/roms/thumbs/n64/22.jpg": {
+			"md5": "928fca10a584cc586d5cd01087e35bdc"
+		},
+		"res/roms/thumbs/n64/23.jpg": {
+			"md5": "dd993f3788728f2cb81157367bca6b79"
+		},
+		"res/roms/thumbs/n64/24.jpg": {
+			"md5": "80165e6726ac446393850f933782b13f"
+		},
+		"res/roms/thumbs/n64/25.jpg": {
+			"md5": "6d15c6e733eec5d78d1149db76d6eab6"
+		},
+		"res/roms/thumbs/n64/29.jpg": {
+			"md5": "309442a95c857d017de5fed2d627023a"
+		},
+		"res/roms/thumbs/n64/40_Winks.jpg": {
+			"md5": "493d67ac0bd4cad0c2095c5785d7565f"
+		},
+		"res/roms/thumbs/n64/64_de_Hakken_Tamagotchi_Minna_de_Tamagotchi_World.jpg": {
+			"md5": "ec46faed5f22fb0dfc49002082091ebc"
+		},
+		"res/roms/thumbs/n64/64_Hanafuda_Tenshi_no_Yakusoku.jpg": {
+			"md5": "4c6487053f65262e2bcb92ff6e537abd"
+		},
+		"res/roms/thumbs/n64/64_Oozumou.jpg": {
+			"md5": "1bf74071767c700860d0d85c70fcd264"
+		},
+		"res/roms/thumbs/n64/64_Oozumou_2.jpg": {
+			"md5": "f0d25565116de5bb0935c80cdc587a1f"
+		},
+		"res/roms/thumbs/n64/64_Trump_Collection_Alice_no_Wakuwaku_Trump_World.jpg": {
+			"md5": "a7c2f06a361b31ba264dde5343d042fb"
+		},
+		"res/roms/thumbs/n64/AeroFighters_Assault.jpg": {
+			"md5": "d99d2571845c23a8a6fbd0b14ff0eeda"
+		},
+		"res/roms/thumbs/n64/AeroGauge.jpg": {
+			"md5": "3c8348bc34fc39ea5fdd7cd2f0fb0162"
+		},
+		"res/roms/thumbs/n64/Aidyn_Chronicles_The_First_Mage.jpg": {
+			"md5": "f8e57552c84c2f5253bbbff4190502b1"
+		},
+		"res/roms/thumbs/n64/Airboarder_64.jpg": {
+			"md5": "b618fc70a4479dc6fcc0b4c1989101db"
+		},
+		"res/roms/thumbs/n64/AI_Shougi_3.jpg": {
+			"md5": "3ee9c9eff99a62524142ebef2eb0a4dd"
+		},
+		"res/roms/thumbs/n64/All_Star_Baseball_2000.jpg": {
+			"md5": "418243dde4f351766a1b04b1bb2c6ee4"
+		},
+		"res/roms/thumbs/n64/All_Star_Baseball_2001.jpg": {
+			"md5": "535781dce43a33ef091910014880963d"
+		},
+		"res/roms/thumbs/n64/All_Star_Baseball_99.jpg": {
+			"md5": "6607ade86b560fb4221dab3fcc555621"
+		},
+		"res/roms/thumbs/n64/All_Star_Tennis_99.jpg": {
+			"md5": "b6e3143ef0d630009ddc372b7532abfe"
+		},
+		"res/roms/thumbs/n64/Armorines_Project_SWARM.jpg": {
+			"md5": "e69f75d009fad0a1af2f52c482d66748"
+		},
+		"res/roms/thumbs/n64/Army_Men_Air_Combat.jpg": {
+			"md5": "a207bc535020b1b7775ecbe50380563c"
+		},
+		"res/roms/thumbs/n64/Army_Men_Sarges_Heroes.jpg": {
+			"md5": "292df64374870aeed49b65a5ce1b6027"
+		},
+		"res/roms/thumbs/n64/Army_Men_Sarges_Heroes_2.jpg": {
+			"md5": "55ff0ffc7f28ab26dfa6bfda9d566de0"
+		},
+		"res/roms/thumbs/n64/Asteroids_Hyper_64.jpg": {
+			"md5": "dc69c8c7e9e93650d7bb9d5d52db1c70"
+		},
+		"res/roms/thumbs/n64/Automobili_Lamborghini.jpg": {
+			"md5": "410dd1ba3a48f10700a88e55cca5aa04"
+		},
+		"res/roms/thumbs/n64/Bakuretsu_Muteki_Bangai_O.jpg": {
+			"md5": "564048b9a3bdf71aea16f2de3db97aec"
+		},
+		"res/roms/thumbs/n64/Bakushou_Jinsei_64_Mezase_Resort_Ou.jpg": {
+			"md5": "7e2f532630805ee0e24cc2e899d6e7af"
+		},
+		"res/roms/thumbs/n64/Baku_Bomberman.jpg": {
+			"md5": "31aa68e3d8f9f471c5a0f9255e68bcc5"
+		},
+		"res/roms/thumbs/n64/Banjo_Kazooie.jpg": {
+			"md5": "6f95b721e39ff5dd8f17c41634251fb4"
+		},
+		"res/roms/thumbs/n64/Banjo_Tooie.jpg": {
+			"md5": "7cfcd8f63d396e8fe55f4dfacf96fdd9"
+		},
+		"res/roms/thumbs/n64/Bassmasters_2000.jpg": {
+			"md5": "4636c8b54744eb0f33ad247263a6a0b9"
+		},
+		"res/roms/thumbs/n64/Bass_Hunter_64.jpg": {
+			"md5": "58fcd31eabbc4bab959bd7f7c599cc44"
+		},
+		"res/roms/thumbs/n64/Bass_Rush_ECOGEAR_PowerWorm_Championship.jpg": {
+			"md5": "f60a03503c4d7844f19922bcc9f4c7bb"
+		},
+		"res/roms/thumbs/n64/Batman_Beyond_Return_of_the_Joker.jpg": {
+			"md5": "1f6e12ebb8380d91f8180e4971f2c848"
+		},
+		"res/roms/thumbs/n64/Batman_of_the_Future_Return_of_the_Joker.jpg": {
+			"md5": "968b3f85c1faad64df6ccd82787f371c"
+		},
+		"res/roms/thumbs/n64/BattleTanx.jpg": {
+			"md5": "0c3a4d3125e622a0d88df6a5169567e3"
+		},
+		"res/roms/thumbs/n64/BattleTanx_Global_Assault.jpg": {
+			"md5": "18c8c0141cbfde8f1e40c5c24cc24a1e"
+		},
+		"res/roms/thumbs/n64/Battlezone_Rise_of_the_Black_Dogs.jpg": {
+			"md5": "e7f588c2db39c42a6944e011bd041743"
+		},
+		"res/roms/thumbs/n64/Beetle_Adventure_Racing.jpg": {
+			"md5": "4a6f9878735c1040703b2f275727327e"
+		},
+		"res/roms/thumbs/n64/Big_Mountain_2000.jpg": {
+			"md5": "1d9d52e87e70760599e794ab74cb757e"
+		},
+		"res/roms/thumbs/n64/Bio_FREAKS.jpg": {
+			"md5": "62f9c329a78495b64d6476a5ae12b755"
+		},
+		"res/roms/thumbs/n64/Blast_Corps.jpg": {
+			"md5": "bab51d8e82b2007db6af13ad103bc38f"
+		},
+		"res/roms/thumbs/n64/Blues_Brothers_2000.jpg": {
+			"md5": "daf17273900e0332a575ea0128bdd570"
+		},
+		"res/roms/thumbs/n64/Body_Harvest.jpg": {
+			"md5": "1588e6f06563f18440cdb06fa7cf7971"
+		},
+		"res/roms/thumbs/n64/Bomberman_64.jpg": {
+			"md5": "9c0002564cd9e5a1a4527aa22f22f1da"
+		},
+		"res/roms/thumbs/n64/Bomberman_64_Arcade_Edition.jpg": {
+			"md5": "43ff1f9f37e5a74a37c8743e36aad51d"
+		},
+		"res/roms/thumbs/n64/Bomberman_64_The_Second_Attack.jpg": {
+			"md5": "987a2be4c3ed3f425baabec980a26f12"
+		},
+		"res/roms/thumbs/n64/Bomberman_Hero.jpg": {
+			"md5": "ae8bbbf7e09d1875169455504479b201"
+		},
+		"res/roms/thumbs/n64/Bomberman_Hero_Mirian_Oujo_wo_Sukue.jpg": {
+			"md5": "a88965627bde4e411da6d8b320dafeb1"
+		},
+		"res/roms/thumbs/n64/Bottom_of_the_9th.jpg": {
+			"md5": "8e15c1bfbfb0a7148cf364bbc32a50c0"
+		},
+		"res/roms/thumbs/n64/Brunswick_Circuit_Pro_Bowling.jpg": {
+			"md5": "aaf40051777513cf0cd7bf55ade55cb7"
+		},
+		"res/roms/thumbs/n64/Buck_Bumble.jpg": {
+			"md5": "cd3df82db69f6942470d976e9c44bb50"
+		},
+		"res/roms/thumbs/n64/Bugs_Life_A.jpg": {
+			"md5": "3a057fd39cd3b88ff6283957b7af4630"
+		},
+		"res/roms/thumbs/n64/Bust_A_Move_2_Arcade_Edition.jpg": {
+			"md5": "172407d15e075ae531ceb11403ba76dd"
+		},
+		"res/roms/thumbs/n64/Bust_A_Move_3_DX.jpg": {
+			"md5": "d13a53bd0777361654f909b7852271c8"
+		},
+		"res/roms/thumbs/n64/Bust_A_Move_99.jpg": {
+			"md5": "ae1c8bf28c75442b2300153adbc6e28d"
+		},
+		"res/roms/thumbs/n64/California_Speed.jpg": {
+			"md5": "c04760129c9b8688f9b0edd1a1fd3004"
+		},
+		"res/roms/thumbs/n64/Carmageddon_64.jpg": {
+			"md5": "b423f143f33bde607707f8487ec0ce13"
+		},
+		"res/roms/thumbs/n64/Castlevania.jpg": {
+			"md5": "6b4ce752ae4aa0a5264476b0f5a44f6a"
+		},
+		"res/roms/thumbs/n64/Castlevania_Legacy_of_Darkness.jpg": {
+			"md5": "2d076312483c24bbd0141b5a23c39c8a"
+		},
+		"res/roms/thumbs/n64/Centre_Court_Tennis.jpg": {
+			"md5": "e25dcba520987d70409908a038f822c6"
+		},
+		"res/roms/thumbs/n64/Chameleon_Twist.jpg": {
+			"md5": "88c40763af4150163af9f7545aa589af"
+		},
+		"res/roms/thumbs/n64/Chameleon_Twist_2.jpg": {
+			"md5": "40fb0ba6325f200f73fb1ec34159732a"
+		},
+		"res/roms/thumbs/n64/Charlie_Blasts_Territory.jpg": {
+			"md5": "c2ac73c417803483c38d98941abbce73"
+		},
+		"res/roms/thumbs/n64/Chopper_Attack.jpg": {
+			"md5": "0d48717c525bbed567cdfb8bff687180"
+		},
+		"res/roms/thumbs/n64/Choro_Q_64_II_Hacha_Mecha_Grand_Prix_Race.jpg": {
+			"md5": "e6a36d661b9da80b78cb312371511fac"
+		},
+		"res/roms/thumbs/n64/Chou_Kuukan_Night_Pro_Yakyuu_King.jpg": {
+			"md5": "df9b5eacff5557e9ec2bb9be7c36ad5f"
+		},
+		"res/roms/thumbs/n64/Chou_Kuukan_Night_Pro_Yakyuu_King_2.jpg": {
+			"md5": "2ec7c7f926766f2619cad948d780ce2c"
+		},
+		"res/roms/thumbs/n64/Chou_Snobow_Kids.jpg": {
+			"md5": "ae0dd0af538e8011a19e09795010cb38"
+		},
+		"res/roms/thumbs/n64/City_Tour_GP_Zennihon_GT_Senshuken.jpg": {
+			"md5": "6ab11f5d77633b8478d7686af0d6f372"
+		},
+		"res/roms/thumbs/n64/Clay_Fighter_63_1_3.jpg": {
+			"md5": "929671e509ea5102757a39a2411b5fa2"
+		},
+		"res/roms/thumbs/n64/Clay_Fighter_Sculptors_Cut.jpg": {
+			"md5": "deab98590eff8a4aedf25acb9dbd76a0"
+		},
+		"res/roms/thumbs/n64/Command_Conquer.jpg": {
+			"md5": "403af1f514c5f14dee1d77a68ab1a5aa"
+		},
+		"res/roms/thumbs/n64/Conkers_Bad_Fur_Day.jpg": {
+			"md5": "3b280fc3c6740f00cd982cbf4cd8cf2b"
+		},
+		"res/roms/thumbs/n64/Cruisn_Exotica.jpg": {
+			"md5": "92f38858559bc4a6cd39444dd665acaa"
+		},
+		"res/roms/thumbs/n64/Cruisn_USA.jpg": {
+			"md5": "4f97d36f9f2ba562be7fb5e34b637c61"
+		},
+		"res/roms/thumbs/n64/Cruisn_World.jpg": {
+			"md5": "8f83a1ed30b730cee42ff4d77024e34c"
+		},
+		"res/roms/thumbs/n64/Custom_Robo.jpg": {
+			"md5": "eb891316353a6fa074d7a598686a733e"
+		},
+		"res/roms/thumbs/n64/Custom_Robo_V2.jpg": {
+			"md5": "b403461c64e3476213f6c44f0b707238"
+		},
+		"res/roms/thumbs/n64/CyberTiger.jpg": {
+			"md5": "d975971626d8d8b85793a68805dce667"
+		},
+		"res/roms/thumbs/n64/Dance_Dance_Revolution_Disney_Dancing_Museum.jpg": {
+			"md5": "ca21ebe37354c5dfe08ce1bc9b2a033e"
+		},
+		"res/roms/thumbs/n64/Dark_Rift.jpg": {
+			"md5": "7c56382e83fb9012bb623f2ab4831471"
+		},
+		"res/roms/thumbs/n64/Deadly_Arts.jpg": {
+			"md5": "d9811ff5abcd3a638e2cc4ad4d5372c0"
+		},
+		"res/roms/thumbs/n64/Defi_au_Tetris_Magique.jpg": {
+			"md5": "17bd90321f9d879acb3c6088d573656f"
+		},
+		"res/roms/thumbs/n64/Densha_de_Go_64.jpg": {
+			"md5": "051347d822810881905dc450b665f916"
+		},
+		"res/roms/thumbs/n64/Derby_Stallion_64.jpg": {
+			"md5": "2d585dcc5f251329adee8b8dc31cfa98"
+		},
+		"res/roms/thumbs/n64/Destruction_Derby_64.jpg": {
+			"md5": "fe9b40028c342e3c68a4f74073a8e591"
+		},
+		"res/roms/thumbs/n64/Dezaemon_3D.jpg": {
+			"md5": "46e9232598cd19b8dbb3bff80072c40a"
+		},
+		"res/roms/thumbs/n64/Diddy_Kong_Racing.jpg": {
+			"md5": "66f0b712294f25878ee1f6e20cd8457d"
+		},
+		"res/roms/thumbs/n64/Disneys_Donald_Duck_Goin_Quackers.jpg": {
+			"md5": "25d471d586aca5a12dfd6c92496fbead"
+		},
+		"res/roms/thumbs/n64/Disneys_Tarzan.jpg": {
+			"md5": "fdda26f48c448226b810676e678f59af"
+		},
+		"res/roms/thumbs/n64/Donald_Duck_Quack_Attack.jpg": {
+			"md5": "67673b9e79e9665d20294265fb233257"
+		},
+		"res/roms/thumbs/n64/Donkey_Kong_64.jpg": {
+			"md5": "d9ab388337e5a8d3e33c31b311cd3da3"
+		},
+		"res/roms/thumbs/n64/Doom_64.jpg": {
+			"md5": "bf3df69a3867d1a2b3371c214f014d32"
+		},
+		"res/roms/thumbs/n64/Doraemon_2_Nobita_to_Hikari_no_Shinden.jpg": {
+			"md5": "1414968b40a13366d35fc6a4c72011bb"
+		},
+		"res/roms/thumbs/n64/Doraemon_3_Nobita_no_Machi_SOS.jpg": {
+			"md5": "200f96d610ba4dcd4693fafcbe95f2b7"
+		},
+		"res/roms/thumbs/n64/Doraemon_Nobita_to_3tsu_no_Seireiseki.jpg": {
+			"md5": "0c678a0f3c58b98f39f1fd6d011711f5"
+		},
+		"res/roms/thumbs/n64/Doubutsu_no_Mori.jpg": {
+			"md5": "e1f38dc3ac89d4e73debd5e5273be4e4"
+		},
+		"res/roms/thumbs/n64/Dragon_Sword_64.jpg": {
+			"md5": "f995740a236b38e818e354d8cf212e86"
+		},
+		"res/roms/thumbs/n64/Dr_Mario_64.jpg": {
+			"md5": "83a9d5dcca8562f4d5fddc74035d1dee"
+		},
+		"res/roms/thumbs/n64/Dual_Heroes.jpg": {
+			"md5": "a0efd26a2cacff3d25a5b289ee5161e6"
+		},
+		"res/roms/thumbs/n64/Duck_Dodgers_Starring_Daffy_Duck.jpg": {
+			"md5": "b08e875f87c7a9ee1b9fd2305505aeb1"
+		},
+		"res/roms/thumbs/n64/Duke_Nukem_64.jpg": {
+			"md5": "0a45e029f425670a9cd4414acc158d95"
+		},
+		"res/roms/thumbs/n64/Duke_Nukem_ZER0_H0UR.jpg": {
+			"md5": "413fdf9867137e27a68020af42db000f"
+		},
+		"res/roms/thumbs/n64/Earthworm_Jim_3D.jpg": {
+			"md5": "031d2c638994d7da1f246d5af4d8806e"
+		},
+		"res/roms/thumbs/n64/ECW_Hardcore_Revolution.jpg": {
+			"md5": "dcd97b48f4980f579373913a1c8e420f"
+		},
+		"res/roms/thumbs/n64/Eikou_no_Saint_Andrews.jpg": {
+			"md5": "bda288ba39c839caa92df7a55a7bad8f"
+		},
+		"res/roms/thumbs/n64/Elmos_Letter_Adventure.jpg": {
+			"md5": "f291ad090b3c5d4b8f5200bc8908485b"
+		},
+		"res/roms/thumbs/n64/Elmos_Number_Journey.jpg": {
+			"md5": "af163c9dd4e2956b08f1cff1c785c548"
+		},
+		"res/roms/thumbs/n64/Excitebike_64.jpg": {
+			"md5": "e17d144cb65ff6939f9635eb8b8a62a9"
+		},
+		"res/roms/thumbs/n64/Extreme_G.jpg": {
+			"md5": "352a8465f936dad095c62e7344f8c541"
+		},
+		"res/roms/thumbs/n64/Extreme_G_XG2.jpg": {
+			"md5": "fe2bd5f2de9f3ec93804acf71cde8fd7"
+		},
+		"res/roms/thumbs/n64/F1_Racing_Championship.jpg": {
+			"md5": "7622f76f00441e9afde024237d88d2b0"
+		},
+		"res/roms/thumbs/n64/Famista_64.jpg": {
+			"md5": "7b230509737b1811a185124e9981e053"
+		},
+		"res/roms/thumbs/n64/FIFA_99.jpg": {
+			"md5": "27f0eacd0546bdeff4ffbd4c17088792"
+		},
+		"res/roms/thumbs/n64/FIFA_Road_to_World_Cup_98.jpg": {
+			"md5": "d0af02d82f45ded16cf950e7ff2459b0"
+		},
+		"res/roms/thumbs/n64/FIFA_Road_to_World_Cup_98_World_Cup_heno_Michi.jpg": {
+			"md5": "0c87e332e25ada7be152113223bd9902"
+		},
+		"res/roms/thumbs/n64/FIFA_Soccer_64.jpg": {
+			"md5": "442927c4f238227e80bd5d6d9c98575e"
+		},
+		"res/roms/thumbs/n64/Fighters_Destiny.jpg": {
+			"md5": "bdcfedee338854e9c89cd16a8c821703"
+		},
+		"res/roms/thumbs/n64/Fighter_Destiny_2.jpg": {
+			"md5": "80dd9d207d2172cafb7ed59f174f51f5"
+		},
+		"res/roms/thumbs/n64/Fighting_Cup.jpg": {
+			"md5": "473a989b5b8bb48dda33def611891d9c"
+		},
+		"res/roms/thumbs/n64/Fighting_Force_64.jpg": {
+			"md5": "c75c28466b530d14af17326d5725a744"
+		},
+		"res/roms/thumbs/n64/Flying_Dragon.jpg": {
+			"md5": "656994983486c747d4f3a12bae75b093"
+		},
+		"res/roms/thumbs/n64/Forsaken_64.jpg": {
+			"md5": "019a8a0da8fd45df17661342375f5a91"
+		},
+		"res/roms/thumbs/n64/Fox_Sports_College_Hoops_99.jpg": {
+			"md5": "26e27a67d0babf912447da7f013b9f06"
+		},
+		"res/roms/thumbs/n64/Frogger_2.jpg": {
+			"md5": "79a21fa4096d9527540c5413b2791ab8"
+		},
+		"res/roms/thumbs/n64/Fushigi_no_Dungeon_Fuurai_no_Shiren_2_Oni_Shuurai_Shiren_Jou.jpg": {
+			"md5": "bac6bf658cfad42243f94655b675aa0b"
+		},
+		"res/roms/thumbs/n64/F_1_Pole_Position_64.jpg": {
+			"md5": "f44749169d215ab6ba2c1ffafb3c1a34"
+		},
+		"res/roms/thumbs/n64/F_1_World_Grand_Prix.jpg": {
+			"md5": "4dec3b66110e7d9dd1f4f3009de8681a"
+		},
+		"res/roms/thumbs/n64/F_1_World_Grand_Prix_II.jpg": {
+			"md5": "f28818ecefda3732573eedd0c4d23fd4"
+		},
+		"res/roms/thumbs/n64/F_ZERO_X.jpg": {
+			"md5": "fa0672d28eaea43c10b9017b37256c45"
+		},
+		"res/roms/thumbs/n64/Ganbare_Goemon_Mononoke_Sugoroku.jpg": {
+			"md5": "b94c0f1e6ed1113bfa6f5c63a66a818c"
+		},
+		"res/roms/thumbs/n64/GASP_Fighters_NEXTream.jpg": {
+			"md5": "b4d0add9768cb84e990baf8019dfa2c8"
+		},
+		"res/roms/thumbs/n64/Gauntlet_Legends.jpg": {
+			"md5": "36ce4cdaf13afb6c0a4595cec70e45ae"
+		},
+		"res/roms/thumbs/n64/Getter_Love.jpg": {
+			"md5": "5e5145012a6769752bf94d6127deb339"
+		},
+		"res/roms/thumbs/n64/Gex_3_Deep_Cover_Gecko.jpg": {
+			"md5": "57d56f59295fccdae3eea758d33637d5"
+		},
+		"res/roms/thumbs/n64/Gex_64_Enter_the_Gecko.jpg": {
+			"md5": "a1cee5182559a2387e1c07ca4a8b16e7"
+		},
+		"res/roms/thumbs/n64/Glover.jpg": {
+			"md5": "d5acb1a1afb08bc21895a5b165dccfe6"
+		},
+		"res/roms/thumbs/n64/Glover_2.jpg": {
+			"md5": "92881ee12a4bcad1da6912134b24be79"
+		},
+		"res/roms/thumbs/n64/Glover_2_Unreleased_Beta_Version.jpg": {
+			"md5": "92881ee12a4bcad1da6912134b24be79"
+		},
+		"res/roms/thumbs/n64/Goemons_Great_Adventure.jpg": {
+			"md5": "362ce45e2725f020764176d125d841c6"
+		},
+		"res/roms/thumbs/n64/GoldenEye_007.jpg": {
+			"md5": "2ab754f79929957010ed562a8b725a2c"
+		},
+		"res/roms/thumbs/n64/Golden_Nugget_64.jpg": {
+			"md5": "e379304a61ac14478dedd9925fc7f1ef"
+		},
+		"res/roms/thumbs/n64/GT_64_Championship_Edition.jpg": {
+			"md5": "98da20a642f81196a82d2ee4bfbe49d2"
+		},
+		"res/roms/thumbs/n64/Hamster_Monogatari_64.jpg": {
+			"md5": "be95f918c7f49f2bda7040c8ee836bd3"
+		},
+		"res/roms/thumbs/n64/Harukanaru_Augusta_Masters_98.jpg": {
+			"md5": "8b5c0a9b8c37ba273cfaca0a9d8cad63"
+		},
+		"res/roms/thumbs/n64/Harvest_Moon_64.jpg": {
+			"md5": "301e91ccc51796cd9f235ecf99c5ebcc"
+		},
+		"res/roms/thumbs/n64/Heiwa_Pachinko_World_64.jpg": {
+			"md5": "0c415768ff427a0894b6c9875186c2c0"
+		},
+		"res/roms/thumbs/n64/Hercules_The_Legendary_Journeys.jpg": {
+			"md5": "856d2cf98120f23c69c5b1b7a219dd74"
+		},
+		"res/roms/thumbs/n64/Hexen.jpg": {
+			"md5": "ae6c7d9a8186d1819b4eba865e101376"
+		},
+		"res/roms/thumbs/n64/Hey_You_Pikachu.jpg": {
+			"md5": "135533faf66df2a04746601734509694"
+		},
+		"res/roms/thumbs/n64/Hiryuu_no_Ken_Twin.jpg": {
+			"md5": "15ef04fe9aa1ac5186b5e9618811354d"
+		},
+		"res/roms/thumbs/n64/Holy_Magic_Century.jpg": {
+			"md5": "64467f1a2e2c20aaa89d9ab46e5be152"
+		},
+		"res/roms/thumbs/n64/Hot_Wheels_Turbo_Racing.jpg": {
+			"md5": "6db236f1e7ca45a18863b004e21dc729"
+		},
+		"res/roms/thumbs/n64/HSV_Adventure_Racing.jpg": {
+			"md5": "def2f3a68cec7608a28c7150229dcf87"
+		},
+		"res/roms/thumbs/n64/Hybrid_Heaven.jpg": {
+			"md5": "6880e6acb3af42c28bf47b096ee330ae"
+		},
+		"res/roms/thumbs/n64/Hydro_Thunder.jpg": {
+			"md5": "c068deb8702a16b3cb9425c7e17bba89"
+		},
+		"res/roms/thumbs/n64/Hyper_Olympics_in_Nagano_64.jpg": {
+			"md5": "535ce12ccc513d373a1a51cef25c984f"
+		},
+		"res/roms/thumbs/n64/Ide_Yosuke_no_Mahjong_Juku.jpg": {
+			"md5": "31118e4c58a344d60d28db4e04b0c49a"
+		},
+		"res/roms/thumbs/n64/Iggys_Reckin_Balls.jpg": {
+			"md5": "56e22aeda792a16bc279810a943d472a"
+		},
+		"res/roms/thumbs/n64/Iggy_kun_no_Bura_Bura_Poyon.jpg": {
+			"md5": "ca106e6dd53c27f34f3b0a485a41027a"
+		},
+		"res/roms/thumbs/n64/Indiana_Jones_and_the_Infernal_Machine.jpg": {
+			"md5": "e45811b82fdfc35068fd6b1a9007b63a"
+		},
+		"res/roms/thumbs/n64/Indy_Racing_2000.jpg": {
+			"md5": "49b5a4907b024ca8fed99ccaffe57400"
+		},
+		"res/roms/thumbs/n64/International_Superstar_Soccer_2000.jpg": {
+			"md5": "ecc1154378acdc977e5b00aaff8ea11f"
+		},
+		"res/roms/thumbs/n64/International_Superstar_Soccer_64.jpg": {
+			"md5": "1c948658dd7c5ee0e011419d6fa53353"
+		},
+		"res/roms/thumbs/n64/International_Superstar_Soccer_98.jpg": {
+			"md5": "65f0b1e92a4cfc3ec3205fa1ef712acb"
+		},
+		"res/roms/thumbs/n64/International_Track_Field_2000.jpg": {
+			"md5": "73f9da3e3e3deb61c567af5611ff20ff"
+		},
+		"res/roms/thumbs/n64/International_Track_Field_Summer_Games.jpg": {
+			"md5": "a64495bf1477dd760c27e58279322420"
+		},
+		"res/roms/thumbs/n64/In_Fisherman_Bass_Hunter_64.jpg": {
+			"md5": "75c257b32835c75fd38430dc37130ae1"
+		},
+		"res/roms/thumbs/n64/Itoi_Shigesato_no_Bass_Tsuri_No_1_Kettei_Ban.jpg": {
+			"md5": "d0dda86bfcc00b33502b788da6f03822"
+		},
+		"res/roms/thumbs/n64/Jangou_Simulation_Mahjong_Do_64.jpg": {
+			"md5": "b0d57477957ce13aca71097b691d6031"
+		},
+		"res/roms/thumbs/n64/Jeopardy.jpg": {
+			"md5": "b2206aff6883eaf43508ff8d130f80e1"
+		},
+		"res/roms/thumbs/n64/Jeremy_McGrath_Supercross_2000.jpg": {
+			"md5": "1150432e66c8dec2b378604218e893b0"
+		},
+		"res/roms/thumbs/n64/Jet_Force_Gemini.jpg": {
+			"md5": "2bd2ee43c0ed6e2b6e68fc188f3e199e"
+		},
+		"res/roms/thumbs/n64/Jikkyou_G1_Stable.jpg": {
+			"md5": "f48643aff75fc934f74e6f7efeb06a2a"
+		},
+		"res/roms/thumbs/n64/Jikkyou_JLeague_1999_Perfect_Striker_2.jpg": {
+			"md5": "29b1198fc7e54da9cb00d919287c8e53"
+		},
+		"res/roms/thumbs/n64/Jikkyou_JLeague_Perfect_Striker.jpg": {
+			"md5": "490d0e6d498e6067bec0fb5aeb471ddd"
+		},
+		"res/roms/thumbs/n64/Jikkyou_Powerful_Pro_Yakyuu_2000.jpg": {
+			"md5": "526333b64a540b490171af22407b75b6"
+		},
+		"res/roms/thumbs/n64/Jikkyou_Powerful_Pro_Yakyuu_4.jpg": {
+			"md5": "900aaa432a6ed996430eda5f30026230"
+		},
+		"res/roms/thumbs/n64/Jikkyou_Powerful_Pro_Yakyuu_5.jpg": {
+			"md5": "18aaa0d9d6ebf0e3a542b29a2e864ddf"
+		},
+		"res/roms/thumbs/n64/Jikkyou_Powerful_Pro_Yakyuu_Basic_Ban_2001.jpg": {
+			"md5": "a4da8c300b7bd83aee19a0f98919a61d"
+		},
+		"res/roms/thumbs/n64/Jikkyou_Powerful_Pro_Yakyuu_Basic_Han_2001.jpg": {
+			"md5": "e1c1a9c7848604fab2ee84db055f819d"
+		},
+		"res/roms/thumbs/n64/Jikkyou_World_Soccer_3.jpg": {
+			"md5": "b9cbf41852860fb4a90eecf20200ba46"
+		},
+		"res/roms/thumbs/n64/Jikkyou_World_Soccer_World_Cup_France_98.jpg": {
+			"md5": "f7089e7474ce9cdf77f40575299f40e5"
+		},
+		"res/roms/thumbs/n64/Jinsei_Game_64.jpg": {
+			"md5": "7619b00bfe155915ae110765cab621a1"
+		},
+		"res/roms/thumbs/n64/JLeague_Dynamite_Soccer_64.jpg": {
+			"md5": "e69fbe1623e24aad1c1dc94b4ce25efa"
+		},
+		"res/roms/thumbs/n64/JLeague_Eleven_Beat_1997.jpg": {
+			"md5": "789c942610cf6c4f84cd9c25167767d9"
+		},
+		"res/roms/thumbs/n64/JLeague_Live_64.jpg": {
+			"md5": "1393db5f57903f1705a08c62de3bfa1f"
+		},
+		"res/roms/thumbs/n64/JLeague_Tactics_Soccer.jpg": {
+			"md5": "e6800fc7157ace6380d72c3d5526a378"
+		},
+		"res/roms/thumbs/n64/John_Romeros_Daikatana.jpg": {
+			"md5": "e9e2281268a6f88597c1781b7b34494e"
+		},
+		"res/roms/thumbs/n64/Ken_Griffey_Jrs_Slugfest.jpg": {
+			"md5": "1f5190411764265b2d6d2ffab1f9856a"
+		},
+		"res/roms/thumbs/n64/Killer_Instinct_Gold.jpg": {
+			"md5": "22f1e1cfc3af1028321f1991d56ff4f4"
+		},
+		"res/roms/thumbs/n64/King_Hill_64_Extreme_Snowboarding.jpg": {
+			"md5": "928327f4eb2d913aa351a69452bab6a0"
+		},
+		"res/roms/thumbs/n64/Kira_to_Kaiketsu_64_Tanteidan.jpg": {
+			"md5": "28bcfa2c65d0787c8661af4756c33e7f"
+		},
+		"res/roms/thumbs/n64/Kirby_64_The_Crystal_Shards.jpg": {
+			"md5": "8f0ea76ec90dd2f786f75b02d35a61b5"
+		},
+		"res/roms/thumbs/n64/Knife_Edge_Nose_Gunner.jpg": {
+			"md5": "d4e9b1d1a689324054cc34e13d9b4250"
+		},
+		"res/roms/thumbs/n64/Knockout_Kings_2000.jpg": {
+			"md5": "d6e6204b8df9c208d89645578b55debe"
+		},
+		"res/roms/thumbs/n64/Kobe_Bryants_NBA_Courtside.jpg": {
+			"md5": "d806d0b49609aa6d24b6074b7bd46278"
+		},
+		"res/roms/thumbs/n64/Kobe_Bryant_in_NBA_Courtside.jpg": {
+			"md5": "684d0b08305a79f387a585b055d8fe1f"
+		},
+		"res/roms/thumbs/n64/Last_Legion_UX.jpg": {
+			"md5": "8de4a51019b12f7d16a8228fa635c226"
+		},
+		"res/roms/thumbs/n64/Legend_of_Zelda_Majoras_mask_debug.jpg": {
+			"md5": "7394440b147547179d5e74e171a47c42"
+		},
+		"res/roms/thumbs/n64/Legend_of_Zelda_The_Majoras_Mask.jpg": {
+			"md5": "7394440b147547179d5e74e171a47c42"
+		},
+		"res/roms/thumbs/n64/Legend_of_Zelda_The_Majoras_Mask_Collectors_Edition.jpg": {
+			"md5": "bb65e97436289c05f709932a8dbd22f4"
+		},
+		"res/roms/thumbs/n64/Legend_of_Zelda_The_Majoras_Mask_Preview_Demo.jpg": {
+			"md5": "bb65e97436289c05f709932a8dbd22f4"
+		},
+		"res/roms/thumbs/n64/Legend_of_Zelda_The_Ocarina_of_Time.jpg": {
+			"md5": "9ea46a4ec564c64c011e54aa40b98cce"
+		},
+		"res/roms/thumbs/n64/Legend_of_Zelda_The_Ocarina_of_Time_Master_Quest.jpg": {
+			"md5": "a2bf7e29a3dc1806dbda6e01db5dc068"
+		},
+		"res/roms/thumbs/n64/LEGO_Racers.jpg": {
+			"md5": "42daa4c60962c584ec0895b996809bef"
+		},
+		"res/roms/thumbs/n64/Les_Razmoket_La_Chasse_Aux_Tresors.jpg": {
+			"md5": "37823b363cb2da03b89636e614d0bde5"
+		},
+		"res/roms/thumbs/n64/Lode_Runner_3_D.jpg": {
+			"md5": "45e7ca0e4407ad81ada5545838fed906"
+		},
+		"res/roms/thumbs/n64/Looney_Tunes_Duck_Dodgers.jpg": {
+			"md5": "6d30312f098bc1d9af541c3fd75e7aba"
+		},
+		"res/roms/thumbs/n64/Lt_Duck_Dodgers.jpg": {
+			"md5": "25527c86374fe7a333ec45d6e5497f53"
+		},
+		"res/roms/thumbs/n64/Lylat_Wars.jpg": {
+			"md5": "5c4ff161b132caef50ad1b65e1428203"
+		},
+		"res/roms/thumbs/n64/Mace_The_Dark_Age.jpg": {
+			"md5": "57d8f3e4848ae85316bf9f4f8f32cf6b"
+		},
+		"res/roms/thumbs/n64/Madden_Football_64.jpg": {
+			"md5": "80a6641b0d45a84539746a32ee808c9f"
+		},
+		"res/roms/thumbs/n64/Madden_NFL_2000.jpg": {
+			"md5": "dfe55c303b33429461df0955a29665df"
+		},
+		"res/roms/thumbs/n64/Madden_NFL_2001.jpg": {
+			"md5": "12a18ecad92e5372da696ffd561368de"
+		},
+		"res/roms/thumbs/n64/Madden_NFL_2002.jpg": {
+			"md5": "9009b949fcc8b24e9df4d8fe868a5c75"
+		},
+		"res/roms/thumbs/n64/Madden_NFL_99.jpg": {
+			"md5": "276025222f20dc64c5c89eafff89ea7f"
+		},
+		"res/roms/thumbs/n64/Magical_Tetris_Challenge.jpg": {
+			"md5": "ae1921577f85dc8f0c4cb0a3c98b6dd1"
+		},
+		"res/roms/thumbs/n64/Mahjong_64.jpg": {
+			"md5": "44da975dfee4d26eb8f3c808465dbf51"
+		},
+		"res/roms/thumbs/n64/Mahjong_Hourouki_Classic.jpg": {
+			"md5": "72110abd697a43318a7aafdfb98bcfdf"
+		},
+		"res/roms/thumbs/n64/Mahjong_Master.jpg": {
+			"md5": "8b53c07eeaa75512ab9db93a49f1205c"
+		},
+		"res/roms/thumbs/n64/Major_League_Baseball_Featuring_Ken_Griffey_Jr.jpg": {
+			"md5": "753cca0211bf04692bbdd5a9bfb7c7da"
+		},
+		"res/roms/thumbs/n64/Mario_Golf.jpg": {
+			"md5": "b4acfcdd4085ddde7a12faeb3b187c59"
+		},
+		"res/roms/thumbs/n64/Mario_Golf_64.jpg": {
+			"md5": "b4acfcdd4085ddde7a12faeb3b187c59"
+		},
+		"res/roms/thumbs/n64/Mario_Kart_64.jpg": {
+			"md5": "09c190ae6e38637e86fe47583b790a00"
+		},
+		"res/roms/thumbs/n64/Mario_no_Photopie.jpg": {
+			"md5": "ac5c7ee9903b08b599d71b9a8e0b3ad1"
+		},
+		"res/roms/thumbs/n64/Mario_Party.jpg": {
+			"md5": "ca761e53734339b1e5e33c4be03f011d"
+		},
+		"res/roms/thumbs/n64/Mario_Party_2.jpg": {
+			"md5": "7b2179879124624f520d53c1d8d1461f"
+		},
+		"res/roms/thumbs/n64/Mario_Party_3.jpg": {
+			"md5": "524bde5de70f4a04e9d3b5d4b8da6c26"
+		},
+		"res/roms/thumbs/n64/Mario_Story.jpg": {
+			"md5": "f33444363cb05b3c8683e74a4a87cc84"
+		},
+		"res/roms/thumbs/n64/Mario_Tennis.jpg": {
+			"md5": "d42c1fb51d98e0216fdc6f11739dc296"
+		},
+		"res/roms/thumbs/n64/Mario_Tennis_64.jpg": {
+			"md5": "d42c1fb51d98e0216fdc6f11739dc296"
+		},
+		"res/roms/thumbs/n64/Mega_Man_64.jpg": {
+			"md5": "ad583cd58dfe0378f614c09aedb68a71"
+		},
+		"res/roms/thumbs/n64/Mia_Hamm_Soccer_64.jpg": {
+			"md5": "9b46f2f18818e44d40ca10c0837d27cc"
+		},
+		"res/roms/thumbs/n64/Michael_Owens_WLS_2000.jpg": {
+			"md5": "2df8c5a885086cb66ba5aef53ec8dfc1"
+		},
+		"res/roms/thumbs/n64/Mickeys_Speedway_USA.jpg": {
+			"md5": "7463a1246d57f18379386e77903277f2"
+		},
+		"res/roms/thumbs/n64/Micro_Machines_64_Turbo.jpg": {
+			"md5": "9736363c64f11ede7023203a430ea0a3"
+		},
+		"res/roms/thumbs/n64/Midways_Greatest_Arcade_Hits_Volume_1.jpg": {
+			"md5": "406e041be7b522514324a563cf985745"
+		},
+		"res/roms/thumbs/n64/Mike_Piazzas_Strike_Zone.jpg": {
+			"md5": "964d6361dcbc040fe235832e6693e249"
+		},
+		"res/roms/thumbs/n64/Milos_Astro_Lanes.jpg": {
+			"md5": "45dad8bfe905231e6e73af1996034ffc"
+		},
+		"res/roms/thumbs/n64/Mini_Racers.jpg": {
+			"md5": "86ade3915c0f86f5185154d8a85e3626"
+		},
+		"res/roms/thumbs/n64/Mischief_Makers.jpg": {
+			"md5": "667751f4151066caa70f3cb04082bcf9"
+		},
+		"res/roms/thumbs/n64/Mission_Impossible.jpg": {
+			"md5": "2c69f68b5dc06799c605dac651b9bb2f"
+		},
+		"res/roms/thumbs/n64/Monaco_Grand_Prix.jpg": {
+			"md5": "e59558e174d7e2862fc87e2c4d37b7cb"
+		},
+		"res/roms/thumbs/n64/Monaco_Grand_Prix_Racing_Simulation_2.jpg": {
+			"md5": "e8fc5007873f3c2e8abc815f5c4a8880"
+		},
+		"res/roms/thumbs/n64/Monopoly.jpg": {
+			"md5": "c9d89fd366e6f318c20db5eeb4bba751"
+		},
+		"res/roms/thumbs/n64/Monster_Truck_Madness_64.jpg": {
+			"md5": "6139059b34eb4f1d4dd2340fe802ab82"
+		},
+		"res/roms/thumbs/n64/Morita_Shougi_64.jpg": {
+			"md5": "117e513bfccf271c9fea37506f0c70c2"
+		},
+		"res/roms/thumbs/n64/Mortal_Kombat_4.jpg": {
+			"md5": "d3ff7eb6f5a97ded84255445d47b9db9"
+		},
+		"res/roms/thumbs/n64/Mortal_Kombat_Mythologies_Sub_Zero.jpg": {
+			"md5": "a8896b9f18e02bc4ec9f259f6fe2a0c5"
+		},
+		"res/roms/thumbs/n64/Mortal_Kombat_Trilogy.jpg": {
+			"md5": "8c0bc384cbcf2f5aef8e375c3914ae7a"
+		},
+		"res/roms/thumbs/n64/MRC_Multi_Racing_Championship.jpg": {
+			"md5": "0021d5f71e7020843ea717a2835c2486"
+		},
+		"res/roms/thumbs/n64/Ms_Pac_Man_Maze_Madness.jpg": {
+			"md5": "bd14a212043b85698b19e29a56afd63d"
+		},
+		"res/roms/thumbs/n64/Mystical_Ninja_2_Starring_Goemon.jpg": {
+			"md5": "0a1bce9a709a33bd196d22d9c168ef18"
+		},
+		"res/roms/thumbs/n64/Mystical_Ninja_Starring_Goemon.jpg": {
+			"md5": "e7271832155cd277d963e3850b4da365"
+		},
+		"res/roms/thumbs/n64/Nagano_Winter_Olympics_98.jpg": {
+			"md5": "ced8a948e82bbccd56261d3b45e8daea"
+		},
+		"res/roms/thumbs/n64/Namco_Museum_64.jpg": {
+			"md5": "2a02d8b5162bdd4060479da7bbcd4236"
+		},
+		"res/roms/thumbs/n64/NASCAR_2000.jpg": {
+			"md5": "06d7b65d943cfe9782140dca7a956ad5"
+		},
+		"res/roms/thumbs/n64/NASCAR_99.jpg": {
+			"md5": "ecfff76d3f23f734d75314e12f7b7495"
+		},
+		"res/roms/thumbs/n64/NBA_Courtside_2_Featuring_Kobe_Bryant.jpg": {
+			"md5": "64db35a571e61ed5bba7074c4a3a6bf9"
+		},
+		"res/roms/thumbs/n64/NBA_Hangtime.jpg": {
+			"md5": "62a4e9c886bd0840e4a37d7214ddc89a"
+		},
+		"res/roms/thumbs/n64/NBA_In_the_Zone_2000.jpg": {
+			"md5": "13177bf2c34ae12ac51098e452848b3f"
+		},
+		"res/roms/thumbs/n64/NBA_In_the_Zone_98.jpg": {
+			"md5": "8183b4e9591fed77246604c95a6c6334"
+		},
+		"res/roms/thumbs/n64/NBA_In_the_Zone_99.jpg": {
+			"md5": "197023722b58b63c9de92d64f1563651"
+		},
+		"res/roms/thumbs/n64/NBA_Jam_2000.jpg": {
+			"md5": "160c87a71cc5e879394438a2a4431389"
+		},
+		"res/roms/thumbs/n64/NBA_Jam_99.jpg": {
+			"md5": "fb04b6fb4f9c8186070d5df5d829da86"
+		},
+		"res/roms/thumbs/n64/NBA_Live_2000.jpg": {
+			"md5": "11fe6f2c99c04153efad0590a36a71ad"
+		},
+		"res/roms/thumbs/n64/NBA_Live_99.jpg": {
+			"md5": "0d91f4c522601854c9a722264477ac76"
+		},
+		"res/roms/thumbs/n64/NBA_Pro_98.jpg": {
+			"md5": "8183b4e9591fed77246604c95a6c6334"
+		},
+		"res/roms/thumbs/n64/NBA_Pro_99.jpg": {
+			"md5": "197023722b58b63c9de92d64f1563651"
+		},
+		"res/roms/thumbs/n64/NBA_Showtime_NBA_on_NBC.jpg": {
+			"md5": "69487b622ae29fe15f2cae8e5e42e2a9"
+		},
+		"res/roms/thumbs/n64/Neon_Genesis_Evangelion.jpg": {
+			"md5": "0cf6e4073330762a0c4d6d2eec1173eb"
+		},
+		"res/roms/thumbs/n64/New_Tetris_The.jpg": {
+			"md5": "90ce41cc0683fb9a7da6f9eece1775d4"
+		},
+		"res/roms/thumbs/n64/NFL_Blitz.jpg": {
+			"md5": "f11ad3b1bea14b64b663e06e9d48c255"
+		},
+		"res/roms/thumbs/n64/NFL_Blitz_2000.jpg": {
+			"md5": "3e095fdfc6ce5e4252b566a7d7ee8844"
+		},
+		"res/roms/thumbs/n64/NFL_Blitz_2001.jpg": {
+			"md5": "983f54f1816a80ea2502d09608687029"
+		},
+		"res/roms/thumbs/n64/NFL_Blitz_Special_Edition.jpg": {
+			"md5": "d3387e066a69aa5df5c5ee65fc4465e4"
+		},
+		"res/roms/thumbs/n64/NFL_Quarterback_Club_2000.jpg": {
+			"md5": "509a799a9721852548cc039456fc31ad"
+		},
+		"res/roms/thumbs/n64/NFL_Quarterback_Club_2001.jpg": {
+			"md5": "4a959eba065255aa2f5eea11436ea961"
+		},
+		"res/roms/thumbs/n64/NFL_Quarterback_Club_99.jpg": {
+			"md5": "10762accd5411607fab6648f137d7ba3"
+		},
+		"res/roms/thumbs/n64/NHL_99.jpg": {
+			"md5": "e4b8bfc38385c7c63652fba88f6d330e"
+		},
+		"res/roms/thumbs/n64/NHL_Blades_of_Steel_99.jpg": {
+			"md5": "fd3f8a14e142a4b674812f64c05d8ac9"
+		},
+		"res/roms/thumbs/n64/NHL_Breakaway_98.jpg": {
+			"md5": "b47b923722f27b41f3990e4ab20dd850"
+		},
+		"res/roms/thumbs/n64/NHL_Breakaway_99.jpg": {
+			"md5": "1a56a6acd0dbf5e5d36848d53cb9567e"
+		},
+		"res/roms/thumbs/n64/NHL_Pro_99.jpg": {
+			"md5": "bb7c71c932d3c8d032a8b370a05c019d"
+		},
+		"res/roms/thumbs/n64/Nightmare_Creatures.jpg": {
+			"md5": "8a59916b3c958feec69549ab7a661888"
+		},
+		"res/roms/thumbs/n64/Nintama_Rantarou_64_Game_Gallery.jpg": {
+			"md5": "8a51c4ab6149a60556828b6b58ce3bf3"
+		},
+		"res/roms/thumbs/n64/Nuclear_Strike_64.jpg": {
+			"md5": "fcc1e8d887d038b57d0118f890e80457"
+		},
+		"res/roms/thumbs/n64/Nushi_Tsuri_64.jpg": {
+			"md5": "7216b166332a653569069de4ff5a4ec9"
+		},
+		"res/roms/thumbs/n64/Nushi_Tsuri_64_Shiokaze_ni_Notte.jpg": {
+			"md5": "a3b3de719b3baa74556cdef34e5592b6"
+		},
+		"res/roms/thumbs/n64/nushi_zuri_64.jpg": {
+			"md5": "fa2094472d5146f4ce16b82297b12449"
+		},
+		"res/roms/thumbs/n64/ODT.jpg": {
+			"md5": "d40dc1c5f8f4d2d94eb9d7fa236b6552"
+		},
+		"res/roms/thumbs/n64/Off_Road_Challenge.jpg": {
+			"md5": "81e36425561d65f70c99c2aaff01d112"
+		},
+		"res/roms/thumbs/n64/Ogre_Battle_64_Person_of_Lordly_Caliber.jpg": {
+			"md5": "e5ef0befeb04452e2de4c5d275afde1f"
+		},
+		"res/roms/thumbs/n64/Olympic_Hockey_Nagano_98.jpg": {
+			"md5": "7d9738064840393e41a1ef7c69e7a696"
+		},
+		"res/roms/thumbs/n64/Onegai_Monsters.jpg": {
+			"md5": "6c201a891b8eba7bbb9a4e45b8a320f1"
+		},
+		"res/roms/thumbs/n64/Operation_WinBack.jpg": {
+			"md5": "6684febc99c9ecaf86f1b796536861d2"
+		},
+		"res/roms/thumbs/n64/Pachinko_365_Nichi.jpg": {
+			"md5": "fafbe10ae9475e51b247071a34d3e14b"
+		},
+		"res/roms/thumbs/n64/Paperboy.jpg": {
+			"md5": "9a761e451409606f10422398ed83de95"
+		},
+		"res/roms/thumbs/n64/Paper_Mario.jpg": {
+			"md5": "238c01598ce7fdba29d080aa3bfeac98"
+		},
+		"res/roms/thumbs/n64/Parlor_Pro_64_Pachinko_Jikki_Simulation_Game.jpg": {
+			"md5": "576e433fe837f5dc1da1be38e8a6e34f"
+		},
+		"res/roms/thumbs/n64/PD_Ultraman_Battle_Collection_64.jpg": {
+			"md5": "957d5d8a2e15cd4da10eacc8c214bde7"
+		},
+		"res/roms/thumbs/n64/Penny_Racers.jpg": {
+			"md5": "daf9cd6414e5ef4b7a6eff790fbba023"
+		},
+		"res/roms/thumbs/n64/Perfect_Dark.jpg": {
+			"md5": "ad545fb75660670ad58bc9902060ee7e"
+		},
+		"res/roms/thumbs/n64/PGA_European_Tour.jpg": {
+			"md5": "d253b3b7e7c558eb04b2b052fe1c3c3a"
+		},
+		"res/roms/thumbs/n64/Pikachu_Genki_Dechu.jpg": {
+			"md5": "2f23ea8d85863a469832320a2fbbb839"
+		},
+		"res/roms/thumbs/n64/Pilotwings_64.jpg": {
+			"md5": "36b4bd8fe7a5a724795fbfb9abb4d496"
+		},
+		"res/roms/thumbs/n64/Pocket_Monsters_Stadium_Kin_Gin.jpg": {
+			"md5": "ef9a5c55258ffc271ccfab215581c127"
+		},
+		"res/roms/thumbs/n64/Pokemon_Puzzle_League.jpg": {
+			"md5": "ee564cc276c5b878fbd7bf8a18d5c4ee"
+		},
+		"res/roms/thumbs/n64/Pokemon_Snap.jpg": {
+			"md5": "28a8668284e553fe531c60d92eeeaafd"
+		},
+		"res/roms/thumbs/n64/Pokemon_Snap_Station.jpg": {
+			"md5": "28a8668284e553fe531c60d92eeeaafd"
+		},
+		"res/roms/thumbs/n64/Pokemon_Stadium.jpg": {
+			"md5": "6295d41233edfd6aca98c76c75952470"
+		},
+		"res/roms/thumbs/n64/Pokemon_Stadium_2.jpg": {
+			"md5": "9e868be503a883c1df05ec062e7d06d8"
+		},
+		"res/roms/thumbs/n64/Polaris_SnoCross.jpg": {
+			"md5": "c785837d0451110fac14fcff8099d3c9"
+		},
+		"res/roms/thumbs/n64/Powerpuff_Girls_The_Chemical_X_Traction.jpg": {
+			"md5": "1633621e13406fd33e7b1d48379a84de"
+		},
+		"res/roms/thumbs/n64/Power_League_64.jpg": {
+			"md5": "8dc26687d4d2ed882a0a11f066c45f1f"
+		},
+		"res/roms/thumbs/n64/Power_League_Baseball_64.jpg": {
+			"md5": "033f582e93bd74a6b5e3c7d8ecdba5ea"
+		},
+		"res/roms/thumbs/n64/Power_Rangers_Lightspeed_Rescue.jpg": {
+			"md5": "8fc839a0bfb2c4e779d96b28b0af50f5"
+		},
+		"res/roms/thumbs/n64/Premier_Manager_64.jpg": {
+			"md5": "d285631abb6a04b92ffdae64a3ebdb34"
+		},
+		"res/roms/thumbs/n64/Pro_Mahjong_Kiwame_64.jpg": {
+			"md5": "f82f143caf2d5a49cedbfc747dee7e5f"
+		},
+		"res/roms/thumbs/n64/Pro_Mahjong_Tsuwamono_64_Jansou_Battle_ni_Chousen.jpg": {
+			"md5": "be5954c3d4d85c61fc6d6dbc73d55486"
+		},
+		"res/roms/thumbs/n64/Puyo_Puyo_4_Puyo_Puyo_Party.jpg": {
+			"md5": "b2c098493347b81b0a9a171f9edc17fa"
+		},
+		"res/roms/thumbs/n64/Puyo_Puyo_Sun_64.jpg": {
+			"md5": "0a798c7eeb3ed28216ac8aa1db036900"
+		},
+		"res/roms/thumbs/n64/Puzzle_Bobble_64.jpg": {
+			"md5": "231fd20350a24d527a1d9d87582ed4cc"
+		},
+		"res/roms/thumbs/n64/Quake_64.jpg": {
+			"md5": "4ade94072bdc4e15b2865c8b37ecb7b8"
+		},
+		"res/roms/thumbs/n64/Quake_II.jpg": {
+			"md5": "bd3896ab94a56c712cea69ec0b3947fa"
+		},
+		"res/roms/thumbs/n64/Quest_64.jpg": {
+			"md5": "74abb97befcfd517a9ff4983846f8074"
+		},
+		"res/roms/thumbs/n64/Racing_Simulation_2.jpg": {
+			"md5": "5ca01aa20dd4f715bab299939d9c10b8"
+		},
+		"res/roms/thumbs/n64/Rakuga_Kids.jpg": {
+			"md5": "46872843dc20adc8a17258c9271bc0aa"
+		},
+		"res/roms/thumbs/n64/Rally_99.jpg": {
+			"md5": "ad0523e8f8d43d3d5d373f81e1535c9c"
+		},
+		"res/roms/thumbs/n64/Rally_Challenge_2000.jpg": {
+			"md5": "4f643fbe9e75d5115f2f254c5cc7b600"
+		},
+		"res/roms/thumbs/n64/Rampage_2_Universal_Tour.jpg": {
+			"md5": "3db78f1944fdc2c6717bcc6a2a7c86d4"
+		},
+		"res/roms/thumbs/n64/Rampage_World_Tour.jpg": {
+			"md5": "3d7c03ee0fc808a2bdeebe2387d5ae31"
+		},
+		"res/roms/thumbs/n64/Rat_Attack.jpg": {
+			"md5": "81f0cf9fe719cf79e8fa991da34fdcb2"
+		},
+		"res/roms/thumbs/n64/Rayman_2_The_Great_Escape.jpg": {
+			"md5": "d73598d85e9de0bc1013e7136c57c6ab"
+		},
+		"res/roms/thumbs/n64/Razor_Freestyle_Scooter.jpg": {
+			"md5": "dedd0d0b77960caeaadfa49f331a3d18"
+		},
+		"res/roms/thumbs/n64/Ready_2_Rumble_Boxing.jpg": {
+			"md5": "96d0f33c0c0da080dd8277d8445ed13c"
+		},
+		"res/roms/thumbs/n64/Ready_2_Rumble_Boxing_Round_2.jpg": {
+			"md5": "0cec52a2b9cb9e9c428a74e530009407"
+		},
+		"res/roms/thumbs/n64/Resident_Evil_2.jpg": {
+			"md5": "528622f528304dc07f974b4a28e97c0b"
+		},
+		"res/roms/thumbs/n64/Re_Volt.jpg": {
+			"md5": "5733aa0ea7c7527eb959252b62d9d8cc"
+		},
+		"res/roms/thumbs/n64/Roadsters_Trophy.jpg": {
+			"md5": "6abf20bc0c6554150d22504c5b09cc62"
+		},
+		"res/roms/thumbs/n64/Road_Rash_64.jpg": {
+			"md5": "3ff2371799aca8ab49bb726a4e287a04"
+		},
+		"res/roms/thumbs/n64/Robotech_Crystal_Dreams.jpg": {
+			"md5": "e2787b321c90d5adc9681b4b7c048cfd"
+		},
+		"res/roms/thumbs/n64/Robotron_64.jpg": {
+			"md5": "4d8142f26e345e1e4b771ff1718a05a9"
+		},
+		"res/roms/thumbs/n64/Robot_Ponkotsu_64_7tsu_no_Umi_no_Caramel.jpg": {
+			"md5": "80d2811d0b87fbd05aaea28b0d2253ac"
+		},
+		"res/roms/thumbs/n64/Rocket_Robot_on_Wheels.jpg": {
+			"md5": "9d214a076e609f7f44e2ac6dad746e92"
+		},
+		"res/roms/thumbs/n64/Rockman_Dash.jpg": {
+			"md5": "c86e62b29552cbf2ff13b7a2b3b9f2ad"
+		},
+		"res/roms/thumbs/n64/RR64_Ridge_Racer_64.jpg": {
+			"md5": "ef7c6171e15d20df869b1200527daaa0"
+		},
+		"res/roms/thumbs/n64/RTL_World_League_Soccer_2000.jpg": {
+			"md5": "e14b5f3507d310d30d446b9bb0e53987"
+		},
+		"res/roms/thumbs/n64/Rugrats_Die_grosse_Schatzsuche.jpg": {
+			"md5": "37823b363cb2da03b89636e614d0bde5"
+		},
+		"res/roms/thumbs/n64/Rugrats_in_Paris_The_Movie.jpg": {
+			"md5": "7396c78cc3fcddc7df0c40bd669aebe6"
+		},
+		"res/roms/thumbs/n64/Rugrats_Scavenger_Hunt.jpg": {
+			"md5": "70a08036ac35bd81ca721b48aee2367b"
+		},
+		"res/roms/thumbs/n64/Rugrats_Treasure_Hunt.jpg": {
+			"md5": "6a191e9afff4e7c2c7ad95e70981113c"
+		},
+		"res/roms/thumbs/n64/Rush_2_Extreme_Racing_USA.jpg": {
+			"md5": "699c7b192b68acdb319c17f2dbc35efb"
+		},
+		"res/roms/thumbs/n64/San_Francisco_Rush_2049.jpg": {
+			"md5": "37b4d4680bea5f853637234540c6931a"
+		},
+		"res/roms/thumbs/n64/San_Francisco_Rush_Extreme_Racing.jpg": {
+			"md5": "133089c8e6043d26a9214a2df31f7d95"
+		},
+		"res/roms/thumbs/n64/SCARS.jpg": {
+			"md5": "2194b2bffbc3987daf8b80097b2e4c40"
+		},
+		"res/roms/thumbs/n64/Scooby_Doo_Classic_Creep_Capers.jpg": {
+			"md5": "d1dc38ba6c5d7939020f05d854548c5a"
+		},
+		"res/roms/thumbs/n64/Shadowgate_64_Trials_Of_The_Four_Towers.jpg": {
+			"md5": "6d56dd7ea7b10dd3ef1c0619efd81833"
+		},
+		"res/roms/thumbs/n64/Shadow_Man.jpg": {
+			"md5": "32eb528587f01c10cbc02b8e3fa68bd2"
+		},
+		"res/roms/thumbs/n64/Shigesato_Itois_No_1_Bass_Fishing_Definitive_Edition.jpg": {
+			"md5": "1136f311179739cca233057238733c8f"
+		},
+		"res/roms/thumbs/n64/Shin_Nihon_Pro_Wrestling_Toukon_Road_2_The_Next_Generation.jpg": {
+			"md5": "3222b8e305c4e9abe12074ac723d40d8"
+		},
+		"res/roms/thumbs/n64/Shin_Nihon_Pro_Wrestling_Toukon_Road_Brave_Spirits.jpg": {
+			"md5": "b371cc5314ad5e2de5fe03755820eb54"
+		},
+		"res/roms/thumbs/n64/Sim_City_2000.jpg": {
+			"md5": "d36a875f59f576e8399cd235c69555a2"
+		},
+		"res/roms/thumbs/n64/Snobow_Kids.jpg": {
+			"md5": "387fa0806b84f2a3e056df8d25e05ad4"
+		},
+		"res/roms/thumbs/n64/Snowboard_Kids.jpg": {
+			"md5": "84ff4d86e827f4f18fce09a7ac384603"
+		},
+		"res/roms/thumbs/n64/Snowboard_Kids_2.jpg": {
+			"md5": "ff45474ed6224811a0c3d9766c39177f"
+		},
+		"res/roms/thumbs/n64/Snow_Speeder.jpg": {
+			"md5": "80df2c5125dcc7558d609d59eaece7f9"
+		},
+		"res/roms/thumbs/n64/Sonic_Wings_Assault.jpg": {
+			"md5": "6ac7bfe907748ee13d32f5ffed2db4eb"
+		},
+		"res/roms/thumbs/n64/South_Park.jpg": {
+			"md5": "508a6dc3d98caa096a80351ab0f71689"
+		},
+		"res/roms/thumbs/n64/South_Park_Chefs_Luv_Shack.jpg": {
+			"md5": "a9d29007803ea8e4bbfdd7e7b575c948"
+		},
+		"res/roms/thumbs/n64/South_Park_Rally.jpg": {
+			"md5": "67eb39f5ea8cbc578e960df190df1bfa"
+		},
+		"res/roms/thumbs/n64/Space_Dynamites.jpg": {
+			"md5": "feafcbaf582486a3a388fc18f59624bf"
+		},
+		"res/roms/thumbs/n64/Space_Invaders.jpg": {
+			"md5": "d807686735865b91b25efc4844882e42"
+		},
+		"res/roms/thumbs/n64/Space_Station_Silicon_Valley.jpg": {
+			"md5": "cc34608844a3d420496fe01ed1c6d178"
+		},
+		"res/roms/thumbs/n64/Spider_Man.jpg": {
+			"md5": "ff8810fb92cf21dfd74a0ca216776f04"
+		},
+		"res/roms/thumbs/n64/StarCraft_64.jpg": {
+			"md5": "58af0869a41c0aeb588ba9b691ca8810"
+		},
+		"res/roms/thumbs/n64/Starshot_Space_Circus_Fever.jpg": {
+			"md5": "14eeb31e8ee30a905bf01dfd0c260f75"
+		},
+		"res/roms/thumbs/n64/Star_Fox_64.jpg": {
+			"md5": "1f3217718fc118950d8b031bac3c2f37"
+		},
+		"res/roms/thumbs/n64/Star_Soldier_Vanishing_Earth.jpg": {
+			"md5": "ab4c1980800aab74b88fef779ea7d456"
+		},
+		"res/roms/thumbs/n64/Star_Wars_Episode_I_Battle_for_Naboo.jpg": {
+			"md5": "be526029104696002383957e18193356"
+		},
+		"res/roms/thumbs/n64/Star_Wars_Episode_I_Racer.jpg": {
+			"md5": "aa8be739f02777fa2e898697af7e0bb7"
+		},
+		"res/roms/thumbs/n64/Star_Wars_Rogue_Squadron.jpg": {
+			"md5": "149d40ab6d7c4f16cb74f134d9c2cf1b"
+		},
+		"res/roms/thumbs/n64/Star_Wars_Shadows_of_the_Empire.jpg": {
+			"md5": "0fb09bbecf05a3c2c97f6b2286fd3aeb"
+		},
+		"res/roms/thumbs/n64/Stunt_Racer_64.jpg": {
+			"md5": "dcd61737cac309fb1ae039b85130b807"
+		},
+		"res/roms/thumbs/n64/Supercross_2000.jpg": {
+			"md5": "587f1d15a801c6e54951bfb3fc4b82f0"
+		},
+		"res/roms/thumbs/n64/Superman.jpg": {
+			"md5": "350d77ab1178e23703a28db0dc542b4c"
+		},
+		"res/roms/thumbs/n64/Super_Bowling.jpg": {
+			"md5": "abd55efba0d7c772b19b2928594329ab"
+		},
+		"res/roms/thumbs/n64/Super_Bowling_64.jpg": {
+			"md5": "abd55efba0d7c772b19b2928594329ab"
+		},
+		"res/roms/thumbs/n64/Super_B_Daman_Battle_Phoenix_64.jpg": {
+			"md5": "ca30d169cb4aefcb7e125366ec295a29"
+		},
+		"res/roms/thumbs/n64/Super_Mario_64.jpg": {
+			"md5": "5c459afbc086cc774368d6a4f2b30213"
+		},
+		"res/roms/thumbs/n64/Super_Robot_Spirits.jpg": {
+			"md5": "d3f2146b746760404cb81ec1dbc93b1d"
+		},
+		"res/roms/thumbs/n64/Super_Robot_Taisen_64.jpg": {
+			"md5": "51c3c8e677dd353e5135ac739e90c71a"
+		},
+		"res/roms/thumbs/n64/Super_Smash_Bros.jpg": {
+			"md5": "9944835fb89ddd9efc9ee55d41071597"
+		},
+		"res/roms/thumbs/n64/Super_Speed_Race_64.jpg": {
+			"md5": "86eab76c72bd09f89ef4fab662bb8c3b"
+		},
+		"res/roms/thumbs/n64/Susume_Taisen_Puzzle_Dama_Toukon_Marumata_Chou.jpg": {
+			"md5": "622d42e0d075f04b17160698ea85cf43"
+		},
+		"res/roms/thumbs/n64/Sydney_2000.jpg": {
+			"md5": "679f4e6497ef768a1dcd089cb7f88b1f"
+		},
+		"res/roms/thumbs/n64/Tamiya_Racing_64.jpg": {
+			"md5": "6416794e5a5bec3204ae9ad44a34e2b6"
+		},
+		"res/roms/thumbs/n64/Taz_Express.jpg": {
+			"md5": "d9f35793c218a5d34969ccf417a0cc0d"
+		},
+		"res/roms/thumbs/n64/Telefoot_Soccer_2000.jpg": {
+			"md5": "917c26224bc6cf675756a561aa9aa016"
+		},
+		"res/roms/thumbs/n64/Tetrisphere.jpg": {
+			"md5": "6bb8e9215af302499c139c8a437ae06a"
+		},
+		"res/roms/thumbs/n64/Tetris_64.jpg": {
+			"md5": "76e089883b40f9dc6c672468fe289472"
+		},
+		"res/roms/thumbs/n64/TG_Rally_2.jpg": {
+			"md5": "bb3dec84f65398cc40bac509ad6740fd"
+		},
+		"res/roms/thumbs/n64/Tiggers_Honey_Hunt.jpg": {
+			"md5": "2bbadce1da249ead076a99683f807281"
+		},
+		"res/roms/thumbs/n64/Tom_and_Jerry_in_Fists_of_Furry.jpg": {
+			"md5": "a3b34aa22e58ae32bd0707065ebac654"
+		},
+		"res/roms/thumbs/n64/Tom_Clancys_Rainbow_Six.jpg": {
+			"md5": "4351f1023f32044db1a419434d11a313"
+		},
+		"res/roms/thumbs/n64/Tonic_Trouble.jpg": {
+			"md5": "8bf03b06f29465219929af37faf9bf77"
+		},
+		"res/roms/thumbs/n64/Tony_Hawks_Pro_Skater.jpg": {
+			"md5": "6815b697874401098d0ba428fc9a8814"
+		},
+		"res/roms/thumbs/n64/Tony_Hawks_Pro_Skater_2.jpg": {
+			"md5": "442447afcf41ddb4b1168de57671516b"
+		},
+		"res/roms/thumbs/n64/Tony_Hawks_Pro_Skater_3.jpg": {
+			"md5": "87b9cf8cf17da6531930aeff5a6bb6c9"
+		},
+		"res/roms/thumbs/n64/Top_Gear_Hyper_Bike.jpg": {
+			"md5": "f7666ee5b2a4552444496dbede608557"
+		},
+		"res/roms/thumbs/n64/Top_Gear_Overdrive.jpg": {
+			"md5": "abbec0e40d2458927535b60e8e0f6fcd"
+		},
+		"res/roms/thumbs/n64/Top_Gear_Rally.jpg": {
+			"md5": "53ccc7ad1bb0cf7ac9b506b924a3eac7"
+		},
+		"res/roms/thumbs/n64/Top_Gear_Rally_2.jpg": {
+			"md5": "5a7f360baef2b733f03409f9ebd3cdff"
+		},
+		"res/roms/thumbs/n64/Vigilante_8.jpg": {
+			"md5": "0d795b9641298d22eaa4a90740e2b88c"
+		},
+		"res/roms/thumbs/n64/Vigilante_8_2nd_Offence.jpg": {
+			"md5": "309442a95c857d017de5fed2d627023a"
+		},
+		"res/roms/thumbs/n64/Virtual_Chess_64.jpg": {
+			"md5": "dc9f162a8a51df3ae2877028bdbb75b0"
+		},
+		"res/roms/thumbs/n64/Virtual_Pool_64.jpg": {
+			"md5": "b551a149e611482a07e6f1cf07c49aaa"
+		},
+		"res/roms/thumbs/n64/V_Rally_Edition_99.jpg": {
+			"md5": "23304d87e73862929bf468078386c6f0"
+		},
+		"res/roms/thumbs/n64/WCW_Nitro.jpg": {
+			"md5": "341fa305fcfd86535531e14d3f40f181"
+		},
+		"res/roms/thumbs/n64/WCW_nWo_Revenge.jpg": {
+			"md5": "eaa6055d531613223da7bff5bf3fe2e3"
+		},
+		"res/roms/thumbs/n64/WCW_vs_nWo_World_Tour.jpg": {
+			"md5": "0485329b84990f9d7321e4a2db6044ca"
+		},
+		"res/roms/thumbs/n64/Wetrix.jpg": {
+			"md5": "418be591ec7c9398df9bcf0a7e1a7c19"
+		},
+		"res/roms/thumbs/n64/Wheel_of_Fortune.jpg": {
+			"md5": "dd4d402f4d916180307bf2ec5490361f"
+		},
+		"res/roms/thumbs/n64/Wild_Choppers.jpg": {
+			"md5": "76d7f126c92ba5a3585a3e642a938154"
+		},
+		"res/roms/thumbs/n64/WinBack.jpg": {
+			"md5": "4046f1ec630333add9a4a6d64b8f05e1"
+		},
+		"res/roms/thumbs/n64/WinBack_Covert_Operations.jpg": {
+			"md5": "f1a1c9b2024c4d963796fe52e18cef02"
+		},
+		"res/roms/thumbs/n64/Wipeout_64.jpg": {
+			"md5": "af320907d6d44ddf29c47122bba27ef8"
+		},
+		"res/roms/thumbs/n64/Wonder_Project_J2_Koruro_no_Mori_no_Jozet.jpg": {
+			"md5": "0bc2e8f0b142c0a93b854b709a826c52"
+		},
+		"res/roms/thumbs/n64/World_Cup_98.jpg": {
+			"md5": "b71c8bd635ee4c1c9ba231a1fee3b5ca"
+		},
+		"res/roms/thumbs/n64/World_Driver_Championship.jpg": {
+			"md5": "fbcf9d63c143099f300971487fbc8ff4"
+		},
+		"res/roms/thumbs/n64/Worms_Armageddon.jpg": {
+			"md5": "58c68b8de460ef0d36653174bdf2af76"
+		},
+		"res/roms/thumbs/n64/WWF_Attitude.jpg": {
+			"md5": "c9653e0f2b041765742e338526686a2c"
+		},
+		"res/roms/thumbs/n64/WWF_No_Mercy.jpg": {
+			"md5": "0a6fc12451e9621a6c01b472b2206073"
+		},
+		"res/roms/thumbs/n64/WWF_War_Zone.jpg": {
+			"md5": "ae0b57f9314d73f24982506ac436a2a7"
+		},
+		"res/roms/thumbs/n64/WWF_WrestleMania_2000.jpg": {
+			"md5": "3ebea8e91f7039f2646e68e9ca0202cd"
+		},
+		"res/roms/thumbs/n64/Xena_Warrior_Princess_The_Talisman_of_Fate.jpg": {
+			"md5": "e097888dac15c15999438d17c89f4730"
+		},
+		"res/roms/thumbs/n64/Yakouchuu_II_Satsujin_Kouru.jpg": {
+			"md5": "8c83d278bec3c902b36702ee0af3e457"
+		},
+		"res/roms/thumbs/n64/Yoshis_Story.jpg": {
+			"md5": "ed229e8ce917f6e2b460545197a77b5a"
+		},
+		"res/roms/thumbs/n64/Yoshi_Story.jpg": {
+			"md5": "ed229e8ce917f6e2b460545197a77b5a"
+		},
+		"res/roms/thumbs/n64/Yuke_Yuke_Trouble_Makers.jpg": {
+			"md5": "85083ad669abd61859aa198fda76a4e3"
+		},
+		"res/roms/thumbs/n64/Zelda_no_Densetsu_Mujura_no_Kamen.jpg": {
+			"md5": "428e6cca2f9d55c1d614b2dcc1a07280"
+		},
+		"res/roms/thumbs/n64/Zelda_no_Densetsu_Toki_no_Ocarina.jpg": {
+			"md5": "8fc1af83b85e56566ff9b39da7592fca"
+		},
+		"res/roms/thumbs/nes/10001.jpg": {
+			"md5": "ca38ec5594f47a89d2e1685a8212f397"
+		},
+		"res/roms/thumbs/nes/10002.jpg": {
+			"md5": "123c5e84ae5d8a406255c305383ab695"
+		},
+		"res/roms/thumbs/nes/10003.jpg": {
+			"md5": "d210a35dc00a89dc920c440cbc628e06"
+		},
+		"res/roms/thumbs/nes/10004.jpg": {
+			"md5": "3b9aa41b890b6b59cbfe1b2237076209"
+		},
+		"res/roms/thumbs/nes/10005.jpg": {
+			"md5": "bfac1b5cdffb00aad37a69aad0494db5"
+		},
+		"res/roms/thumbs/nes/10006.jpg": {
+			"md5": "599dafe1ee8c61a8508434857cd8c53e"
+		},
+		"res/roms/thumbs/nes/10007.jpg": {
+			"md5": "762b0175c0e7e0e90359c531668c0ec1"
+		},
+		"res/roms/thumbs/nes/10008.jpg": {
+			"md5": "d7081de32ba14036341e756e211488a4"
+		},
+		"res/roms/thumbs/nes/10009.jpg": {
+			"md5": "7d13d07089174782c341694236a2b935"
+		},
+		"res/roms/thumbs/nes/10010.jpg": {
+			"md5": "8ac358ce91f4a6cf6a5c73fd8390c410"
+		},
+		"res/roms/thumbs/nes/10012.jpg": {
+			"md5": "376a4ca4b43a367da0c0fd3bedbdd200"
+		},
+		"res/roms/thumbs/nes/10013.jpg": {
+			"md5": "8dec43590475914942e0e6084023a4f7"
+		},
+		"res/roms/thumbs/nes/10014.jpg": {
+			"md5": "98c49420ad75ebb72972a75def1822f1"
+		},
+		"res/roms/thumbs/nes/10015.jpg": {
+			"md5": "ff47868abe2e4d0f963e1e414f7d06a8"
+		},
+		"res/roms/thumbs/nes/10016.jpg": {
+			"md5": "1fb30d0172865fd4919fa14374a088a5"
+		},
+		"res/roms/thumbs/nes/10017.jpg": {
+			"md5": "b5569c87d63d4f122aa79ae00c9b7f0a"
+		},
+		"res/roms/thumbs/nes/10018.jpg": {
+			"md5": "72d02a18a69a5b5d83bd4f2e419a9ebf"
+		},
+		"res/roms/thumbs/nes/10019.jpg": {
+			"md5": "d4402d3129de411c67995a325894448f"
+		},
+		"res/roms/thumbs/nes/10020.jpg": {
+			"md5": "184c4e65eed3bd756e6bd5e379491803"
+		},
+		"res/roms/thumbs/nes/10021.jpg": {
+			"md5": "e6cb6173d79664eb0e325ae8be3bd15c"
+		},
+		"res/roms/thumbs/nes/10022.jpg": {
+			"md5": "295a28144b8a85d5b89ecaa715868813"
+		},
+		"res/roms/thumbs/nes/10023.jpg": {
+			"md5": "61cb50f37f9d1f061159b167e33b319d"
+		},
+		"res/roms/thumbs/nes/10024.jpg": {
+			"md5": "98890524c22503e648e04766ed57d719"
+		},
+		"res/roms/thumbs/nes/10025.jpg": {
+			"md5": "6dc5406130e3b6f9935973e072af63d3"
+		},
+		"res/roms/thumbs/nes/10026.jpg": {
+			"md5": "9194cab3d4997cb91b0a6f7cf41f3579"
+		},
+		"res/roms/thumbs/nes/10027.jpg": {
+			"md5": "15d3fe108651c167e03d66bdfb3512e1"
+		},
+		"res/roms/thumbs/nes/10028.jpg": {
+			"md5": "93ff07828d1a0c24cbe426451d008154"
+		},
+		"res/roms/thumbs/nes/10029.jpg": {
+			"md5": "f9a7aa680733a2556844c653c3b1191e"
+		},
+		"res/roms/thumbs/nes/10030.jpg": {
+			"md5": "921f96728a725ab1e3b12bb3288eba62"
+		},
+		"res/roms/thumbs/nes/10031.jpg": {
+			"md5": "3c90afbee320319c99c060f1afc1d869"
+		},
+		"res/roms/thumbs/nes/10032.jpg": {
+			"md5": "f3f5638c3d3fa97a6f9fb10cc459eafb"
+		},
+		"res/roms/thumbs/nes/10033.jpg": {
+			"md5": "72a7d867f406903c7659966032a3af10"
+		},
+		"res/roms/thumbs/nes/10034.jpg": {
+			"md5": "c4f3e545475cb2dc09833b9cf972ddc3"
+		},
+		"res/roms/thumbs/nes/10035.jpg": {
+			"md5": "dabbb679acd880e21c430c209897d12b"
+		},
+		"res/roms/thumbs/nes/10036.jpg": {
+			"md5": "bdeb12d7a920449ebf6f52efe2ee5764"
+		},
+		"res/roms/thumbs/nes/10037.jpg": {
+			"md5": "46b06fd22cc4b1ef92f8dfc6d8b7f7d0"
+		},
+		"res/roms/thumbs/nes/10038.jpg": {
+			"md5": "388e384a51a93156bed03a7ce9654b2c"
+		},
+		"res/roms/thumbs/nes/10041.jpg": {
+			"md5": "4c7425e18a2fd941b866b347636b0499"
+		},
+		"res/roms/thumbs/nes/10043.jpg": {
+			"md5": "c8832862a47e60eb6dc511a47e0ea656"
+		},
+		"res/roms/thumbs/nes/10044.jpg": {
+			"md5": "7f36fc500e5dc32ade834fa1adfbdd90"
+		},
+		"res/roms/thumbs/nes/10046.jpg": {
+			"md5": "9f11f6f507d0dc6337a13a3941b8c70e"
+		},
+		"res/roms/thumbs/nes/10047.jpg": {
+			"md5": "64676d6f0f77373b25d2c0c150e9b222"
+		},
+		"res/roms/thumbs/nes/10048.jpg": {
+			"md5": "b4356d1c8b4fba7a916a38c1271ad5d8"
+		},
+		"res/roms/thumbs/nes/10049.jpg": {
+			"md5": "f7dc7f065a98abd8f297de7575ace010"
+		},
+		"res/roms/thumbs/nes/10050.jpg": {
+			"md5": "cfa93e611cd1cae5b8caeac61c90d113"
+		},
+		"res/roms/thumbs/nes/10052.jpg": {
+			"md5": "78dbc91e311fb5cc1210afa5afa714ed"
+		},
+		"res/roms/thumbs/nes/10053.jpg": {
+			"md5": "da4ee0c74fbb1a2b54980f264c9eb153"
+		},
+		"res/roms/thumbs/nes/10054.jpg": {
+			"md5": "63c3b5a4628c7bc5718e5c55c4caa38d"
+		},
+		"res/roms/thumbs/nes/10055.jpg": {
+			"md5": "73d799d5c9fcf47ab25c080e00435bcc"
+		},
+		"res/roms/thumbs/nes/10057.jpg": {
+			"md5": "887a43cf21474b589612417247ce11d0"
+		},
+		"res/roms/thumbs/nes/10058.jpg": {
+			"md5": "7ef3bf4508855a841b9d50a7c46bad00"
+		},
+		"res/roms/thumbs/nes/10060.jpg": {
+			"md5": "9c52e479bc95fb5983b6b0eede291091"
+		},
+		"res/roms/thumbs/nes/10067.jpg": {
+			"md5": "9e2b98afe05d0c4f28c28ea8fcb648a4"
+		},
+		"res/roms/thumbs/nes/10068.jpg": {
+			"md5": "701544fece0fcb12435682c08634c078"
+		},
+		"res/roms/thumbs/nes/10069.jpg": {
+			"md5": "810a1f96fa3b032510a8c319adebf8cc"
+		},
+		"res/roms/thumbs/nes/10070.jpg": {
+			"md5": "8c615b43052c859b6ac0c2b29fc53c40"
+		},
+		"res/roms/thumbs/nes/10071.jpg": {
+			"md5": "ddc7633b6293007913c5eb14dc08578d"
+		},
+		"res/roms/thumbs/nes/10072.jpg": {
+			"md5": "055f313f263a9e973d22cf51220b8c7f"
+		},
+		"res/roms/thumbs/nes/10073.jpg": {
+			"md5": "f82ac6a6affbcf9a06078184102f55e7"
+		},
+		"res/roms/thumbs/nes/10074.jpg": {
+			"md5": "062d0cfe9f4b0f0573f9b0e0631eb957"
+		},
+		"res/roms/thumbs/nes/10075.jpg": {
+			"md5": "e4cb2fe3e6ab07e1d5e17f37379f5a1c"
+		},
+		"res/roms/thumbs/nes/10076.jpg": {
+			"md5": "7113e95a24430a08fb1cca11fe009264"
+		},
+		"res/roms/thumbs/nes/10077.jpg": {
+			"md5": "b271f576205c075639f5b57aaac85187"
+		},
+		"res/roms/thumbs/nes/10078.jpg": {
+			"md5": "45aeb3ed8d462d91e6cfd92d95dba5cb"
+		},
+		"res/roms/thumbs/nes/10079.jpg": {
+			"md5": "98b65d235aaca74b2e4daf0458a95c63"
+		},
+		"res/roms/thumbs/nes/10080.jpg": {
+			"md5": "ee68047bcfc8730f36f0cd5a3cbcbde4"
+		},
+		"res/roms/thumbs/nes/10081.jpg": {
+			"md5": "6d5587075a80115c8037a9928fcecb21"
+		},
+		"res/roms/thumbs/nes/10082.jpg": {
+			"md5": "77f2b1f56fed4d852bc8c8f4ccd35386"
+		},
+		"res/roms/thumbs/nes/10083.jpg": {
+			"md5": "4aaafd51c646158663b16fd39716c626"
+		},
+		"res/roms/thumbs/nes/10084.jpg": {
+			"md5": "13530d54b74a3b7c864a66675b52a6fd"
+		},
+		"res/roms/thumbs/nes/10085.jpg": {
+			"md5": "efc4bd1ddf938961493000bf7b6dbfc0"
+		},
+		"res/roms/thumbs/nes/10086.jpg": {
+			"md5": "074fce152452052c471bf869be4a04cf"
+		},
+		"res/roms/thumbs/nes/10087.jpg": {
+			"md5": "618a44b5dc80f84591e355f9d14b91d9"
+		},
+		"res/roms/thumbs/nes/10088.jpg": {
+			"md5": "24b01d05f2369b21864377823c02d2cb"
+		},
+		"res/roms/thumbs/nes/10089.jpg": {
+			"md5": "48b3d369e0cc186b710efec74f8a349f"
+		},
+		"res/roms/thumbs/nes/10090.jpg": {
+			"md5": "d0a4dfbe87aaac57bb141d9ccb54b890"
+		},
+		"res/roms/thumbs/nes/10091.jpg": {
+			"md5": "f5358a5d0da6b8b133bb2f1f67a6829f"
+		},
+		"res/roms/thumbs/nes/10092.jpg": {
+			"md5": "f98fab9b2e48d760972603b3e53425b8"
+		},
+		"res/roms/thumbs/nes/10093.jpg": {
+			"md5": "248fcc83036663884daf3a9179dea904"
+		},
+		"res/roms/thumbs/nes/10094.jpg": {
+			"md5": "d026dc26c67202378d6c192691077f01"
+		},
+		"res/roms/thumbs/nes/10095.jpg": {
+			"md5": "04d068cddaa16fb549df7f9fd122f80b"
+		},
+		"res/roms/thumbs/nes/10096.jpg": {
+			"md5": "a17b2f468b8cf58a034868464e18dac0"
+		},
+		"res/roms/thumbs/nes/10097.jpg": {
+			"md5": "a8a9df842e2c682712289c778fb4b753"
+		},
+		"res/roms/thumbs/nes/10098.jpg": {
+			"md5": "e8718b8de5b65c411e0211b370739fb3"
+		},
+		"res/roms/thumbs/nes/10099.jpg": {
+			"md5": "667ea3253c7196c17e3b7ec7edd6652b"
+		},
+		"res/roms/thumbs/nes/10100.jpg": {
+			"md5": "3c90afbee320319c99c060f1afc1d869"
+		},
+		"res/roms/thumbs/nes/10101.jpg": {
+			"md5": "d2885606221fdc375885a402558edef0"
+		},
+		"res/roms/thumbs/nes/10106.jpg": {
+			"md5": "bc96bcdeacd17e680c62835c175fa8e0"
+		},
+		"res/roms/thumbs/nes/10107.jpg": {
+			"md5": "71fce14e95be168b0c4a10e4d0222487"
+		},
+		"res/roms/thumbs/nes/10108.jpg": {
+			"md5": "7b32a72f9ee2c727b41e934830f596a2"
+		},
+		"res/roms/thumbs/snes/actraiser_usa.jpg": {
+			"md5": "0f4b78362182fd1524dff523e7fb3e31"
+		},
+		"res/roms/thumbs/snes/adventures_of_batman_&_robin_the_usa.jpg": {
+			"md5": "4cf11bf86d8c901c59a1eb1e46770cbf"
+		},
+		"res/roms/thumbs/snes/aladdin_usa.jpg": {
+			"md5": "5c380b514ecbacb67e7a26617012996c"
+		},
+		"res/roms/thumbs/snes/alien_3_usa.jpg": {
+			"md5": "cf220a0381132d330ffc54352802fcfb"
+		},
+		"res/roms/thumbs/snes/alien_vs_predator_usa.jpg": {
+			"md5": "83965a87d4248ba886e8af3f8687f8fc"
+		},
+		"res/roms/thumbs/snes/andre_agassi_tennis_usa.jpg": {
+			"md5": "e7d3f1761bfafe10d632afc50eed4ec4"
+		},
+		"res/roms/thumbs/snes/axelay_usa.jpg": {
+			"md5": "0bc3eee77406048a6a1f86398b431eae"
+		},
+		"res/roms/thumbs/snes/batman_forever_usa.jpg": {
+			"md5": "883759021535b198f40e02048835faab"
+		},
+		"res/roms/thumbs/snes/batman_returns_usa.jpg": {
+			"md5": "b6ee2722f2bffe026db3d28b5ed37ff7"
+		},
+		"res/roms/thumbs/snes/battletoads_&_double_dragon_usa.jpg": {
+			"md5": "cc1631bd6fec40c525d82e158eb5f49d"
+		},
+		"res/roms/thumbs/snes/biker-mice-from-mars-usa-thumb.jpg": {
+			"md5": "e599ae89f3b185021a07536efce0af77"
+		},
+		"res/roms/thumbs/snes/blackthorne_usa.jpg": {
+			"md5": "dd2d23cfb17d971ec045950cf7e5da75"
+		},
+		"res/roms/thumbs/snes/breath_of_fire_ii_usa.jpg": {
+			"md5": "4ba5bd93475d00267199adcda6d91f7b"
+		},
+		"res/roms/thumbs/snes/breath_of_fire_usa.jpg": {
+			"md5": "f489fbb92e610736d44f61bb52d049ff"
+		},
+		"res/roms/thumbs/snes/Captain Comando.jpg": {
+			"md5": "355dd3d1ac85e94628cc8a77985d3609"
+		},
+		"res/roms/thumbs/snes/Castlevania - Dracula.jpg": {
+			"md5": "ad1b85979b484d324c5e3fcde5d4fd68"
+		},
+		"res/roms/thumbs/snes/champions_-_world_class_soccer_usa.jpg": {
+			"md5": "e657ec7edf32394315b09219beac5390"
+		},
+		"res/roms/thumbs/snes/chrono_trigger_usa.jpg": {
+			"md5": "e5ef431f9e8ffc788af5b726e4a300b9"
+		},
+		"res/roms/thumbs/snes/contra_iii_-_the_alien_wars_usa.jpg": {
+			"md5": "6ab334d828f98c19c0e7cdb06a4b96af"
+		},
+		"res/roms/thumbs/snes/D-Force.jpg": {
+			"md5": "bac856d37b5a1a0f7b4a2eebefe2b777"
+		},
+		"res/roms/thumbs/snes/death_and_return_of_superman_the_usa.jpg": {
+			"md5": "1fbd9f8fba99992f7094499df8f0afb4"
+		},
+		"res/roms/thumbs/snes/Donkey Kong Country 2.jpg": {
+			"md5": "94ba8a8accc7d15ac373135110bf57db"
+		},
+		"res/roms/thumbs/snes/Donkey Kong Country.jpg": {
+			"md5": "85129820607fb0b8fda73a9a902b15ba"
+		},
+		"res/roms/thumbs/snes/donkey_kong_country_3.jpg": {
+			"md5": "b69348518503ecb0b43ec2d5669895b7"
+		},
+		"res/roms/thumbs/snes/double_dragon_v_-_the_shadow_falls_usa.jpg": {
+			"md5": "6b591a7a9f252b4ade7ab3b0dfef205f"
+		},
+		"res/roms/thumbs/snes/Dragon Ball Z - Super Butouden 3.jpg": {
+			"md5": "1365b8c0482d6b9db53525ce25c1b602"
+		},
+		"res/roms/thumbs/snes/earthbound_usa.jpg": {
+			"md5": "f6bf2d4c554bec64c626ebc54a3f0008"
+		},
+		"res/roms/thumbs/snes/Earthworm Jim 2.jpg": {
+			"md5": "2380d79aa394841fa45871f1d31b060c"
+		},
+		"res/roms/thumbs/snes/earthworm_jim_usa.jpg": {
+			"md5": "e0fb344c082e5d434091ec0e1692db8f"
+		},
+		"res/roms/thumbs/snes/F-ZERO.jpg": {
+			"md5": "e4e11ae1d30414461c50caaabd231e35"
+		},
+		"res/roms/thumbs/snes/f-zero_usa.jpg": {
+			"md5": "9f6acd7c5a94b69b0e67edd0e8dadf45"
+		},
+		"res/roms/thumbs/snes/fatal_fury_2_usa.jpg": {
+			"md5": "bc4a547c0fe3c0de4b5a85044ae60953"
+		},
+		"res/roms/thumbs/snes/fifa_soccer_97_-_gold_edition_usa.jpg": {
+			"md5": "103c6b1c31d45d9622092e3b06eb5906"
+		},
+		"res/roms/thumbs/snes/Final Fantasy II.jpg": {
+			"md5": "87f7de6a6c25b120ded3460387ef81f2"
+		},
+		"res/roms/thumbs/snes/Final Fantasy III.jpg": {
+			"md5": "7cff6388fd538a6443a5c233dcfb207d"
+		},
+		"res/roms/thumbs/snes/Final Fight 2.jpg": {
+			"md5": "c243f679192b7b7a7e524705516e7a80"
+		},
+		"res/roms/thumbs/snes/Final Fight 3.jpg": {
+			"md5": "83f2f5b5f7eb73bceb62789c29964fba"
+		},
+		"res/roms/thumbs/snes/Final Fight.jpg": {
+			"md5": "1103e1d7b6c408dd74b7e178fbd6ac50"
+		},
+		"res/roms/thumbs/snes/final_fantasy_-_mystic_quest_usa_rev_1.jpg": {
+			"md5": "e5a607d24e2e8c134863b2666696a525"
+		},
+		"res/roms/thumbs/snes/final_fantasy_iii_usa_rev_1.jpg": {
+			"md5": "685434bada90f0fecd3113d7c4443700"
+		},
+		"res/roms/thumbs/snes/final_fantasy_ii_usa_rev_1.jpg": {
+			"md5": "a6b66c89a06b221c374098ab15216a0b"
+		},
+		"res/roms/thumbs/snes/final_fantasy_VI_usa.jpg": {
+			"md5": "e382482fa2ce10549bcb32ad43ad9082"
+		},
+		"res/roms/thumbs/snes/final_fantasy_V_usa.jpg": {
+			"md5": "eebef244733d7a333c9923b9c1e15842"
+		},
+		"res/roms/thumbs/snes/final_fight_2_usa.jpg": {
+			"md5": "7e41f54e8234b816a3901a618df1990a"
+		},
+		"res/roms/thumbs/snes/final_fight_3_usa.jpg": {
+			"md5": "32e04017b9699c11669a0e24cd5ae6ba"
+		},
+		"res/roms/thumbs/snes/final_fight_guy_usa.jpg": {
+			"md5": "d965f49c5c57cdef7fd56ac8f90ce44f"
+		},
+		"res/roms/thumbs/snes/Flashback - The Quest for Identity.jpg": {
+			"md5": "1b7411245f7e7e220a597e98531824e2"
+		},
+		"res/roms/thumbs/snes/Goof Troop.jpg": {
+			"md5": "7b0fead5045708ce22920b0358d466b0"
+		},
+		"res/roms/thumbs/snes/gradius_iii_usa.jpg": {
+			"md5": "8c162c94440222e917db51ebbcd411c4"
+		},
+		"res/roms/thumbs/snes/GT_Racing.jpg": {
+			"md5": "0a5c13895764519910be93e784866132"
+		},
+		"res/roms/thumbs/snes/harvest_moon_usa.jpg": {
+			"md5": "7d4102ba6fc3fa3c21fee460e4dc432d"
+		},
+		"res/roms/thumbs/snes/Indiana Jones' Greatest Adventures.jpg": {
+			"md5": "32ff74b3014237fa87f654b60eb976fe"
+		},
+		"res/roms/thumbs/snes/International Superstar Soccer Deluxe.jpg": {
+			"md5": "a0c80e9ec9f295a18d12aa1b1c19f118"
+		},
+		"res/roms/thumbs/snes/International Superstar Soccer.jpg": {
+			"md5": "377d55907f6dd8b63ca39e612856229e"
+		},
+		"res/roms/thumbs/snes/international_superstar_soccer_usa.jpg": {
+			"md5": "b2a6a0f844c7faf44b371c936efbb9a2"
+		},
+		"res/roms/thumbs/snes/jimmy_connors_pro_tennis_tour_usa.jpg": {
+			"md5": "e5e50ed6004166d5d2b19bbaa066facc"
+		},
+		"res/roms/thumbs/snes/joe_&_mac_2_-_lost_in_the_tropics_usa.jpg": {
+			"md5": "aca9466d1e62464b6daa2275aad7f597"
+		},
+		"res/roms/thumbs/snes/jungle_strike_usa.jpg": {
+			"md5": "69a8ae4f0833dfda9021484b60d88da8"
+		},
+		"res/roms/thumbs/snes/ken_griffey_jrs_winning_run_usa.jpg": {
+			"md5": "282a275b179e09bf605cfca4593e8629"
+		},
+		"res/roms/thumbs/snes/killer_instinct_usa_rev_1.jpg": {
+			"md5": "e47052f682011f701e1c8ea55a2040a1"
+		},
+		"res/roms/thumbs/snes/Kirby's Dream Land 3.jpg": {
+			"md5": "d7594278d807941329f3c07770eb811f"
+		},
+		"res/roms/thumbs/snes/kirby_super_star_usa.jpg": {
+			"md5": "af5ace9cba4acb3b0316e699e5994b89"
+		},
+		"res/roms/thumbs/snes/Knights of the Round.jpg": {
+			"md5": "c2b37d2f860008c857956db7310c7a69"
+		},
+		"res/roms/thumbs/snes/legend_of_the_mystical_ninja_the_usa.jpg": {
+			"md5": "703adf46df324c5e110eaf5c75ba6f96"
+		},
+		"res/roms/thumbs/snes/legend_of_zelda_the_-_a_link_to_the_past_usa.jpg": {
+			"md5": "da9d376e59a0986ef311688526c6989c"
+		},
+		"res/roms/thumbs/snes/lion_king_the_usa.jpg": {
+			"md5": "571f47e12d26622d3aab52dd7badacb9"
+		},
+		"res/roms/thumbs/snes/lost_vikings_the_usa.jpg": {
+			"md5": "0b56f852ab6cb78c9ac8a1898fb2749a"
+		},
+		"res/roms/thumbs/snes/lufia_ii_-_rise_of_the_sinistrals_usa.jpg": {
+			"md5": "9f26971a4a013758debc0241d120336b"
+		},
+		"res/roms/thumbs/snes/Mario's Time Machine.jpg": {
+			"md5": "3fb5a0ec3ae7cbe17cdb6cbdaafe983b"
+		},
+		"res/roms/thumbs/snes/mario_paint_japan_usa.jpg": {
+			"md5": "f31fbe64867a1e7764d784497a3f9906"
+		},
+		"res/roms/thumbs/snes/Mega Man X 3.jpg": {
+			"md5": "faa5a0b3111402d66a11b1196fe003fb"
+		},
+		"res/roms/thumbs/snes/Megaman VII.jpg": {
+			"md5": "d6c9f78037918aca62c0ca1cf78259d6"
+		},
+		"res/roms/thumbs/snes/Megaman X.jpg": {
+			"md5": "bcbbc49bafea4cfa0f7b697926607d2c"
+		},
+		"res/roms/thumbs/snes/Megaman X3.jpg": {
+			"md5": "8a6ce6b99e42560fd60b9170d31c2916"
+		},
+		"res/roms/thumbs/snes/mega_lo_mania_europe.jpg": {
+			"md5": "09fdfbeef7567b24d25e2e2babc92ca0"
+		},
+		"res/roms/thumbs/snes/mega_man_7_usa.jpg": {
+			"md5": "eb2a9db271c4b6375c92f0789f62dbbb"
+		},
+		"res/roms/thumbs/snes/mega_man_soccer_usa.jpg": {
+			"md5": "774affd87724c4d7872109b099340c2b"
+		},
+		"res/roms/thumbs/snes/mega_man_x2_usa.jpg": {
+			"md5": "c4f161c619cba265f0e175e1929a64e5"
+		},
+		"res/roms/thumbs/snes/mega_man_x3_usa.jpg": {
+			"md5": "7c94576ce3b3e9625c082b338c2f7ef8"
+		},
+		"res/roms/thumbs/snes/mega_man_x_usa_rev_1.jpg": {
+			"md5": "28b59d2f067c5d02beea2810a1c10244"
+		},
+		"res/roms/thumbs/snes/metal_warriors_usa.jpg": {
+			"md5": "2806bcbe592da60977289976a0f277a6"
+		},
+		"res/roms/thumbs/snes/Mighty Morphin Power Rangers.jpg": {
+			"md5": "f1a1e545121f731c1409bd5e347a7e05"
+		},
+		"res/roms/thumbs/snes/Mortal Kombat II.jpg": {
+			"md5": "d713c06ea454c454ac7c364aa244c129"
+		},
+		"res/roms/thumbs/snes/mortal_kombat_3_usa.jpg": {
+			"md5": "b37f7fac8a83b19aa8dc27513b1e1435"
+		},
+		"res/roms/thumbs/snes/mortal_kombat_ii_usa_rev_1.jpg": {
+			"md5": "d1fee404fe9f053085645a7a09fa1417"
+		},
+		"res/roms/thumbs/snes/mortal_kombat_usa.jpg": {
+			"md5": "8e0cc763e2d99ca3a5ac4821b2512074"
+		},
+		"res/roms/thumbs/snes/NBA Jam - Tournament Edition.jpg": {
+			"md5": "a2ae30ff56a5caf3d7d8fb930b5682b6"
+		},
+		"res/roms/thumbs/snes/NBA Jam.jpg": {
+			"md5": "95af42e8e3a0a02e6b59a2c6a3ad18b9"
+		},
+		"res/roms/thumbs/snes/nba_jam_usa_rev_1.jpg": {
+			"md5": "77bfa425064f8a969fa29fbafb9ef5fe"
+		},
+		"res/roms/thumbs/snes/ncaa_final_four_basketball_usa.jpg": {
+			"md5": "b74d2c3dd3e7e535db32d3c6ac18c215"
+		},
+		"res/roms/thumbs/snes/nhlpa_hockey_93_usa.jpg": {
+			"md5": "a86d89be77883935cbacc57c8e866c85"
+		},
+		"res/roms/thumbs/snes/nhl_98_usa.jpg": {
+			"md5": "730b1ee0cee0ec887b7f9e6017d95e81"
+		},
+		"res/roms/thumbs/snes/out_of_this_world_usa.jpg": {
+			"md5": "5ce40dc370a088db0e08c755b8e79f94"
+		},
+		"res/roms/thumbs/snes/Pilotwings.jpg": {
+			"md5": "328ad1d4468d322e6c7b41f97763daf1"
+		},
+		"res/roms/thumbs/snes/rock_n_roll_racing_usa.jpg": {
+			"md5": "e884280edaa0a4b7b4538ce4482cdcf2"
+		},
+		"res/roms/thumbs/snes/rpm_racing_usa.jpg": {
+			"md5": "3c345186495918d5628e3a03fb4f0c47"
+		},
+		"res/roms/thumbs/snes/secret_of_mana_usa.jpg": {
+			"md5": "c4ceeac3d14d678a1335f30140fe1958"
+		},
+		"res/roms/thumbs/snes/shadowrun_usa.jpg": {
+			"md5": "c88e7edd511e43762f02b955ebf60b9b"
+		},
+		"res/roms/thumbs/snes/Simpsons, The - Bart's Nightmare.jpg": {
+			"md5": "ceea26b7797c4ea6c646c7893a822235"
+		},
+		"res/roms/thumbs/snes/Sonic the Hedgehog 4.jpg": {
+			"md5": "ef9656a190e307c37eeae596a0ecd0af"
+		},
+		"res/roms/thumbs/snes/soul_blazer_usa.jpg": {
+			"md5": "61d5bf3a5dc6f047d584b7da6f91e696"
+		},
+		"res/roms/thumbs/snes/sparkster_usa.jpg": {
+			"md5": "f125a88181cdb301ebc16e437dbd17aa"
+		},
+		"res/roms/thumbs/snes/Spider-Man & Venom - Maximum Carnage.jpg": {
+			"md5": "faa327368a5d26ecca936c0914d49e07"
+		},
+		"res/roms/thumbs/snes/spider-man_usa.jpg": {
+			"md5": "dc332b049054bc7a0b4575d904489e74"
+		},
+		"res/roms/thumbs/snes/Star Fox.jpg": {
+			"md5": "cb60532221bbc1bb3880ca0a28b78914"
+		},
+		"res/roms/thumbs/snes/star_fox_usa_super_weekend_competition.jpg": {
+			"md5": "3c3c75ff4c692e2dcdb7cd33f226102e"
+		},
+		"res/roms/thumbs/snes/Street Fighter 5.jpg": {
+			"md5": "982a4460061214a42647aa79124c3512"
+		},
+		"res/roms/thumbs/snes/Street Fighter II - The World Warrior.jpg": {
+			"md5": "b9b6362a5e2d05e4678aedea20aa5ae2"
+		},
+		"res/roms/thumbs/snes/street_fighter_alpha_2_usa.jpg": {
+			"md5": "778003d5b390a47c1058ea2b936b9b7b"
+		},
+		"res/roms/thumbs/snes/street_fighter_ii_turbo_usa.jpg": {
+			"md5": "2a6f89fddc1f53d81e0fabd9b5160b63"
+		},
+		"res/roms/thumbs/snes/street_fighter_ii_usa.jpg": {
+			"md5": "65a3b2f8692e14c623387c1fed9b5fa9"
+		},
+		"res/roms/thumbs/snes/Sunset Riders.jpg": {
+			"md5": "61397c0b0fd14e2d12b9887521f8a009"
+		},
+		"res/roms/thumbs/snes/sunset_riders_usa.jpg": {
+			"md5": "68e38d016c2b1964c7ba27feb3e720a3"
+		},
+		"res/roms/thumbs/snes/Super Adventure Island.jpg": {
+			"md5": "8a1d2a9f0d01bed74faee458ad556469"
+		},
+		"res/roms/thumbs/snes/Super Bomberman 2.jpg": {
+			"md5": "37e610cbd975ed4c24ba8757099ac27c"
+		},
+		"res/roms/thumbs/snes/Super Bomberman 4.jpg": {
+			"md5": "ffd5a0b8a2abfc6690d3bc96047c226c"
+		},
+		"res/roms/thumbs/snes/Super Bomberman.jpg": {
+			"md5": "bf02f4ac1c8e60d0b518f37bc71b4b5a"
+		},
+		"res/roms/thumbs/snes/Super Double Dragon.jpg": {
+			"md5": "6ca83c97dd4d58d966c2c1cbeaab3ee0"
+		},
+		"res/roms/thumbs/snes/Super Ghouls'n Ghosts.jpg": {
+			"md5": "9351545597407d11f4d9b3a1690e2fc9"
+		},
+		"res/roms/thumbs/snes/Super Mario RPG - Legend of the Seven Stars.jpg": {
+			"md5": "460b3a3373fd919b5e55e8131ab18ff6"
+		},
+		"res/roms/thumbs/snes/Super Mario World 2 - Yoshi's Island.jpg": {
+			"md5": "bacf3d6fc99c41b3b8345675b1ec3752"
+		},
+		"res/roms/thumbs/snes/Super Metroid.jpg": {
+			"md5": "aa584b3c7ddda7e5ae7d5d949c96b9e3"
+		},
+		"res/roms/thumbs/snes/Super Pang.jpg": {
+			"md5": "d6fb235b49bb1530d938c81a71eaa78e"
+		},
+		"res/roms/thumbs/snes/Super Punch-Out.jpg": {
+			"md5": "a81b26fad34e2b35c4d43546d63a03ec"
+		},
+		"res/roms/thumbs/snes/Super Street Fighter II - The New Challengers.jpg": {
+			"md5": "bf2697e39a80810dce1418dfe74dedd8"
+		},
+		"res/roms/thumbs/snes/super_bomberman_2_usa.jpg": {
+			"md5": "3024187fa5a78c529648b4efc386ef95"
+		},
+		"res/roms/thumbs/snes/super_bomberman_3_europe.jpg": {
+			"md5": "7cd3f87906a1c1dca40004867648a719"
+		},
+		"res/roms/thumbs/snes/super_bomberman_usa.jpg": {
+			"md5": "fced7908e5259269a1c01806a8b6805a"
+		},
+		"res/roms/thumbs/snes/super_castlevania_iv_usa.jpg": {
+			"md5": "be9b9e5d9939edf1164c74ff4764d140"
+		},
+		"res/roms/thumbs/snes/super_double_dragon_usa.jpg": {
+			"md5": "713781cc1b5fe18795ef01871f25002d"
+		},
+		"res/roms/thumbs/snes/super_mario_all-stars_usa.jpg": {
+			"md5": "f950f0febf5553255ad9c59ac984e265"
+		},
+		"res/roms/thumbs/snes/super_mario_kart_usa.jpg": {
+			"md5": "fc97964922d4e4b4007334b18dd31920"
+		},
+		"res/roms/thumbs/snes/super_mario_rpg_-_legend_of_the_seven_stars_usa.jpg": {
+			"md5": "e2e39850bb8883305484ce69da4b3bb6"
+		},
+		"res/roms/thumbs/snes/super_mario_world_2_-_yoshis_island_usa_rev_1.jpg": {
+			"md5": "b55a4e7548744cd34e58774e8054d08e"
+		},
+		"res/roms/thumbs/snes/super_mario_world_usa.jpg": {
+			"md5": "0cc781f77ee42f11cd452d25e7581c61"
+		},
+		"res/roms/thumbs/snes/super_metroid_japan_usa.jpg": {
+			"md5": "ee7c0600967357c057d9de8561e822e7"
+		},
+		"res/roms/thumbs/snes/super_punch-out_usa.jpg": {
+			"md5": "ff8f85dc05c65b8a82aa768ceba0c9cd"
+		},
+		"res/roms/thumbs/snes/super_star_wars_-_the_empire_strikes.jpg": {
+			"md5": "223a9c1425763113850aed8d0e631309"
+		},
+		"res/roms/thumbs/snes/super_street_fighter_ii_usa.jpg": {
+			"md5": "1a42c80548f5bde354ef0a097201382c"
+		},
+		"res/roms/thumbs/snes/super_tennis_usa.jpg": {
+			"md5": "0f7e4dfe80e030a4101ca18607c43299"
+		},
+		"res/roms/thumbs/snes/Tecmo Super Bowl.jpg": {
+			"md5": "6cc6d3e18b607ec103a2123e80f43c81"
+		},
+		"res/roms/thumbs/snes/tecmo_super_bowl_iii_-_final_edition_usa.jpg": {
+			"md5": "cc074721047d683124589cd057199989"
+		},
+		"res/roms/thumbs/snes/Teenage Mutant Ninja Turtles - Tournament Fighters.jpg": {
+			"md5": "e5ff08b2a69f144551bfed2d67f7c77a"
+		},
+		"res/roms/thumbs/snes/teenage_mutant_ninja_turtles_iv_-_turtles_in_time_usa.jpg": {
+			"md5": "3edbcad7aeefc049dd791bde9e178a36"
+		},
+		"res/roms/thumbs/snes/tetris_&_dr_mario_usa.jpg": {
+			"md5": "87c4117255a1e286a1c3f4be87ecf667"
+		},
+		"res/roms/thumbs/snes/tiny_toon_adventures_-_buster_busts_loose_usa.jpg": {
+			"md5": "5c43beec61e5b5a23c77d4365b7dec22"
+		},
+		"res/roms/thumbs/snes/Top Gear 2.jpg": {
+			"md5": "806df995d0d07f16981088b58bd4ea61"
+		},
+		"res/roms/thumbs/snes/Top Gear.jpg": {
+			"md5": "06dfa865b5149059e1e1d6c35330c4b2"
+		},
+		"res/roms/thumbs/snes/top_gear_2_usa.jpg": {
+			"md5": "cffb6a7f0479d4c08859a5f4e8639bd5"
+		},
+		"res/roms/thumbs/snes/top_gear_3000_usa.jpg": {
+			"md5": "7455142c3991f3e126b50f654c3d61fc"
+		},
+		"res/roms/thumbs/snes/top_gear_usa.jpg": {
+			"md5": "56918b76c535d1e584e615aa848cec91"
+		},
+		"res/roms/thumbs/snes/ultimate_mortal_kombat_3_usa.jpg": {
+			"md5": "00f3d3af226036af41effd27df3f5378"
+		},
+		"res/roms/thumbs/snes/uniracers_usa.jpg": {
+			"md5": "d8055a4344dca50623b34ddb4e42ea86"
+		},
+		"res/roms/thumbs/snes/Urban Strike.jpg": {
+			"md5": "08e9854383797cfebf27256263c49382"
+		},
+		"res/roms/thumbs/snes/Wario's Woods.jpg": {
+			"md5": "9e0c5e5554252aed920b5e023e166105"
+		},
+		"res/roms/thumbs/snes/X-Men - Mutant Apocalypse.jpg": {
+			"md5": "60dd51d07bdac926639e46ab1d8d7d00"
+		},
+		"res/roms/thumbs/snes/X-Men vs. Street Fighter.jpg": {
+			"md5": "97dce729ef412dcd353e233d1baed8e1"
+		},
+		"res/roms/thumbs/snes/x-men_-_mutant_apocalypse_usa.jpg": {
+			"md5": "d0da42f41174c9f37b186d0fe04f0b07"
+		},
+		"res/roms/thumbs/snes/Zombies Ate My Neighbors.jpg": {
+			"md5": "e044cead4582d8bb0900376fc5004ea9"
+		},
+		"res/roms/thumbs/snes/zombies_ate_my_neighbors_usa.jpg": {
+			"md5": "2b395da58129119283295975b4976f39"
+		},
+		"res/SCPH1001.bin": {
+			"md5": "525bba2c7e3a7c2fa04db129af8ccac0"
+		},
+		"res/shaders/BlurSprite.mat": {
+			"md5": "f08768e03a063c26a67d30982d2caca7"
+		},
+		"res/shaders/DotMask.mat": {
+			"md5": "ed5a2ed1ccab2cf8847c22557d5d0659"
+		},
+		"res/shaders/DotMask_NES.mat": {
+			"md5": "db576f9975d7d913aabf05f3043bcf72"
+		},
+		"res/shaders/GBA.mat": {
+			"md5": "e2db4b69f74c7650c3e6952cf9967710"
+		},
+		"res/shaders/NES.mat": {
+			"md5": "7feae1b84da42939bb45c62890c73ef0"
+		},
+		"res/shaders/overlay/Default.glsl": {
+			"md5": "dc6bb0b9c613f1109823ea5c3c2e60b9"
+		},
+		"res/shaders/overlay/DotMask.glsl": {
+			"md5": "9a0319fd2c0cb700d77377bc83312348"
+		},
+		"res/shaders/overlay/Scanlines.glsl": {
+			"md5": "b57890a3d166803083b2fcb3736f9c8a"
+		},
+		"res/shaders/Scanlines.mat": {
+			"md5": "aeed3994c49a13072ffaa25b6d5ec49e"
+		},
+		"res/shaders/Scanlines_NES.mat": {
+			"md5": "f9f83978c06135f675abfc6b5a304e7e"
+		},
+		"res/shaders/varying.def.sc": {
+			"md5": "32a1a20d8f33e69495ad8d074c14fba2"
+		},
+		"res/shaders/vfs_BlurSprite.sc": {
+			"md5": "8b8e13f50640176529657b95c9ded33c"
+		},
+		"res/shaders/vfs_DotMask.sc": {
+			"md5": "06188e7bcc963baa67ca6dd8ea5b322b"
+		},
+		"res/shaders/vfs_GBA.sc": {
+			"md5": "ece7889caecaa2b9517798c1357a167e"
+		},
+		"res/shaders/vfs_NES.sc": {
+			"md5": "dd7fe42be1536c6a48a5679028bc1c8d"
+		},
+		"res/shaders/vfs_NES_DotMask.sc": {
+			"md5": "7ba4d8712c7dcc6b78e3a803db424fd3"
+		},
+		"res/shaders/vfs_NES_Scanlines.sc": {
+			"md5": "bb00e72664967295a701e8645b7ed34e"
+		},
+		"res/shaders/vfs_Scanlines.sc": {
+			"md5": "8ba46aa83ee193f318280f65b726c001"
+		},
+		"res/UI/bg/bg.png": {
+			"md5": "874db638f7f2e142b1c4f1a85ec0489f"
+		},
+		"res/UI/bg/launcher.png": {
+			"md5": "90c45bab4d1b2cd6c0c78c192fe90e92"
+		},
+		"res/UI/bg/popup.png": {
+			"md5": "e60b3e20c6ace97000552fc36c8fe330"
+		},
+		"res/UI/button/bg_button.png": {
+			"md5": "ed9356304e8cef7ba80ad37fcbacc357"
+		},
+		"res/UI/button/bg_button_2.png": {
+			"md5": "24f93b2bebc4c5ad7a933011333a4ffe"
+		},
+		"res/UI/button/bg_gameboy.png": {
+			"md5": "7e358edb2e35ccfc8a2704d377f3599d"
+		},
+		"res/UI/button/btn_no.png": {
+			"md5": "a246c4e191f0ed68365c9a9a4404d2f9"
+		},
+		"res/UI/button/btn_ok.png": {
+			"md5": "a47dbf5ffea682211246891a80f21d40"
+		},
+		"res/UI/button/button.png": {
+			"md5": "6f40526fa63a1caff0cec7ba10b72373"
+		},
+		"res/UI/button/buttonA.png": {
+			"md5": "fafe3ff9bcb0474bd8ac27b6e8f322be"
+		},
+		"res/UI/button/buttonB.png": {
+			"md5": "67e925f89ca0c0cb1b9293cc6aa8ac98"
+		},
+		"res/UI/button/buttonX.png": {
+			"md5": "7bee82eddb5bdbe4f2f3bda654371810"
+		},
+		"res/UI/button/buttonY.png": {
+			"md5": "598e6982268024f42c066d3ac9bc5a24"
+		},
+		"res/UI/button/g_button.png": {
+			"md5": "d54b1dc55f93f18ddc56c98376d9e07b"
+		},
+		"res/UI/button/jump.png": {
+			"md5": "0d96df04664276f435d3b1507703997b"
+		},
+		"res/UI/button/jumpshot.png": {
+			"md5": "29fbc9457bd04233b135ede6ba564500"
+		},
+		"res/UI/button/L.png": {
+			"md5": "883857cb6ca3407c7db74d4e65f836af"
+		},
+		"res/UI/button/o_button.png": {
+			"md5": "f6c2460fbce4d142d69fba7edfdc7e7f"
+		},
+		"res/UI/button/R.png": {
+			"md5": "f612edb6c8beb3acd47b734cc7932ce0"
+		},
+		"res/UI/button/shot.png": {
+			"md5": "9df7967bdbf37b2a3d450b008f8c000f"
+		},
+		"res/UI/button/squard.png": {
+			"md5": "5300092050d1d0173ec14706ae5fe787"
+		},
+		"res/UI/button/triangle_button.png": {
+			"md5": "83ebf66b1fc4fecb3733520b4450e66c"
+		},
+		"res/UI/button/x_button.png": {
+			"md5": "673f336137d8e59f49e3c52520014745"
+		},
+		"res/UI/common/8bit.png": {
+			"md5": "240f0f3909815f6eac58f9ddf2c004a4"
+		},
+		"res/UI/common/9patch.png": {
+			"md5": "bfc7c3d3f273f1a312f42a50f4c3bb49"
+		},
+		"res/UI/common/back_portrait.png": {
+			"md5": "862d1811e6802ecf944013c2550f6071"
+		},
+		"res/UI/common/bang.png": {
+			"md5": "5f7a99b0b01fc6d06537d6c9d1cdc85f"
+		},
+		"res/UI/common/bg.jpg": {
+			"md5": "31796b3be7a9b69f26c1a03b1d2d529f"
+		},
+		"res/UI/common/bg.png": {
+			"md5": "29e7c0f27ca5a9ac0ec9ca8596f3972c"
+		},
+		"res/UI/common/btn.png": {
+			"md5": "2735e56602b4c3ea483196a7a7c12f72"
+		},
+		"res/UI/common/game.png": {
+			"md5": "f556b7e1d1c35dd2f03d21888a108b26"
+		},
+		"res/UI/common/launcher.png": {
+			"md5": "c0dfd59117403fad6850b25dc40708ea"
+		},
+		"res/UI/common/lig_stick_inner.png": {
+			"md5": "23cbdcf0d89c77cf07ad05b3f5260bf6"
+		},
+		"res/UI/common/loading.png": {
+			"md5": "b6a225ef4f416ac52d30f0a2da1e4291"
+		},
+		"res/UI/common/nes.png": {
+			"md5": "35770c36415581a4166735da9fb0a857"
+		},
+		"res/UI/common/nes2x.png": {
+			"md5": "8191fa4fd8b4114db9878f1e41dc02a2"
+		},
+		"res/UI/common/nes_ad.png": {
+			"md5": "4cfe37428fd66db79ac9500d497cef4c"
+		},
+		"res/UI/common/nexus2cee_Play-Services.png": {
+			"md5": "95b65cab1f761be3e28b5f409a85e7ea"
+		},
+		"res/UI/common/save_bg.png": {
+			"md5": "94f4515d4dda03fccfaa3d054aec1bc2"
+		},
+		"res/UI/common/select.png": {
+			"md5": "9c92352bca7098805b2e50e0ea548ac5"
+		},
+		"res/UI/ContinueLayer.json": {
+			"md5": "5fef35e97758c8dbc838d14208acda7d"
+		},
+		"res/UI/DebugLayer.json": {
+			"md5": "6f85d87d77e84ae304cff758444aab61"
+		},
+		"res/UI/Default/Button_Disable.png": {
+			"md5": "efa02055c712a3cfa06f86c65c26ca5c"
+		},
+		"res/UI/Default/Button_Normal.png": {
+			"md5": "50ddb7cdf66d0d09c8c5d9abc8060421"
+		},
+		"res/UI/Default/Button_Press.png": {
+			"md5": "0349574b197f13da98ce4bd41ca5aa99"
+		},
+		"res/UI/Default/ImageFile.png": {
+			"md5": "5b229b8e8ac27a62a7ae091779debcf8"
+		},
+		"res/UI/Default/Slider_Back.png": {
+			"md5": "fe7edf40a09bf6d5a829a9a9de260f62"
+		},
+		"res/UI/Default/Slider_PressBar.png": {
+			"md5": "aa736c7d10bbf8dfca2bcc193b148ee4"
+		},
+		"res/UI/DeviceBluetoothLayer.json": {
+			"md5": "e265e5f387e96f197502e4e552420d90"
+		},
+		"res/UI/Dialog.json": {
+			"md5": "ec40617ea6577eae0dc8c5254c339216"
+		},
+		"res/UI/DialogBlock.json": {
+			"md5": "fa3badb00ec40a5d2f59094587758629"
+		},
+		"res/UI/Dialog_Reward.json": {
+			"md5": "b0b5c627c5a61bf64c1d4593a54c6eef"
+		},
+		"res/UI/digital_control/lig_dpad_down.png": {
+			"md5": "5ff43416241bfb5807f71e4fd4317df9"
+		},
+		"res/UI/digital_control/lig_dpad_down_left.png": {
+			"md5": "53ef0b3ea9fcff9ae969d8d7bcd67e6c"
+		},
+		"res/UI/digital_control/lig_dpad_down_right.png": {
+			"md5": "df51ff6fb6b7acbbc8fbf802e94dd391"
+		},
+		"res/UI/digital_control/lig_dpad_left.png": {
+			"md5": "a6bfc32f4f31ce3947256e93c0553000"
+		},
+		"res/UI/digital_control/lig_dpad_none.png": {
+			"md5": "3a8422086c78defd6b2e6c3333051350"
+		},
+		"res/UI/digital_control/lig_dpad_right.png": {
+			"md5": "d1d0179e6c3de0001485acebe65e5d5a"
+		},
+		"res/UI/digital_control/lig_dpad_up.png": {
+			"md5": "c9487c0ff9795fbd583ab8042a6217e4"
+		},
+		"res/UI/digital_control/lig_dpad_up_left.png": {
+			"md5": "b4a246bcb394240a6ce3980221cecd49"
+		},
+		"res/UI/digital_control/lig_dpad_up_right.png": {
+			"md5": "2a2d12005887f1488ff95ef7663bdf9e"
+		},
+		"res/UI/FindROMLayer.json": {
+			"md5": "536d8f09d4421a224071bec35a2d25df"
+		},
+		"res/UI/fonts/LilitaOne-Regular.ttf": {
+			"md5": "ce83b4bfa37f53ea2a3fc97088af7181"
+		},
+		"res/UI/fonts/Pixel.ttf": {
+			"md5": "496f5330d2c390d6487c296d2c550426"
+		},
+		"res/UI/fonts/retro.ttf": {
+			"md5": "d228fa37180443f2fc19671530972763"
+		},
+		"res/UI/fonts/roboto.ttf": {
+			"md5": "8a36205bd9b83e03af0591a004bc97f4"
+		},
+		"res/UI/fonts/roboto_bold.ttf": {
+			"md5": "b8e42971dec8d49207a8c8e2b919a6ac"
+		},
+		"res/UI/fonts/roboto_italic.ttf": {
+			"md5": "cebd892d1acfcc455f5e52d4104f2719"
+		},
+		"res/UI/fonts/roboto_medium.ttf": {
+			"md5": "68ea4734cf86bd544650aee05137d7bb"
+		},
+		"res/UI/GameLayer.json": {
+			"md5": "5861636e1b44d0e7503acb0fc35e11ab"
+		},
+		"res/UI/GameLayer_N64.json": {
+			"md5": "b48e8e64112eca6d71762c3f02c2469d"
+		},
+		"res/UI/GameLayer_SNK.json": {
+			"md5": "4f01d14230b7c36fa78870b422ebf10a"
+		},
+		"res/UI/GameList.json": {
+			"md5": "d30c38b3be8ce45f60a331b764948e20"
+		},
+		"res/UI/GameListCommon.json": {
+			"md5": "a02951b96f06e4aef8dfdece7d54e25a"
+		},
+		"res/UI/GameListMAME.json": {
+			"md5": "1e523da8e14b7549301e436d6f91940c"
+		},
+		"res/UI/gui/btn.png": {
+			"md5": "e6a6952d477817088a826b0c6c4e9de0"
+		},
+		"res/UI/gui/btn_red.png": {
+			"md5": "58879425f708cfb97f9d882e95c9abdd"
+		},
+		"res/UI/gui/download.png": {
+			"md5": "36d5d992b62032219183bcac2b4d365b"
+		},
+		"res/UI/gui/favorite.png": {
+			"md5": "436c0829785e869ba9c59e310fdb8567"
+		},
+		"res/UI/gui/favorite_select.png": {
+			"md5": "f9d7d37c8be36ad0d84bfdba8e7a8a18"
+		},
+		"res/UI/gui/info.png": {
+			"md5": "6a014beeabbfb2fdceaeada948bedb10"
+		},
+		"res/UI/gui/info_select.png": {
+			"md5": "712620938f0f522be687bb3852c3e5f9"
+		},
+		"res/UI/gui/list.png": {
+			"md5": "190f02a9836e9ba56dece6b3600a44c4"
+		},
+		"res/UI/gui/list_select.png": {
+			"md5": "31a4d90133a77cb2d47d792e3d53167c"
+		},
+		"res/UI/gui/loading.png": {
+			"md5": "ce05aedd4d3779c4467a0538fb1affc1"
+		},
+		"res/UI/gui/no_ads.png": {
+			"md5": "76492937002cd47768207371ccf9f226"
+		},
+		"res/UI/gui/play.png": {
+			"md5": "090410a0acc4ec586621810e8a65b6f5"
+		},
+		"res/UI/gui/recent.png": {
+			"md5": "ed180459113acd530c237534fbc95e4a"
+		},
+		"res/UI/gui/recent_select.png": {
+			"md5": "66d09535b4d5c5f54c27b3879f8e6595"
+		},
+		"res/UI/gui/reload.png": {
+			"md5": "bfcf2563f27469cf66c69ff4c2a4ddd7"
+		},
+		"res/UI/gui/reload_select.png": {
+			"md5": "7bef0a63e898978944e52a61eb798c59"
+		},
+		"res/UI/gui/rom.png": {
+			"md5": "40cde47580b8a86cd68e18fb74649721"
+		},
+		"res/UI/gui/rom_select.png": {
+			"md5": "c61072d44e2985b7dd5e7db165b27aeb"
+		},
+		"res/UI/gui/search.png": {
+			"md5": "a9f3de3071a8b256977882e6353a0ca4"
+		},
+		"res/UI/gui/search_select.png": {
+			"md5": "f000dc5aa465088d9a6a5843b894c213"
+		},
+		"res/UI/gui/star_empty.png": {
+			"md5": "274298281fcc99e1e5f11441fc70a1e7"
+		},
+		"res/UI/gui/star_full.png": {
+			"md5": "2af91dd84ce22260b52dd28c9f435b65"
+		},
+		"res/UI/gui/star_half.png": {
+			"md5": "ae64b0f2b3d4493b58042d0b8ec9decf"
+		},
+		"res/UI/gui/store_back2.png": {
+			"md5": "60ba08f1ccf3a8e6662b0e1def1f200c"
+		},
+		"res/UI/gui/store_back_select.png": {
+			"md5": "391ca9224f2d564e14a732960d59a633"
+		},
+		"res/UI/gui/store_dau__.png": {
+			"md5": "10891fced2708d1cf6ade1f5e09d8876"
+		},
+		"res/UI/gui/store_duoi__.png": {
+			"md5": "64468bf31b1b8892b2c0595459d4a202"
+		},
+		"res/UI/gui/watch_ad_video.png": {
+			"md5": "7bd3ff02eee26b6530f72a53198c8088"
+		},
+		"res/UI/iconemu/ARCADE.png": {
+			"md5": "e8e54c36e7b37e589914d80189ef5b2a"
+		},
+		"res/UI/iconemu/ARCADE2.png": {
+			"md5": "fb3c796ad0b842ed6ed636639de53246"
+		},
+		"res/UI/iconemu/GBA.png": {
+			"md5": "f173f5847c7c0138962502d6794a1bce"
+		},
+		"res/UI/iconemu/GBA2.png": {
+			"md5": "92369a210b67c77faa2fef696b98a22d"
+		},
+		"res/UI/iconemu/Mores.png": {
+			"md5": "34fd0c3da7485663e7f1380974a63e08"
+		},
+		"res/UI/iconemu/Mores2.png": {
+			"md5": "ccd12e927137e09de0fa321c16e811c4"
+		},
+		"res/UI/iconemu/N64.png": {
+			"md5": "ca9e09d9055fe7784e74c45380e9102d"
+		},
+		"res/UI/iconemu/N642.png": {
+			"md5": "40357b11179a90659a62076e6c19de96"
+		},
+		"res/UI/iconemu/NES.png": {
+			"md5": "fe78eef4fa14c857ed94ed2495244492"
+		},
+		"res/UI/iconemu/NES2.png": {
+			"md5": "75390d3f2ad4e1378fc063a2da59f918"
+		},
+		"res/UI/iconemu/Policy.png": {
+			"md5": "bca273882de2c7f41d3997f24a426080"
+		},
+		"res/UI/iconemu/Rate.png": {
+			"md5": "f0f33e233d2a5c01ecaabcdeed73d7e8"
+		},
+		"res/UI/iconemu/SNES.png": {
+			"md5": "5535da3f5694983b43b82a4694bf0171"
+		},
+		"res/UI/iconemu/SNES2.png": {
+			"md5": "2be5267131cccd6d3788a0bd137f7c3c"
+		},
+		"res/UI/iconemu/Website.png": {
+			"md5": "15fdf04d03c9878414bfe4373ee60608"
+		},
+		"res/UI/icons/bluetooth.png": {
+			"md5": "38fb07246244b61c3fcd2f997f6d5b2e"
+		},
+		"res/UI/icons/internet.png": {
+			"md5": "e793fd87f236a2f16ad3e5272547f7a3"
+		},
+		"res/UI/icons/wifi.png": {
+			"md5": "8122793a5de524088e537a4a4d23410e"
+		},
+		"res/UI/image/app_icon_round.png": {
+			"md5": "cb6989430a378826b7815be03c0a4a09"
+		},
+		"res/UI/image/contra.png": {
+			"md5": "e3bc13b137cfc67870b382fd57900dc4"
+		},
+		"res/UI/image/getit.png": {
+			"md5": "41b818180b4aaa7b3a3fb2981ce8c6ce"
+		},
+		"res/UI/image/icon_promo.png": {
+			"md5": "75f22abc6e274524f7aaa042149cab7d"
+		},
+		"res/UI/image/icon_snk.png": {
+			"md5": "0b9bb305da99d2d80c95fd883ca859ff"
+		},
+		"res/UI/image/kong_icon.png": {
+			"md5": "8cf17d45ad1baa18cfc7e91084cbd430"
+		},
+		"res/UI/image/mariokarttour.png": {
+			"md5": "ca0223caf958bb3e16b851da0d238c1c"
+		},
+		"res/UI/image/mslug_icon.png": {
+			"md5": "200ad9fa8b5c788228b65352e7fc6ae1"
+		},
+		"res/UI/image/promo_label.png": {
+			"md5": "029eb59dd1e9b8815eb3bb0f351d4b17"
+		},
+		"res/UI/InfoGBA.json": {
+			"md5": "0e004bb8e5949f612a43eaa0b41c113e"
+		},
+		"res/UI/InfoMAME.json": {
+			"md5": "eb1a131c6a3ce7f9d550eaecbb0625a4"
+		},
+		"res/UI/InfoNES.json": {
+			"md5": "d3a65ae69a1976abf87e52072ad80d82"
+		},
+		"res/UI/InfoSNES.json": {
+			"md5": "cb345af159934506af1f39d784700ced"
+		},
+		"res/UI/JoystickN64.json": {
+			"md5": "6845c9d5b749afe171bee6864621504e"
+		},
+		"res/UI/JoystickNES.json": {
+			"md5": "a49a458e06d7bc1ab0e72fe4c717b4f0"
+		},
+		"res/UI/JoystickPS.json": {
+			"md5": "27a9840a309fe389a12245ee5cf9e500"
+		},
+		"res/UI/JoystickSNK.json": {
+			"md5": "323a04490fe94b22a536e1522ded597c"
+		},
+		"res/UI/Loading.json": {
+			"md5": "15ac1326a10eef534a753e179c320ab9"
+		},
+		"res/UI/Lobby.json": {
+			"md5": "70348717f52ec6ad98b3eac72a478c06"
+		},
+		"res/UI/MoreGames.json": {
+			"md5": "389e3fc0945fb1b3a1351e682799940b"
+		},
+		"res/UI/mslug/bg_metalslug.png": {
+			"md5": "6ef817e87f3b0725f62daa5dfb599d2b"
+		},
+		"res/UI/mslug/mslug.png": {
+			"md5": "38582c327ee192023f844d079b297b32"
+		},
+		"res/UI/mslug/mslug2.png": {
+			"md5": "283ab66f247dc4ba27d5442a1b4b5a6c"
+		},
+		"res/UI/mslug/mslug3.png": {
+			"md5": "97816c4faee54cdff4c421dbba2d8f94"
+		},
+		"res/UI/mslug/mslug4.png": {
+			"md5": "79ad9b81e161b46d0ff61828c707a315"
+		},
+		"res/UI/mslug/mslug5.png": {
+			"md5": "648bb8290a42cef045f86ee84f77792e"
+		},
+		"res/UI/mslug/mslug6.png": {
+			"md5": "5bebfb90775a18ef3cfa02d1694b4380"
+		},
+		"res/UI/mslug/mslugx.png": {
+			"md5": "5996a03741fe46f0026f0eca8481b05c"
+		},
+		"res/UI/MultiplayerLayer.json": {
+			"md5": "6bc7076281c7ab2f833e39c46051e9cf"
+		},
+		"res/UI/n64/analog-back.png": {
+			"md5": "e2f81bb2541373721e99d501a94fac83"
+		},
+		"res/UI/n64/analog-fore.png": {
+			"md5": "ff27d96d7582cf98ea339c5518974922"
+		},
+		"res/UI/n64/analog.png": {
+			"md5": "e2f81bb2541373721e99d501a94fac83"
+		},
+		"res/UI/n64/buttonA.png": {
+			"md5": "716f977a14584cee3270c4d0e32ace63"
+		},
+		"res/UI/n64/buttonB.png": {
+			"md5": "6a43e00e561ea3dc3f361b6152d67d68"
+		},
+		"res/UI/n64/buttonCd.png": {
+			"md5": "548584d135b578df3025c5b561331a9c"
+		},
+		"res/UI/n64/buttonCl.png": {
+			"md5": "e25b04bcacb62e6f76e7a13e233aacb5"
+		},
+		"res/UI/n64/buttonCr.png": {
+			"md5": "ba31a5a8e8bad35c0ac73d9aa2fd96fa"
+		},
+		"res/UI/n64/buttonCu-holdCu.png": {
+			"md5": "0c87cd7a0982dc8de81f5381a784e952"
+		},
+		"res/UI/n64/buttonCu.png": {
+			"md5": "e7de009579a23264f97a4a87e755190b"
+		},
+		"res/UI/n64/buttonL-holdL.png": {
+			"md5": "988321b1dd54dddd053985ab4d318a79"
+		},
+		"res/UI/n64/buttonL.png": {
+			"md5": "51f940c93a0e9c5b2c95901fb7cb3aa7"
+		},
+		"res/UI/n64/buttonR-holdR.png": {
+			"md5": "588e7ac5a672753d6a14fb2c4cc1da49"
+		},
+		"res/UI/n64/buttonR.png": {
+			"md5": "85a3d91afe82d3369efd8ac77614322e"
+		},
+		"res/UI/n64/buttonS-holdS.png": {
+			"md5": "f7ad518e5be153909357849fe5602691"
+		},
+		"res/UI/n64/buttonS.png": {
+			"md5": "9a4e979006b65c71df7c9cd971abf0dd"
+		},
+		"res/UI/n64/buttonZ-holdZ.png": {
+			"md5": "0376c84d67a611171bdf8256a2a903c1"
+		},
+		"res/UI/n64/buttonZ.png": {
+			"md5": "e703b0e9e79a0b55cea1daf60c6b1e07"
+		},
+		"res/UI/n64/groupC.png": {
+			"md5": "c818da6ad546e03314c6e7f34d5507c1"
+		},
+		"res/UI/NotificationLayer.json": {
+			"md5": "9abae524433d7cf4dc7b33b6e1c58349"
+		},
+		"res/UI/Options.json": {
+			"md5": "479f18df23da7ff5708f1e05c21794d6"
+		},
+		"res/UI/Options_GBA.json": {
+			"md5": "a75fbdf384adcf87fd6bc993fe728d2b"
+		},
+		"res/UI/Options_MAME.json": {
+			"md5": "9ce78872b978d7adfc59d3b417df9b9c"
+		},
+		"res/UI/Options_N64.json": {
+			"md5": "1a031c39ab0ec1de5882ee90bcdc8b1b"
+		},
+		"res/UI/Options_SNES.json": {
+			"md5": "d1a85dca0c1b0d0b92d68478b7aa10e3"
+		},
+		"res/UI/Options_SNK.json": {
+			"md5": "86467eff8c45c15d23dd279c3e6600c2"
+		},
+		"res/UI/PopupNews.json": {
+			"md5": "c63ca4c25c2dfa9853ae70dee7e67810"
+		},
+		"res/UI/PromoGame.json": {
+			"md5": "c7c4e9f41961a153f3a82fd3e42d7fbd"
+		},
+		"res/UI/RateGUI.json": {
+			"md5": "6b9acee9918c33f1df125de69f421362"
+		},
+		"res/UI/RateLayer.json": {
+			"md5": "ab316dd807b3219229361ef5abc5a183"
+		},
+		"res/UI/retro64/ARCADE.png": {
+			"md5": "23c988452be6a11ca4f6cc367bdbde50"
+		},
+		"res/UI/retro64/bg_emu.png": {
+			"md5": "57d1b3426687ffcdc9c431121bd8fcba"
+		},
+		"res/UI/retro64/bg_emu_select.png": {
+			"md5": "cb154cde093ae9877911557c57ee7e29"
+		},
+		"res/UI/retro64/GBA.png": {
+			"md5": "7121bbd1028dc2e7c8637df0690881ec"
+		},
+		"res/UI/retro64/Mores.png": {
+			"md5": "d5844cb3d24049ba7d599077d4466d1b"
+		},
+		"res/UI/retro64/N64.png": {
+			"md5": "ded593ebae88a168b03dc71f7fc66da2"
+		},
+		"res/UI/retro64/NES.png": {
+			"md5": "7908acf5ac91a9dd84f07f2b8459b9c9"
+		},
+		"res/UI/retro64/SNES.png": {
+			"md5": "9cde68c59cc1b22210cef24299fcb40e"
+		},
+		"res/UI/RomCell.json": {
+			"md5": "bb66bf85758095296190fc52925b142a"
+		},
+		"res/UI/roms/gba.jpg": {
+			"md5": "36342816c4474032a09f560f79758b57"
+		},
+		"res/UI/roms/n64.jpg": {
+			"md5": "84d5d00b5b52ea1e5d0f1f68995e79b1"
+		},
+		"res/UI/roms/nes.png": {
+			"md5": "38698c9bd88c1808b439beb7f213302f"
+		},
+		"res/UI/roms/snes.jpg": {
+			"md5": "fe8e1ba61e0dd8b99143002f467b1d36"
+		},
+		"res/UI/signalstatus/00.png": {
+			"md5": "0373800acb9977dbadb3341742fa84dc"
+		},
+		"res/UI/signalstatus/11.png": {
+			"md5": "1b6f60eba0f7dddfd309360d4259a4f1"
+		},
+		"res/UI/signalstatus/22.png": {
+			"md5": "ae2c4531a4ce1d308bae7a2ad6851d94"
+		},
+		"res/UI/signalstatus/33.png": {
+			"md5": "b83fa33d7122bdd93247f0f52214b165"
+		},
+		"res/UI/signalstatus/44.png": {
+			"md5": "8c6049d9a49c9f6ff87713e2d7705be0"
+		},
+		"res/UI/ToastLayer.json": {
+			"md5": "6abdd3fb39c27fc165a24ded031fafa6"
+		},
+		"res/UI/Waiting.json": {
+			"md5": "ae1b8e1b5ef08e53e7c33085d5afc567"
+		},
+		"script/3d/jsb_cocos2d_3d.js": {
+			"md5": "0350745d0ea19dbd94a366503ba93757"
+		},
+		"script/3d/jsb_cocos2d_3d_ext.js": {
+			"md5": "5aa7435b73a6558b6d05ad836d129ea8"
+		},
+		"script/ccui/jsb_ccui_create_apis.js": {
+			"md5": "5c9efe45adbe48a64785435ffa0621f7"
+		},
+		"script/ccui/jsb_ccui_deprecated.js": {
+			"md5": "17455e067a65741e7139e9dc61daf59b"
+		},
+		"script/ccui/jsb_ccui_property_apis.js": {
+			"md5": "5ececfe12da956c0ab4820b8719f66cb"
+		},
+		"script/ccui/jsb_ccui_property_impls.js": {
+			"md5": "4a389f35dffe32fce7142bf314d1a63d"
+		},
+		"script/ccui/jsb_cocos2d_ui.js": {
+			"md5": "ffc12db67745a9935ac096ffe04bce5a"
+		},
+		"script/chipmunk/jsb_chipmunk.js": {
+			"md5": "5e13852578447227d3e88cf7cb695e21"
+		},
+		"script/chipmunk/jsb_chipmunk_constants.js": {
+			"md5": "3c75b14122fc462ff8479e6a7bb05029"
+		},
+		"script/debugger/actors/common.js": {
+			"md5": "c7c0092f930a881f4dc1ce8d7685570c"
+		},
+		"script/debugger/actors/object.js": {
+			"md5": "2629cbace826e57fe5cbfe236e304a9c"
+		},
+		"script/debugger/actors/root.js": {
+			"md5": "322fede6259b430f542a0b69960cd15d"
+		},
+		"script/debugger/actors/script.js": {
+			"md5": "83c4a2b42ee1ab9540ea8a3f91e2c078"
+		},
+		"script/debugger/actors/utils/ScriptStore.js": {
+			"md5": "44ed0f975c67d15ae874a3066051d9c7"
+		},
+		"script/debugger/actors/utils/TabSources.js": {
+			"md5": "b8a56e0b9a1cc3d5c44f8a078fb98899"
+		},
+		"script/debugger/actors/webconsole.js": {
+			"md5": "e4cc52f5e3ee3e9084263f3d3626d880"
+		},
+		"script/debugger/core/promise.js": {
+			"md5": "bf8858b7bcc693892db8ab37568a09d6"
+		},
+		"script/debugger/DevToolsUtils.js": {
+			"md5": "4c8570bec9e263296012223b34884d3e"
+		},
+		"script/debugger/event-emitter.js": {
+			"md5": "1a528b53f5e3f89aa97ed70cbdd76f16"
+		},
+		"script/debugger/main.js": {
+			"md5": "43a4774d8063ede83aafeecf5299aeb4"
+		},
+		"script/debugger/transport.js": {
+			"md5": "41726017b31de04bffe7c34004135d58"
+		},
+		"script/debugger/webconsole/utils.js": {
+			"md5": "a95a89465de8ded22a09d8a1144d62d8"
+		},
+		"script/extension/jsb_cocos2d_extension.js": {
+			"md5": "74ba916e3201d9ed3cfecab4414a41aa"
+		},
+		"script/extension/jsb_ext_create_apis.js": {
+			"md5": "e8b87b8143bda9616444f62cfbbccbbc"
+		},
+		"script/extension/jsb_ext_property_apis.js": {
+			"md5": "b17d68b79ef6d2f99fe03a499e9769a4"
+		},
+		"script/jsb.js": {
+			"md5": "e3e7a5ae02151212aaf1bf56bbb7f255"
+		},
+		"script/jsb_audioengine.js": {
+			"md5": "442448107f845809b422fba005ed8f9c"
+		},
+		"script/jsb_boot.js": {
+			"md5": "8f03ee54f0615e11245c59062cf6ca5b"
+		},
+		"script/jsb_cocos2d.js": {
+			"md5": "55239ead231a74594b2070d50729cdd3"
+		},
+		"script/jsb_cocos2d_constants.js": {
+			"md5": "bebf933a535f519c49b791160da9d84c"
+		},
+		"script/jsb_cocosbuilder.js": {
+			"md5": "f14b321340390e5a8dfd4092adbff512"
+		},
+		"script/jsb_common.js": {
+			"md5": "f63a7c58c40beb940dccef3c0121cfb5"
+		},
+		"script/jsb_create_apis.js": {
+			"md5": "ac492d634082ae7e3395c669d8e25055"
+		},
+		"script/jsb_debugger.js": {
+			"md5": "8f9cc674a0f481d3ab04c284b235f96c"
+		},
+		"script/jsb_deprecated.js": {
+			"md5": "3cec20e32a21f5d6fcca16db613938c9"
+		},
+		"script/jsb_gfx.js": {
+			"md5": "be3931e58f802425971468bfc9dc6ff7"
+		},
+		"script/jsb_loaders.js": {
+			"md5": "e23cf95e915d8807f56ccf8a535acb6e"
+		},
+		"script/jsb_opengl.js": {
+			"md5": "0055097cc2ebdcd64994dfee6b245976"
+		},
+		"script/jsb_opengl_constants.js": {
+			"md5": "b65fbe6df4af39c58062120234b44974"
+		},
+		"script/jsb_pool.js": {
+			"md5": "21531c9145d801dc49c53a00ee03e9c5"
+		},
+		"script/jsb_prepare.js": {
+			"md5": "7e1d31d9ca37bda3f31a96347407cdff"
+		},
+		"script/jsb_property_apis.js": {
+			"md5": "68549a7bcdfd72f0e4bbc7b8fcb77772"
+		},
+		"script/jsb_property_impls.js": {
+			"md5": "c6636a352ef55932fef0af78b6d8c116"
+		},
+		"script/jsb_spine.js": {
+			"md5": "0a99c695963e7ae44fd2c518449c9bac"
+		},
+		"script/navmesh/jsb_navmesh.js": {
+			"md5": "ed66d0971e6bb5d3fd1af781b0994e71"
+		},
+		"script/physics3d/jsb_physics3d.js": {
+			"md5": "10cbc8e94305d3b64abae3ed0983777b"
+		},
+		"script/physicsSprite/jsb_physicsSprite.js": {
+			"md5": "264d8c65398d46f89a42b927e85c50e0"
+		},
+		"script/protobuf/protobuf.js": {
+			"md5": "ddb366cda26e70eb9cf8feefb02471aa"
+		},
+		"script/studio/jsb_cocos2d_studio.js": {
+			"md5": "3846499f4a045a46c02f48179b0c27a0"
+		},
+		"script/studio/jsb_studio_boot.js": {
+			"md5": "b7d4c03d0be4702ea53815bb7c407fba"
+		},
+		"script/studio/jsb_studio_create_apis.js": {
+			"md5": "707b3c590205de860a58ddad384c0933"
+		},
+		"script/studio/jsb_studio_load.js": {
+			"md5": "a692b8f6ebf1b9e388f3fd10e3fc0949"
+		},
+		"script/studio/jsb_studio_property_apis.js": {
+			"md5": "73b52fff0f182b57aaf2bf5c4d9d829e"
+		},
+		"script/studio/parsers/action-1.x.js": {
+			"md5": "b713ae18c5867af9c0cc7af1c6633b79"
+		},
+		"script/studio/parsers/action-2.x.js": {
+			"md5": "78d77c40db0b80819613b21e0799081e"
+		},
+		"script/studio/parsers/compatible.js": {
+			"md5": "6565af61d0b462d5bda1136b1aeed746"
+		},
+		"script/studio/parsers/scene-1.x.js": {
+			"md5": "f6c8014e85ba619e78cb3beba6bbc63e"
+		},
+		"script/studio/parsers/timelineParser-1.x.js": {
+			"md5": "1488e76a5555de5034e52f8878489f01"
+		},
+		"script/studio/parsers/timelineParser-2.x.js": {
+			"md5": "91a2ebe94418e05df8e50149383f6e51"
+		},
+		"script/studio/parsers/uiParser-1.x.js": {
+			"md5": "38609e12f3a180cb04c17ea8c8e639d0"
+		},
+		"src/Base/colyseus/colyseus.d.ts": {
+			"md5": "e4fcaefcc5ac43974781ffacfec3872d"
+		},
+		"src/Base/colyseus/colyseus.js": {
+			"md5": "7c781380b41f3f15c02d0291896a61ff"
+		},
+		"src/Base/colyseus/colyseus.js.map": {
+			"md5": "a165a274f73fd55550443909ca1bb273"
+		},
+		"src/Base/colyseus/index.html": {
+			"md5": "68d146c4a868ca5da01a7a622fd9179b"
+		},
+		"src/Base/extras/box2d/box2d.js": {
+			"md5": "3eb5046e6eef74dd979692c663358985"
+		},
+		"src/Base/extras/core/Curve.js": {
+			"md5": "4ce2d42272ffe945bcdc1960d99cfcae"
+		},
+		"src/Base/extras/core/CurvePath.js": {
+			"md5": "468f87e14fe06f3f9b16d5a13b76b08c"
+		},
+		"src/Base/extras/core/Interpolate.js": {
+			"md5": "000fb6780095caf5b77c28d536c8f130"
+		},
+		"src/Base/extras/core/Path.js": {
+			"md5": "c5a959cbc6b173ef2e5f9322d56ae73e"
+		},
+		"src/Base/extras/curves/CatmullRom.js": {
+			"md5": "56c945679b49f575d6b0f5e0917e5cc8"
+		},
+		"src/Base/extras/curves/CatmullRom3D.js": {
+			"md5": "b44e55da5d37fd09151400ecf80bbb26"
+		},
+		"src/Base/extras/curves/CubicBezierCurve.js": {
+			"md5": "24367574084063d43b81fa3e547f20f6"
+		},
+		"src/Base/extras/curves/LineCurve.js": {
+			"md5": "a4182f7b869806f2f63b139b3d226ef0"
+		},
+		"src/Base/extras/curves/QuadraticCurve.js": {
+			"md5": "4849e73086fae73423476db7c7c48cfa"
+		},
+		"src/Base/libs/aes.js": {
+			"md5": "e9015c44503e74fb4e2020b0cec0c0b0"
+		},
+		"src/Base/libs/ahmac-sha256.js": {
+			"md5": "f2b3ba458c21d24783fe3a75743ef3f4"
+		},
+		"src/Base/libs/base64.js": {
+			"md5": "8a9a2761afc92744822c0a2774ebf59a"
+		},
+		"src/Base/libs/enc-base64-min.js": {
+			"md5": "4a2b281fd2d2eb88cdf165f45f501a1e"
+		},
+		"src/Base/libs/jsb_pluginx.js": {
+			"md5": "1c9b542f2a05bb8c2728488cf55ea10d"
+		},
+		"src/Base/libs/md5.js": {
+			"md5": "d185e1b13da7dbd3d772553bb01a8c21"
+		},
+		"src/Base/libs/mersenne-twister.js": {
+			"md5": "e46f40b8963ca7a3b983126ab966fdf6"
+		},
+		"src/Base/libs/moment.js": {
+			"md5": "e1a1db1026eea438c0b793396756e35e"
+		},
+		"src/Base/libs/signals.js": {
+			"md5": "f74c705dfbf06d0668c89ef6a46279dd"
+		},
+		"src/Base/libs/underscore.js": {
+			"md5": "f9cd9311470c1ae1780fb6a6800df65f"
+		},
+		"src/Base/nesjs/base64.js": {
+			"md5": "98f370e01c09b8866c3e0a6670259d4c"
+		},
+		"src/Base/nesjs/cpu.js": {
+			"md5": "df852305020d4d7e415d75d8122cae90"
+		},
+		"src/Base/nesjs/header.js": {
+			"md5": "d367117e4ddada8a0694966191c633bf"
+		},
+		"src/Base/nesjs/keyboard.js": {
+			"md5": "e1ea1e24256404126c9274e9997ac349"
+		},
+		"src/Base/nesjs/mappers.js": {
+			"md5": "22d5fe9ca949ee8b20004c4115207e5e"
+		},
+		"src/Base/nesjs/nes.js": {
+			"md5": "8edab4f868f13267b6efdc371b2f3213"
+		},
+		"src/Base/nesjs/papu.js": {
+			"md5": "4d335eb9dfbc89e1b547981c703806dc"
+		},
+		"src/Base/nesjs/ppu.js": {
+			"md5": "9b3c5febed131f945f379327f264c34e"
+		},
+		"src/Base/nesjs/rom.js": {
+			"md5": "5e2135cc01812a78c17f40d7e8cd999e"
+		},
+		"src/Base/nesjs/ui.js": {
+			"md5": "c704b7283c821f260ec19fc24898c17d"
+		},
+		"src/Base/nesjs/utils.js": {
+			"md5": "40ff4bd54eb2a7d3b48cee755181583c"
+		},
+		"src/Base/plugins/Admob.js": {
+			"md5": "484e906bc34304556e4b4ad4f6d45c89"
+		},
+		"src/Base/plugins/Crashlytics.js": {
+			"md5": "72e492f83a5af80fe5bcbbf231b134f9"
+		},
+		"src/Base/plugins/FirebaseAnalytics.js": {
+			"md5": "3d12ed14623cdab84c132303cb448b0f"
+		},
+		"src/Base/plugins/GameAdapter.js": {
+			"md5": "f913611edbd67a7095f5376b0cf42b1f"
+		},
+		"src/Base/plugins/IAP.js": {
+			"md5": "3d085299a065142d21335a92236a1283"
+		},
+		"src/Base/plugins/Multiplayer.js": {
+			"md5": "baee39294474ffaef0e6ba46618ba0f2"
+		},
+		"src/Base/plugins/PlatformWrapper.js": {
+			"md5": "f5df1a6ac0ea43e0b2c0904094855bda"
+		},
+		"src/Base/utils/CCFileUtils.js": {
+			"md5": "fbb4c3153b01ae4cfccb60fd480a897a"
+		},
+		"src/Base/utils/Download.js": {
+			"md5": "a79484a328f33acb0d65feb361433078"
+		},
+		"src/Base/utils/HttpRequest.js": {
+			"md5": "814d8c525afc49639b29897cf6b09ffc"
+		},
+		"src/Base/utils/InPacket.js": {
+			"md5": "12f613fe566a49d7114ad52296e11da0"
+		},
+		"src/Base/utils/OutPacket.js": {
+			"md5": "3cec8dd5cdacbbb7c8ae4a18d6a52982"
+		},
+		"src/Base/utils/StorageUtils.js": {
+			"md5": "719f46b32f83195130279aa59c897804"
+		},
+		"src/Base/utils/StringUtility.js": {
+			"md5": "c5651e15c4f0f65d6db908821b418a50"
+		},
+		"src/Emulator/Constant.js": {
+			"md5": "2a17ad02b57e72e9a274ff123e6a9942"
+		},
+		"src/Emulator/GameLayer.js": {
+			"md5": "f8327dfe8496a838af4914dc54c08b52"
+		},
+		"src/Emulator/GameLayerMAME.js": {
+			"md5": "5e530efe108aba5391a9a229fe322556"
+		},
+		"src/Emulator/GameLayerN64.js": {
+			"md5": "d02f562c79be85401c9127dfed072e4d"
+		},
+		"src/Emulator/GameLayerSNK.js": {
+			"md5": "8a6d088f3b58d989f5d89207abe837f3"
+		},
+		"src/Emulator/Gamepad.js": {
+			"md5": "418b745701c92e64ce9dcf95b131874a"
+		},
+		"src/Emulator/Joystick.js": {
+			"md5": "fb02b0d4b7a96660acbd2528605a14a9"
+		},
+		"src/Emulator/OptionLayer.js": {
+			"md5": "2a7b58efb8ddfae54aeddf65f3fd7031"
+		},
+		"src/Emulator/RetroViewer.js": {
+			"md5": "c1f29362612e91622ab2961db38fd351"
+		},
+		"src/GameList/GameList.js": {
+			"md5": "31b387bff3ade94eb09bc653128f5371"
+		},
+		"src/GameList/LobbyScene.js": {
+			"md5": "630fffa5ef9af2e0695b0ba354bae425"
+		},
+		"src/GameList/PanelListCommon.js": {
+			"md5": "8adc60f8e8a4518c2883d05068c9c396"
+		},
+		"src/GameList/PanelListGBA.js": {
+			"md5": "14566e892f9e51faace64d960b6e5dce"
+		},
+		"src/GameList/PanelListMAME.js": {
+			"md5": "f173580daa44d20f51330efc027a8ca8"
+		},
+		"src/GameList/PanelListN64.js": {
+			"md5": "0a532f4423f334ecd38cc1b8e571d6cc"
+		},
+		"src/GameList/PanelListNES.js": {
+			"md5": "9b4f08c969f6d4eefbfe279a42c0bd75"
+		},
+		"src/GameList/PanelListROM.js": {
+			"md5": "01addc60fc70ac1fdcfa8c1255b87f1c"
+		},
+		"src/GameList/PanelListSNES.js": {
+			"md5": "23c0514758cec2596a1e288be4305280"
+		},
+		"src/GUI/BaseLayer.js": {
+			"md5": "a0598c72873f68c95c94a443906c0316"
+		},
+		"src/GUI/Dialog.js": {
+			"md5": "234757918e3af7a63cf3b258ad896916"
+		},
+		"src/GUI/TestLayer.js": {
+			"md5": "a0cd1579fcec5b08b11fdfc84fef07a3"
+		},
+		"src/GUI/Toast.js": {
+			"md5": "e7f9a375b6ab74cdeeecb3ca7d34f7d3"
+		},
+		"src/GUI/Waiting.js": {
+			"md5": "3353569747feeddf5684998f74cfcbaa"
+		},
+		"src/Modules/AdsMgr.js": {
+			"md5": "13abbbd48ada191665a96013829193d0"
+		},
+		"src/Modules/APIMgr.js": {
+			"md5": "9d070d2781aca301261d0a244d0f0b12"
+		},
+		"src/Modules/Config.js": {
+			"md5": "96824a52399a497655248359d9ab88b6"
+		},
+		"src/Modules/DataManager.js": {
+			"md5": "ec5ab59fe4158dd5d4a2a6e649690d23"
+		},
+		"src/Modules/DownloadMgr.js": {
+			"md5": "1e160e909948f44109f047044fecbd17"
+		},
+		"src/Modules/GameData.js": {
+			"md5": "6a63cd094050137d7db601de7b63e630"
+		},
+		"src/Modules/IPMgr.js": {
+			"md5": "41d5cb89c8ccea3ff46e8243b70ab49a"
+		},
+		"src/Modules/JSLog.js": {
+			"md5": "8952b86dfee8c9a87e9811e3f61a5281"
+		},
+		"src/Modules/Promo.js": {
+			"md5": "702d577b28aea0b5f8730ee8af865bbd"
+		},
+		"src/Modules/Rate.js": {
+			"md5": "4e6419606d71c99654ebe088c2dfff5d"
+		},
+		"src/Modules/Tracking.js": {
+			"md5": "f339cd7561cc9302c0fda0454f16e911"
+		},
+		"src/Modules/WebJS.js": {
+			"md5": "c383eda19240a4cf98686f358f2e6dea"
+		},
+		"src/Multiplayer/DebugNode.js": {
+			"md5": "5f355873b5cae44b547c4cc682eeced7"
+		},
+		"src/Multiplayer/Frame.js": {
+			"md5": "b595b4f143cff4cc7c843a90b17e611d"
+		},
+		"src/Multiplayer/GameState.js": {
+			"md5": "139d8038fe1cbc56fb07af1f2953ee68"
+		},
+		"src/Multiplayer/Messages/Actions.js": {
+			"md5": "65bef36bc3bee7f2f47528d3c7f6384d"
+		},
+		"src/Multiplayer/Messages/Messages.js": {
+			"md5": "775d275aafb5282cd440f39e3c4dc330"
+		},
+		"src/Multiplayer/MultiplayAdapter.js": {
+			"md5": "ad9689f4a0b1b1a8039c75b60401e983"
+		},
+		"src/Multiplayer/MultiplayController.js": {
+			"md5": "39739e9de0bda8675436a6b06f202010"
+		},
+		"src/Multiplayer/MultiplayLayer.js": {
+			"md5": "ba6f04ea3c86748a594124eda76883b6"
+		},
+		"src/Multiplayer/NotificationNode.js": {
+			"md5": "fe3bba4bbb517bb97f29f1170c680edc"
+		},
+		"src/Resources.js": {
+			"md5": "a1cbb5d8f8ade4e11ca1d2388b569bdb"
+		},
+		"src/Retro.js": {
+			"md5": "26af0fdeb5c7d0ec0b3bd30f43e86344"
+		}},
+	"group" : {},
+    "searchPaths" : []
+}
