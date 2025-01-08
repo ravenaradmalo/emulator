@@ -4,7 +4,7 @@
 	"remoteVersionUrl" : "https://raw.githubusercontent.com/ravenaradmalo/emulator/main/v1/version.manifest",
 	"remoteDownloadUrl" : "https://raw.githubusercontent.com/ravenaradmalo/emulator/main/v1/download.manifest",
 	"remoteDownloadPrefix" : "https://raw.githubusercontent.com/ravenaradmalo/emulator/main/v1/",
-	"version" : "1",
+	"version" : "2",
 	"engineVersion" : "1.0.0",
 	"assets" : {
 		"config.json": {
@@ -3817,6 +3817,9 @@
 		"res/UI/gui/loading.png": {
 			"md5": "ce05aedd4d3779c4467a0538fb1affc1"
 		},
+		"res/UI/gui/New.png": {
+			"md5": "686a8ae15957b0466fc229a93fce2acb"
+		},
 		"res/UI/gui/no_ads.png": {
 			"md5": "76492937002cd47768207371ccf9f226"
 		},
@@ -3980,7 +3983,7 @@
 			"md5": "15ac1326a10eef534a753e179c320ab9"
 		},
 		"res/UI/Lobby.json": {
-			"md5": "70348717f52ec6ad98b3eac72a478c06"
+			"md5": "94f2aa0000cbafe85e9fc13b3516c0a6"
 		},
 		"res/UI/MoreGames.json": {
 			"md5": "389e3fc0945fb1b3a1351e682799940b"
@@ -4520,7 +4523,7 @@
 			"md5": "31b387bff3ade94eb09bc653128f5371"
 		},
 		"src/GameList/LobbyScene.js": {
-			"md5": "630fffa5ef9af2e0695b0ba354bae425"
+			"md5": "e7353cbc3c1fadcec19f83d628d5238a"
 		},
 		"src/GameList/PanelListCommon.js": {
 			"md5": "8adc60f8e8a4518c2883d05068c9c396"
@@ -4625,7 +4628,7 @@
 			"md5": "a1cbb5d8f8ade4e11ca1d2388b569bdb"
 		},
 		"src/Retro.js": {
-			"md5": "26af0fdeb5c7d0ec0b3bd30f43e86344"
+			"md5": "c20ec52e2e0d9981affbe7de08e9e39a"
 		}},
 	"group" : {},
     "searchPaths" : []
